@@ -1,11 +1,13 @@
 # #Go
 
-### Go #navigator
+- 2024.07
+
+### :scroll: Go #navigator
 
 - [awesome-go](https://github.com/avelino/awesome-go) by [avelino](https://github.com/avelino)
 	- _A curated list of awesome Go frameworks, libraries and software_
 
-### Go projects
+### :deciduous_tree: Go projects
 
 #### CLI tools
 
@@ -29,7 +31,7 @@
 [hugo](https://github.com/gohugoio/hugo) by [gohugoio](https://github.com/gohugoio)
 	- _The world’s fastest framework for building websites._
 
-### Go #lib<span>&hairsp;s</span>
+### :jigsaw: Go #lib<span>&hairsp;s</span>
 
 - helpers
 	- [goutil: 💪 Helper Utils(700+)](https://github.com/gookit/goutil) by [gookit](https://github.com/gookit)
@@ -49,8 +51,7 @@
 - gui
 	- https://github.com/andlabs/ui - 2300+ commits
 
-
-### Go features
+### :sparkles: Go features
 
 - [ ] :beginner: [Channel Axioms | Dave Cheney](https://dave.cheney.net/2014/03/19/channel-axioms)
 
@@ -68,7 +69,7 @@
 
 - [ ] :tv: [Start using this Go design pattern.. Consumer Interfaces! | YT](https://www.youtube.com/watch?v=HtMPLiyC8W4&t=4s)
 
-### Go #WebDev
+### :arrow_up::arrow_down: Go #WebDev
 
 - Templ
 
@@ -94,7 +95,7 @@
 	- json responce
 		- http://beego.me/docs/mvc/controller/jsonxml.md
 
-### Go #tool<span>&hairsp;s</span>
+### :toolbox: Go #tool<span>&hairsp;s</span>
 
 - IDE
 	- liteide
@@ -115,7 +116,6 @@
 
 ### Go #vs
 
-
 - vs #Rust
 	- :horse_racing: [Rust vs Go: Programming Language Duel | YT](https://www.youtube.com/shorts/R19xo9aQ164)
 	- [startup-time](https://github.com/bdrung/startup-time) by [bdrung](https://github.com/bdrung)
@@ -128,7 +128,7 @@
 - vs #Java
 	- :tv: [Pros & Cons of Golang (as a Java programmer) | Golang Dojo | YT](https://www.youtube.com/watch?v=mFKwF7m3GuM)
 
-### Go disadvantages
+### :microbe: Go disadvantages
 
 - :tv: [Golang Is Not a Sexy Programming Language | YT](https://www.youtube.com/watch?v=eQbc7cUrKzA)
 

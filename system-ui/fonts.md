@@ -3,7 +3,8 @@
 ### :white_check_mark: Better font for terminal?
 
 - (Σ) Terminal: Monofoki bold, Obsidian: Monofoki, VSCode: saxMono bold
-- 2024.07.25
+
+- Created: 2024.07
 
 - [ ] better terminal emulator?
 	- smaller step of letter gap
