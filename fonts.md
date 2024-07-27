@@ -1,0 +1,163 @@
+# Fonts
+
+### :white_check_mark: Better font for terminal?
+
+- (Σ) Terminal: Monofoki bold, Obsidian: Monofoki, VSCode: saxMono bold
+- 2024.07.25
+
+- [ ] better terminal emulator?
+	- smaller step of letter gap
+
+- [-] disable font anti-aliasing
+	- (Σ) Некрасиво получается
+	- Да, проблема в шрифте Terminess, нет размеров на 13 и 14 пунктов
+	- [ ] [Ugly font rendering with anti-aliasing disabled - Linux Mint Forums](https://forums.linuxmint.com/viewtopic.php?t=285451)
+	- `/etc/fonts/conf.d/10-antialias.conf`
+	- `sudo fc-cache -f -v`
+
+- [x] better font
+	- [nerd-fonts](https://github.com/ryanoasis/nerd-fonts?tab=readme-ov-file#font-patcher) by [ryanoasis](https://github.com/ryanoasis)
+		- _Font Awesome, Material Design Icons, Octicons, & more_
+		- Iconic font aggregator, collection, & patcher. 3,600+ icons
+	- [ ] patch font
+		- [ ] [Pip install fontforge, says Couldnot find a version - Stack Overflow](https://stackoverflow.com/questions/32688726/pip-install-fontforge-says-couldnot-find-a-version)
+	- [ ] :scroll: [Nerd Fonts - Iconic font aggregator, glyphs/icons collection, & fonts patcher](https://www.nerdfonts.com/font-downloads)
+	- :balloon: [Programming Fonts - Test Drive](https://www.programmingfonts.org/#hermit)
+	- Install font:
+		- 1. copy to :open_file_folder: `/usr/share/fonts/truetype`
+		- 2. run :zap: `sudo fc-cache -f -v`
+		- 3. check :zap: `fc-list ':mono'`
+	- [[Solved] xfce4 terminal can not find the font... / Applications & Desktop Environments / Arch Linux Forums](https://bbs.archlinux.org/viewtopic.php?id=281042)
+
+	- ❤️
+		- [x] :sparkles::sparkles: Monofoki
+			- :test_tube: реально классный! Подходит терминалу и Obsidian. Возможно для кода хочется чуть-чуть более строгий. +1 позиция с золота, т. к. лучшая альтернатива пока
+				- ~~Monofoki Bold норм показывает в терминале иконки. Bold Italic и regular узкие~~
+					- всё равно не те, надо патчить
+			- :sparkles: прекрасно масштабируется
+			- :sparkles: легко читается
+			- :sparkles: норм русский шрифт (+1 позиция)
+			- ok в 10, норм в 12, норм в 13, хорош в 14, пойдёт в 16, норм в 17
+			- :speech_balloon: [Nerdfont release? | issue #38 | monofoki](https://github.com/datMaffin/monofoki/issues/38), 2024.07.26
+
+	- :first_place_medal: золото
+		- [-] Overpass Mono
+			- шире Monofoki, а он и так широкий
+			- :sparkles: неплохо масштабируется
+			- норм в 13, хорош в 15, мил в 16, хорош в 17
+		- [-] :sparkles::sparkles: Hermit
+			- :test_tube: поставил и он не оч., жирноват, -1 место с топа
+			- хорош в 13,15,16,18
+			- :microbe: расстояние между буквами по горизонтали маловато
+			- Matrix, типа, прикольна
+			-  прекрасно масштабируется
+			-  легко читается
+			- ok в 10, норм в 12, норм в 13, хорош в 14, пойдёт в 16, норм в 17
+	- :second_place_medal: серебро
+		- [ ] :sparkles: Liberation Mono
+			- хорош в 11,12,14,16
+			- широковат
+		- [x] :sparkles::sparkles: Monoid
+			- :test_tube: для терминала прям неплох
+			- :sparkles: прекрасно масштабируется
+			- норм в 9, неплох в 12, мил в 14, мил в 15, аляповат в 16
+		- [ ] :sparkles::sparkles: Noto Mono
+			- :sparkles: прекрасно масштабируется
+			- :sparkles: супер русский шрифт
+			- отл. в 12, норм в 13-14, хорош в 15-16, норм в 17, мил в 18
+			- чуть шире и круглее, чем хотелось бы
+		- [-] :sparkles::sparkles: saxMono
+			- -2 места с топа после теста
+			- :microbe::microbe: лицензия не позволяет патчить шрифт!
+			- :microbe: ненастоящий моноширный, xfcr4-terminal не увидел
+			- [saxMono Font Free by s.a.x. Software » Font Squirrel](https://www.fontsquirrel.com/fonts/saxMono)
+				- есть поддержка белорусского но не русского?
+			- норм в 15, хорош в 16, отл. в 20
+			-  :sparkles: оч. быстро читается
+			- [saxMono шрифт | скачать бесплатно для WEB](https://rufonts.pro/shrift/saxmono)
+			- `xfce4-teminal` doesn't see font!
+				- [[Solved] xfce4 terminal can not find the font... / Applications & Desktop Environments / Arch Linux Forums](https://bbs.archlinux.org/viewtopic.php?id=281042)
+					- :zap: `sudo apt remove gsfonts`
+					- :zap: `fc-list ':mono' | grep sax` - empty!
+	- :third_place_medal: бронза
+		- [ ] :sparkles: Bront DejaVu Sans Mono
+			- :sparkles: простой, хороший баланс круглости
+			- размеры 8,12,13 хорошо выглядят. 16 хорош
+			- :microbe: средне на больших размерах
+		- [ ] Hack
+			- хорош в 12,13,16. 14 норм
+		- :sparkles: Nanum Gothic Coding
+			- :black_heart: норм в 14, пойдёт в 15, отличен в 16, мил в 20
+			- :broken_heart: ГДЕ РУССКИЙ?! Абсолютно не поддерживает, буквы растянуты
+		- [ ] :sparkles: Terminus (TTF)
+			- норм 18-21
+			- почему-то эта версия нечёткая на малых размерах
+	- отброшенные в первую очередь
+		- [-] Average Mono
+		- :microbe: круглый, широкий
+		- [-] :thumbsup: Bedstead
+			- как f и t вообще рисуются?!
+			- лучше всего в размере 10
+		- [-] Bitsteam Vera Sans Mono
+			- можно, но уныленький
+		- [-] :sparkles: Borg Dans Mono
+			- :sparkles: читабельный и с перечёрк. нулём
+			- :microbe: круглее, чем хотелось бы
+		- [-] BPromo
+			- :microbe: проигрывает в читабельности соседям: горизонтальные линии визуально сливаются
+		- [-] Chivo Mono\
+			- :microbe: проигрывает соседям, заурядный
+		- [-] :sparkles: Commit Mono
+			- :microbe: чо-ото суть грузит, строг
+		- [-] D2Coding
+			- :sparkles: прикольный, приятно плотный, квадратноватый
+			- в 12-м, 15-м размере хорош. 14-й терпим
+		- [-] :sparkles: Droid Sans
+			- :microbe: нет нуля с косой чертой
+			- :microbe: чуть шире, чем нужно
+		- [-] :sparkles: EnvyCode B
+			- :microbe: прикольный, но расплывчато увеличивается
+		- [-] Fixedsys
+			- хорош, но расплывчато увеличивается
+		- [-] Fixedsys with Ligatures
+			- хорош, но расплывчато увеличивается
+		- [-] Geist
+			- :sparkles: классный, когда жирное начертание
+			- всё-таки не цепляет
+		- [-] GNU Freefont
+			- :microbe: Депрессивно тонкий, почти прозрачный
+			- хорошо в 14 и 18
+		- [-] :sparkles: Gohufont 14
+			- :sparkles: милашный
+			- :microbe: не скейлится
+		- [-] Inconsolata OTF
+			- :microbe: средне скейлится
+		- [-] Iosevka
+			- :microbe: худой
+			- 15, 21 ok
+		- [-] League Mono
+			- :sparkles: мил
+			- хорош в 14, норм+ в 16
+		- [-] :sparkles: Lekton
+			- депрессивно-тонкий
+		- [-] :sparkles: Lucilent
+			- терпим в 15, хорош в 14
+		- [-] :sparkles::sparkles: M PLUS Code
+			- :microbe: ноль с точкой, а не чёркнутый
+			- хорош в 16, терпим в 17, неплох в 20
+		- [-] Mensh
+			- прекрасен в 12. ok в 14.
+		- [-] Monaspace Xenon
+			- хорош в 11,15,17
+		- [-] Oxygen Mono
+			- хорош в 15, неплох в 16, хорош в 18
+			- на малых размерах смазанный
+		- [-] :sparkles: Profont
+			- :test_tube: не особо порадовал
+			- хорош в 12, норм в 13, средне-миловато в 14, странновато в 15
+			- чуть расплывчатый
+		- [-] :sparkles: Source Code Pro
+			- :sparkles: неплохо масштабируется
+			- норм в 13, норм+ в 15, чуть мил в 16
+		- [-] :sparkles: VT323
+			- терпим в 15, 17, пойдёт в 18 и 20
