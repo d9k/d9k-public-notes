@@ -2,14 +2,14 @@
 
 - 2024.07
 
-### :scroll: Go #navigator
+## :scroll: Go #navigator
 
 - [awesome-go](https://github.com/avelino/awesome-go) by [avelino](https://github.com/avelino)
 	- _A curated list of awesome Go frameworks, libraries and software_
 
-### :deciduous_tree: Go projects
+## :deciduous_tree: Go projects
 
-#### CLI tools
+### CLI tools
 
 - [fzf: :cherry\_blossom](https://github.com/junegunn/fzf) by [junegunn](https://github.com/junegunn)
 	- _A command-line fuzzy finder_
@@ -20,18 +20,18 @@
 - [commitizen-go](https://github.com/lintingzhen/commitizen-go) by [lintingzhen](https://github.com/lintingzhen)
 		- _The commitizen command line utility, without nodejs._
 
-#### embedded
+### embedded
 
 - [gokrazy](https://github.com/gokrazy/gokrazy) by [gokrazy](https://github.com/gokrazy)
 	- _turn your Go program(s) into an appliance running on the Raspberry Pi 3, Pi 4, Pi 5, Pi Zero 2 W, or amd64 PCs!_
 	- :tv: [Zürich Go Meetup: Run Go programs on your Raspberry Pi with gokrazy! | YT](https://www.youtube.com/watch?v=mv_THRgLRHY)
 
-### #web
+### #JS tooling
 
-[hugo](https://github.com/gohugoio/hugo) by [gohugoio](https://github.com/gohugoio)
-	- _The world’s fastest framework for building websites._
+- [esbuild](https://github.com/evanw/esbuild) by [evanw](https://github.com/evanw)
+	- _An extremely fast bundler for the web_
 
-### :jigsaw: Go #lib<span>&hairsp;s</span>
+## :jigsaw: Go #lib<span>&hairsp;s</span>
 
 - helpers
 	- [goutil: 💪 Helper Utils(700+)](https://github.com/gookit/goutil) by [gookit](https://github.com/gookit)
@@ -51,7 +51,9 @@
 - gui
 	- https://github.com/andlabs/ui - 2300+ commits
 
-### :sparkles: Go features
+## :sparkles: Go features
+
+- _Golang was designed to solve several problems, including **slow build time**, uncontrolled dependencies, effort duplication, difficulty writing automatic tools and cross-language development._
 
 - [ ] :beginner: [Channel Axioms | Dave Cheney](https://dave.cheney.net/2014/03/19/channel-axioms)
 
@@ -69,7 +71,14 @@
 
 - [ ] :tv: [Start using this Go design pattern.. Consumer Interfaces! | YT](https://www.youtube.com/watch?v=HtMPLiyC8W4&t=4s)
 
-### :arrow_up::arrow_down: Go #WebDev
+## :beginner: Go guides
+
+- [The Zen of Go](https://the-zen-of-go.netlify.app/)
+
+## :arrow_up::arrow_down: Go #WebDev
+
+- [hugo](https://github.com/gohugoio/hugo) by [gohugoio](https://github.com/gohugoio)
+	- _The world’s fastest framework for building websites._
 
 - Templ
 
@@ -95,7 +104,7 @@
 	- json responce
 		- http://beego.me/docs/mvc/controller/jsonxml.md
 
-### :toolbox: Go #tool<span>&hairsp;s</span>
+## :toolbox: Go #tool<span>&hairsp;s</span>
 
 - IDE
 	- liteide
@@ -114,7 +123,7 @@
 - use C preprocessor
 	- http://nirbhay.in/2013/06/preprocessing-go-programs/
 
-### Go #vs
+## Go #vs
 
 - vs #Rust
 	- :horse_racing: [Rust vs Go: Programming Language Duel | YT](https://www.youtube.com/shorts/R19xo9aQ164)
@@ -128,13 +137,15 @@
 - vs #Java
 	- :tv: [Pros & Cons of Golang (as a Java programmer) | Golang Dojo | YT](https://www.youtube.com/watch?v=mFKwF7m3GuM)
 
-### :microbe: Go disadvantages
+## :microbe: Go disadvantages
 
 - :tv: [Golang Is Not a Sexy Programming Language | YT](https://www.youtube.com/watch?v=eQbc7cUrKzA)
 
 - :newspaper: [We Need To Talk About The Bad Sides of Go | by Aviv Carmi | Oct, 2022 | Medium](https://web.archive.org/web/20221018104216/https://medium.com/@avivcarmis/we-need-to-talk-about-the-bad-sides-of-go-568a1e5adbc6)
-	- :microbe:
+	- :microbe: Symbols starting with an uppercase letter are automatically public and the rest are private. In most other languages, type names, by convention, begin with an uppercase letter, and variable names begin with a lowercase one. This convention means that variables can never shadow types.
 	- advices Golang sentinel errors
+	- [comments on Reddit | r/programming](https://www.reddit.com/r/programming/comments/ykz7rq/we_need_to_talk_about_the_bad_sides_of_go/)
+		- :microbe: _Google has a toxic relationship with the open source community. Google spent YEARS just closing pull requests, discussions, and ideas about generics in Golang. They just change their mind on a whim and refuse to invite discussions simply because something doesn't fit their exact individual decision despite community support._
 
 - http://www.quora.com/Do-you-feel-that-golang-is-ugly/answer/Tikhon-Jelvis
 - http://lambda-the-ultimate.org/node/4554
