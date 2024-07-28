@@ -37,7 +37,7 @@
 	- [goutil: 💪 Helper Utils(700+)](https://github.com/gookit/goutil) by [gookit](https://github.com/gookit)
 		- _int, byte, string, array/slice, map, struct, dump, convert/format, error, web/http, cli/flag, OS/ENV, filesystem, system, test/assert, time and more. Go 常用的一些工具函数：数字，字符串，数组，Map，结构体，反射，文本，文件，错误，时间日期，特殊处理，格式化，常用信息获取等等_
 
-- + lua
+- `+` lua
 	- [gopher-lua: GopherLua](https://github.com/yuin/gopher-lua) by [yuin](https://github.com/yuin)
 		- _VM and compiler for Lua in Go_
 
