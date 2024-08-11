@@ -13,3 +13,7 @@
 - :newspaper: [«Пора валить из фронтенда»: Андрей Ситник о стагнации сообщества, опенсорсе и не только | Хабр](https://habr.com/ru/companies/jugru/articles/444652/)
 
 - [ ] [5 Tactics for Better Onboarding: How We Grew Activation by 20% - Indie Hackers](https://www.indiehackers.com/post/5-tactics-for-better-onboarding-how-we-grew-activation-by-20-e6ba694bdc?nocache=1716230993954)
+
+## Cases
+
+- [Why #D language is unpopular?](./d.md)
