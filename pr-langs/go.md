@@ -31,6 +31,11 @@
 - [esbuild](https://github.com/evanw/esbuild) by [evanw](https://github.com/evanw)
 	- _An extremely fast bundler for the web_
 
+### #LAN
+
+- [gogs](https://github.com/gogs/gogs) by [gogs](https://github.com/gogs)
+	- _Gogs is a painless self-hosted Git service_
+
 ## :jigsaw: Go #lib<span>&hairsp;s</span>
 
 - helpers
@@ -55,21 +60,52 @@
 
 - _Golang was designed to solve several problems, including **slow build time**, uncontrolled dependencies, effort duplication, difficulty writing automatic tools and cross-language development._
 
+- [Go Developer Survey 2023 H2 Results - The Go Programming Language](https://go.dev/blog/survey2023-h2-results)
+
 - [ ] :beginner: [Channel Axioms | Dave Cheney](https://dave.cheney.net/2014/03/19/channel-axioms)
 
-- code organisation
-	- http://stackoverflow.com/questions/9985559/organizing-a-multiple-file-go-project
-	- http://golang.org/doc/code.html
+- :tv: [THIS Is Why You Should Learn Golang (as a Software Engineer) | Melkey | YT](https://www.youtube.com/watch?v=OCotIc2Ah_0)
+	- Ken Thompson is Go developer too
+	- 5x more jobs then Rust
+	- golang rep has more stars than TS & Rust langs
+	- One of the best standart libraries
+	- Comments: guy solves Advent of Code with Go
 
-- polymorphism
-	- http://golangtutorials.blogspot.ru/2011/06/polymorphism-in-go.html
+- :tv: [Should you learn Go in 2023? | Dreams of Code | YT](https://www.youtube.com/watch?v=U2PpMZ7hWpg)
+	- Robert Griesemer worked at Golang. Before that on V8 engine
+	- (basic channels examples)
+	- robust standart library
 
-- debugging
-	- [delve](https://github.com/go-delve/delve) by [go-delve](https://github.com/go-delve)
-		- _Delve is a debugger for the Go programming language._
-	- :tv: [Deterministic debugging with Delve And the state of Delve | YT](https://www.youtube.com/watch?v=sMnw28M-fMg)
+### #systemScripting
+
+- :tv: [We can now write scripts using these languages, but is it worth it? | Dreams of Code | YT](https://www.youtube.com/watch?v=eRHlFkomZJg)
+	- good & extensive standart library
+	- [scriptisto](https://github.com/igor-petruk/scriptisto) by [igor-petruk](https://github.com/igor-petruk)
+		- _A language-agnostic "shebang interpreter" that enables you to write scripts in compiled languages._
+
+### code organisation
+
+- http://stackoverflow.com/questions/9985559/organizing-a-multiple-file-go-project
+- http://golang.org/doc/code.html
+
+### polymorphism
+
+- http://golangtutorials.blogspot.ru/2011/06/polymorphism-in-go.html
+
+### debugging
+
+- [delve](https://github.com/go-delve/delve) by [go-delve](https://github.com/go-delve)
+	- _Delve is a debugger for the Go programming language._
+- :tv: [Deterministic debugging with Delve And the state of Delve | YT](https://www.youtube.com/watch?v=sMnw28M-fMg)
 
 - [ ] :tv: [Start using this Go design pattern.. Consumer Interfaces! | YT](https://www.youtube.com/watch?v=HtMPLiyC8W4&t=4s)
+
+### #WASM
+
+- :speech_balloon: [Running Go in the browser. TinyGo + Wasm + WebGL | /r/golang](https://www.reddit.com/r/golang/comments/1acjtc5/running_go_in_the_browser_tinygo_wasm_webgl/)
+- :beginner: [Creating WebGL apps with Go | Gopher Academy Blog](https://blog.gopheracademy.com/advent-2018/go-webgl/)
+	- [Whisper Simulation](https://divan.dev/whispervis/)
+	- :heavy 8.6 mb `whispervis.js`
 
 ## :beginner: Go guides
 
@@ -130,6 +166,9 @@
 	- [startup-time](https://github.com/bdrung/startup-time) by [bdrung](https://github.com/bdrung)
 		- _Measure startup time of different programming languages_
 		- 20% faster the #Rust?
+
+		- [1m-go-websockets](https://github.com/eranyanay/1m-go-websockets) by [eranyanay](https://github.com/eranyanay)
+			- _handling 1M websockets connections in Go_
 
 - vs #NodeJS
 	- :newspaper: [Node vs Go: API Showdown | dev.to](https://dev.to/ocodista/node-vs-go-api-showdown-4njl)
