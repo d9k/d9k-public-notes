@@ -200,6 +200,7 @@
 - [Vanilla OS | DistroWatch](https://distrowatch.com/table.php?distribution=vanilla)
 	- gnome only desktop
 	- by the main developer of the bottles project
+	- :tv: [Immutable Linux, without the hassle? Vanilla OS 2 Orchid | The Linux Experiment | YT](https://www.youtube.com/watch?v=PuGeR075MkE)
 	- :tv: [The END of DISTRO HOPPING? All Linux distros in one single system with VanillaOS | The Linux Experiment | YT](https://www.youtube.com/watch?v=tOm_zATjgqU)
 		- _best install experience_ [5:00](https://youtu.be/tOm_zATjgqU?t=300)
 		- containets support gfx acceleration. native support for NVidia drivers

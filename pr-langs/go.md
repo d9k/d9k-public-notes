@@ -61,6 +61,22 @@
 - _Golang was designed to solve several problems, including **slow build time**, uncontrolled dependencies, effort duplication, difficulty writing automatic tools and cross-language development._
 
 - [Go Developer Survey 2023 H2 Results - The Go Programming Language](https://go.dev/blog/survey2023-h2-results)
+	- AI/ML adoption is yet low
+	- devs wish more clear errors explanation
+	- work more on microservices then monolithic apps. A majority of respondents build microservices in a polyglot of languages, with only about ¼ exclusively using Go.
+	- What used for?
+		- API/RPC services (non-HTML): 74%
+		- CLI: 62%
+		- libs: 44%
+		- websites/HTML services: 42%
+		- #systemScripting: 38%
+		- Data processing: 37%
+		- Daemons (moniroring): 34%
+		- Desktop/GUI apps: 9%
+		- Embedded: 7%
+		- AI/ML: 4%
+		- Games: 4%
+		- Mobile apps: 3%
 
 - [ ] :beginner: [Channel Axioms | Dave Cheney](https://dave.cheney.net/2014/03/19/channel-axioms)
 
@@ -82,6 +98,9 @@
 	- good & extensive standart library
 	- [scriptisto](https://github.com/igor-petruk/scriptisto) by [igor-petruk](https://github.com/igor-petruk)
 		- _A language-agnostic "shebang interpreter" that enables you to write scripts in compiled languages._
+		- but written in #Rust
+
+- errors can be easily ignored (no need for `try ... catch` blocks)
 
 ### code organisation
 
