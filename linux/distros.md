@@ -261,6 +261,14 @@ Vanilla OS uses ABRoot (https://github.com/Vanilla-OS/ABRoot) to provide its imm
 
 ## NixOS
 
+- :tv: [NixOS: A peak at a MASSIVE rabbit hole! | YT](https://www.youtube.com/watch?v=mA74I2IUfR0)
+	- NixOS conf better be stored in CVS, but `system.copySystemConfiguration` exists for simple cases
+	- system has to be dynamically generated. During that process library linking and other hacks are used.
+	- nix package manager is event slower than dnf
+	- to install package unknown in #Nix repos you must fix all it's environment dependencies manually
+	- home manager, flakes
+	- :sparkles: cool theoretically: declarative builds & deployments
+	- :microbe: inconvenient practically: massive configs, weird liniking, slow package manager
 - [ ] :tv: [NixOS gaming | best DE and Linux distro | YT](https://www.youtube.com/watch?v=DP-3E1FaBfo)
 	- :sparkles: good instruction
 - :tv: [NixOS is Mindblowing | Chris Titus Tech | YT](https://www.youtube.com/watch?v=fuWPuJZ9NcU)
