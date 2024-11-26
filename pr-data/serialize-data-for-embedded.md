@@ -13,7 +13,7 @@
 
 - Embedded Synonyms: MCU, Arduino, low memory
 
-- :newspaper: [Store multiple types in a single std::map in C++ with std::any, just like a python dict - Raymii.org](https://raymii.org/s/articles/Store_multiple_types_in_a_single_stdmap_in_cpp_just_like_a_python_dict.html)
+- [ ] :newspaper: [Store multiple types in a single std::map in C++ with std::any, just like a python dict - Raymii.org](https://raymii.org/s/articles/Store_multiple_types_in_a_single_stdmap_in_cpp_just_like_a_python_dict.html)
 
 ## Serialize c++ structures
 
@@ -59,12 +59,17 @@
 
 - событийный парсер / streaming parser
 
+- :newspaper: [The Comprehensive Guide to YAML, JSON, TOML, HCL (HashiCorp ), XML & differences | by Sam Atmaramani | Medium](https://medium.com/@s.atmaramani/the-comprehensive-guide-to-yaml-json-toml-hcl-hashicorp-xml-differences-237ec82092ca)
+
 ### :black_square_button: MessagePack
 
+- [spec.md at master · msgpack/msgpack](https://github.com/msgpack/msgpack/blob/master/spec.md#type-system) by [msgpack](https://github.com/msgpack)
 - [mpack](https://github.com/ludocode/mpack)
 	- _Lightweight, suitable for embedded_
 - [msgpack-mcu](https://github.com/hasegaw/msgpack-mcu) by [hasegaw](https://github.com/hasegaw)
 	- _MessagePack serializer for MCUs_
+- [msgpack11](https://github.com/ar90n/msgpack11) by [ar90n](https://github.com/ar90n)
+	- _A tiny MessagePack library for C++11 (msgpack.org\[C++11\])_
 
 ### CBOR
 
@@ -104,6 +109,7 @@
 - [platform/system/libcppbor - Git at Google](https://android.googlesource.com/platform/system/libcppbor/)
 	- :herb: 2024 still updated
 	- :alembic: awesome test coverage
+		- :symbols: [tests/cppbor/\_test.cpp](https://android.googlesource.com/platform/system/libcppbor/+/refs/heads/main/tests/cppbor_test.cpp)
 	- [old libcppbor](https://github.com/google/libcppbor) by [google](https://github.com/google)
 - [cn-cbor](https://github.com/cabo/cn-cbor) by [cabo](https://github.com/cabo)
 	- _A constrained node implementation of CBOR in C_
@@ -129,10 +135,10 @@
 - encode binary string
 	- :speech_balloon: [Binary Data in JSON String. Something better than Base64 | SO](https://stackoverflow.com/questions/1443158/binary-data-in-json-string-something-better-than-base64)
 		- For download, you might be surprised how well base64 compresses under gzip (http://davidbcalhoun.com/2011/when-to-base64-encode-images-and-when-not-to)
-		- [ ] multipart/form-data
-		- Base91, Base93, Base122
-		- Intel HEX
-			- readability
+	- [ ] multipart/form-data
+	- Base91, Base93, Base122
+	- Intel HEX
+		- readability
 	- [yEnc - Wikipedia](https://en.m.wikipedia.org/wiki/YEnc)
 		- yEnc's overhead is often (if each byte value appears approximately with the same frequency on average) as little as 1–2%, (https://en.wikipedia.org/wiki/YEnc#cite_note-1) compared to 33–40% overhead for 6-bit encoding methods like uuencode (https://en.wikipedia.org/wiki/Uuencode) and Base64 (https://en.wikipedia.org/wiki/Base64).
 		- [python3-yenc](https://github.com/oe-mirrors/python3-yenc) by [oe-mirrors](https://github.com/oe-mirrors)
@@ -150,6 +156,9 @@
 		- When parsing a JSON document from an input stream, ArduinoJson stops reading as soon as the document ends (e.g., at the closing brace).
 		- This feature allows reading JSON documents one after the other; for example, you can use it to read line-delimited formats like NDJSON or JSON Lines.
 			- `{"event":"add_to_cart"}\n{"event":"purchase"}`
+	- :sparkles: [custom converters](https://arduinojson.org/news/2021/05/04/version-6-18-0/)
+	- :beginner: [JsonConfigFile.ino | ArduinoJson 7](https://arduinojson.org/v7/example/config/)
+		- This example shows how to store your project configuration in a file. It uses the [SD](https://www.arduino.cc/en/Reference/SD) library but can be easily modified for any other file-system, like [SPIFFS](http://arduino-esp8266.readthedocs.io/en/latest/filesystem.html).
 
 - [jfes](https://github.com/dmitrii-eremin/jfes) by [dmitrii-eremin](https://github.com/dmitrii-eremin). #C
 		- _Json For Embedded Systems (JFES)_
@@ -177,12 +186,29 @@
 - [yajl](https://github.com/lloyd/yajl) by [lloyd](https://github.com/lloyd), 2015
 	- _A fast streaming JSON parsing library in C._
 	- [example/parse\_config.c at master · lloyd/yajl](https://github.com/lloyd/yajl/blob/master/example/parse_config.c) by [yajl](https://github.com/yajl)
+- [json-parser](https://github.com/json-parser/json-parser) by [json-parser](https://github.com/json-parser)
+	- _Very low footprint DOM-style JSON parser written in portable ANSI C_
+- [tiny-json](https://github.com/rafagafe/tiny-json) by [rafagafe](https://github.com/rafagafe)
+	- _The tiny-json is a versatile and easy to use json parser in C suitable for embedded systems. It is fast, robust and portable._
+- [lwjson](https://github.com/MaJerle/lwjson) by [MaJerle](https://github.com/MaJerle)
+	- _Lightweight JSON parser for embedded systems_
+- [jemi: jemi](https://github.com/rdpoor/jemi) by [rdpoor](https://github.com/rdpoor)
+	- _"json-emitter"_
+	- _a compact, trusting, JSON serializer with static allocation in pure C for embedded systems_
+	- :speech_balloon: [jemi: a compact JSON serializer for embedded systems : r/embedded](https://www.reddit.com/r/embedded/comments/xwfstn/jemi_a_compact_json_serializer_for_embedded/)
+- [json11](https://github.com/dropbox/json11) by [dropbox](https://github.com/dropbox)
+	- _A tiny JSON library for C++11._
 
 ### JSON flavours
 
 - [smile-format-specification](https://github.com/FasterXML/smile-format-specification) by [FasterXML](https://github.com/FasterXML)
 	- _is a binary data format that defines a binary equivalent of standard_
 - [Jsonlite - JSON without quotes](https://deerchao.cn/projects/jsonlite/)
+
+### :black_square_button: Tser
+
+- [tser](https://github.com/KonanM/tser) by [KonanM](https://github.com/KonanM)
+	- _tser - tiny serialization for C++_
 
 ### :black_square_button: bitsery
 
@@ -224,6 +250,43 @@
 - :speech_balloon: [Multi-line string | issue #34 | hcl](https://github.com/hashicorp/hcl/issues/34)
 - :newspaper: [Mastering HashiCorp Configuration Language: A Practical Guide to HCL for Infrastructure Automation | by Warley's CatOps | Medium](https://medium.com/@williamwarley/mastering-hashicorp-configuration-language-a-practical-guide-to-hcl-for-infrastructure-automation-cd1adb0d46c0)
 
+### TOML
+
+- :door: [TOML: Tom's Obvious Minimal Language](https://toml.io/en/)
+
+- :speech_balloon: [Is there a version of a TOML parser for Arduino? | issue #82 | toml11](https://github.com/ToruNiina/toml11/issues/82)
+
+- :speech_balloon: [python - TOML vs YAML vs StrictYAML | SO](https://stackoverflow.com/questions/65283208/toml-vs-yaml-vs-strictyaml)
+	- TOML's main semantic difference is that it doesn't support cycles, complex keys, or tags.
+	- A different kind of simplicity TOML offers its syntax: Since it is vastly simpler than YAML, it is easier to emit errors users can understand. For example, a common error text in YAML syntax errors is „mapping values are not allowed in this context“ (try searching this on SO to find tons of questions). You get this for example here:
+
+- :speech_balloon: [json - Does TOML support nested arrays of objects/tables? | SO](https://stackoverflow.com/questions/48998034/does-toml-support-nested-arrays-of-objects-tables)
+- :newspaper: [What is wrong with TOML? - HitchDev](https://hitchdev.com/strictyaml/why-not/toml/)
+	- In [this example of a StrictYAML story](https://github.com/crdoconnor/strictyaml/blob/master/hitch/story/map.story) and its [equivalent serialized TOML](https://github.com/crdoconnor/strictyaml/blob/master/hitch/story/map.toml) the latter ends up [spending](https://www.goodreads.com/quotes/775257-my-point-today-is-that-if-we-wish-to-count) 50% more characters to represent the exact same data
+	- Dates and times, as many more experienced programmers are probably aware is an unexpectedly deep rabbit hole of [complications and quirky, unexpected, headache and bug inducing edge cases](https://infiniteundo.com/post/25326999628/falsehoods-programmers-believe-about-time).
+	- The best way to deal with [essential complexity](https://simplicable.com/new/accidental-complexity-vs-essential-complexity) like these is to decouple, isolate the complexity and delegate it to a [specialist tool that is good at handling that specific problem](https://en.wikipedia.org/wiki/Unix_philosophy) which you can swap out later if required.
+
+- :speech_balloon: [Allow hexadecimal, binary and octal integer representations | issue #53 | toml](https://github.com/toml-lang/toml/issues/53)
+
+- :scroll: [Implementations | toml Wiki](https://github.com/toml-lang/toml/wiki#toml-v100)
+
+- :alembic: [toml-test/tests](https://github.com/toml-lang/toml-test/tree/master/tests/valid)
+
+### INI flavours
+
+- [LeksysINI](https://github.com/Lek-sys/LeksysINI) by [Lek-sys](https://github.com/Lek-sys)
+	- _Crossplatform all-in-one INI-file parser, written on C++ with STL. Supports subsections, multiline values, arrays, maps and file inclusions._
+	- almost like TOML
+	- :sparkles: comments, multilines, arrays, maps, subsections and inclusions
+
+- [Ini Subsections? - AutoIt General Help and Support - AutoIt Forums](https://www.autoitscript.com/forum/topic/193222-ini-subsections/)
+
+### StrictYAML
+
+- :speech_balloon: [python - TOML vs YAML vs StrictYAML | SO](https://stackoverflow.com/questions/65283208/toml-vs-yaml-vs-strictyaml)
+	- with StrictYAML, you do not need to care about the billion laughs attack (https://en.wikipedia.org/wiki/Billion_laughs_attack) that haunts some YAML implementations.
+	- supports a validating schema. Also hierarchical data syntax is more obvious, therefore less discouraged. A bit more powerful and better for larger files
+
 ### :no_entry_sign: BSON
 
 - [bson-cxx](https://github.com/dwight/bson-cxx) by [dwight](https://github.com/dwight)
@@ -235,6 +298,9 @@
 
 ### :no_entry_sign: YAML
 
+- [YAMLDuino](https://github.com/tobozo/YAMLDuino) by [tobozo](https://github.com/tobozo)
+	- _YAML <=> JSON converter for ESP32, ESP8266, RP2040 and possibly other devices_
+
 - :sparkles: very human-readable
 - :microbe: too verbose for small memory
 - [Binary Data Language-Independent Type for YAML™ Version 1.1](https://yaml.org/type/binary.html)
@@ -242,6 +308,10 @@
 		- [yEnc - Wikipedia](https://en.wikipedia.org/wiki/YEnc)
 			- The yEnc homepage states that "_all major newsreaders have been extended to yEnc support_"
 			- yEnc assumes that binary data mostly can be transmitted through Usenet and email. Therefore, 252 of the 256 possible bytes are passed through unencoded as a single byte. Only NUL, LF, CR, and = are escaped.
+
+- :speech_balloon: [python - TOML vs YAML vs StrictYAML | SO](https://stackoverflow.com/questions/65283208/toml-vs-yaml-vs-strictyaml)
+	- YAML's outstanding semantic feature is that it can represent a possibly cyclic graph. Moreover, YAML mappings can use complex nodes (sequences or mappings) as keys. These features are what you potentially need when you want to represent an arbitrary data structure.
+	- I see indentation for structuring as interesting but ultimately flawed concept (not just for YAML, also for Python or Nim). Without a visible token that ends a structure, code gets more difficult to read the more nesting it has and the longer it is.
 
 ## Database/key-value store?
 
@@ -263,6 +333,7 @@
 - :speech_balloon: [database - Sqlite on an embedded system | SO](https://stackoverflow.com/questions/178264/sqlite-on-an-embedded-system), 2008
 	- _The smallest sqlite3 I came up with was 327 KBytes (for PowerPC), which was sufficient for the system so I stopped trying to make it smaller. This was the full sqlite3 CLI binary, the C APIs alone would have been somewhat smaller. I had set `SQLITE_OMIT_AUTHORIZATION`, `SQLITE_OMIT_EXPLAIN`, `SQLITE_OMIT_PROGRESS_CALLBACK`, and `SQLITE_OMIT_TCL_VARIABLE` to trim the size of the binary, and used `-Os`to get it to that size._
 - [SQLite Library Footprint](https://www.sqlite.org/footprint.html)
+- [In-Memory Databases](https://www.sqlite.org/inmemorydb.html)
 
 ### Others
 

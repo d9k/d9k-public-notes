@@ -19,3 +19,9 @@
 	- запарились с прописыванием lore и характеров персонажей, есть карта, происхождения
 
 - :tv: [Как экономят разработчики игр? | Слава Грис | YT](https://www.youtube.com/watch?v=W-Pr1D2eXO4)
+
+- :tv: [How To Fail at Marketing Indie Games | Artindi | YT](https://www.youtube.com/watch?v=LLY6KPHmmmQ)
+	- Marketing is a thing indie devs dread the most. Because they're broke & don't have much time.
+	- Dev logs
+	- Streamers
+	- Game trailer
