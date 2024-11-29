@@ -201,6 +201,8 @@
 
 - [json-stringify-safe](https://github.com/moll/json-stringify-safe/tree/master) by [moll](https://github.com/moll)
 	- #JS _Like JSON.stringify, but doesn't throw on circular references_
+- [json\_generator](https://github.com/shahpiyushv/json_generator) by [shahpiyushv](https://github.com/shahpiyushv)
+	- #C, _A simple JSON generator with flushing capability_
 
 ### JSON5
 
