@@ -202,29 +202,51 @@
 - [json-stringify-safe](https://github.com/moll/json-stringify-safe/tree/master) by [moll](https://github.com/moll)
 	- #JS _Like JSON.stringify, but doesn't throw on circular references_
 
-### JSON flavours
-
-- [smile-format-specification](https://github.com/FasterXML/smile-format-specification) by [FasterXML](https://github.com/FasterXML)
-	- _is a binary data format that defines a binary equivalent of standard_
-- [Jsonlite - JSON without quotes](https://deerchao.cn/projects/jsonlite/)
+### JSON5
 
 - [json5](https://github.com/json5/json5) by [json5](https://github.com/json5)
 	- _JSON5 — JSON for Humans_
 	- [json5](https://github.com/P-i-N/json5) by [P-i-N](https://github.com/P-i-N)
 		- _Header only JSON/JSON5 parser and serializer for C++_
 		- :cactus: [gbooker/json5 fork](https://github.com/gbooker/json5/commits/master/)
-	- :newspaper: [Подробный обзор JSON, JSON5 и циклических зависимостей](https://nuancesprog.ru/p/15692/)
-	- :speech_balloon: [Do people really use JSON5 nowadays? : r/webdev](https://www.reddit.com/r/webdev/comments/1e1a3de/do_people_really_use_json5_nowadays/)
-		- There are around [~55M](https://www.npmjs.com/package/json5) weekly downloads on [npmjs.com](http://npmjs.com/), 2024
+
+- :newspaper: [Подробный обзор JSON, JSON5 и циклических зависимостей](https://nuancesprog.ru/p/15692/)
+
+- :newspaper: [Understanding JSON and JSON5: A Beginner's Guide to JSON and JSON5 for Web Development](https://json-5.com/json-vs-json5)
+
+- :speech_balloon: [Do people really use JSON5 nowadays? : r/webdev](https://www.reddit.com/r/webdev/comments/1e1a3de/do_people_really_use_json5_nowadays/)
+	- There are around [~55M](https://www.npmjs.com/package/json5) weekly downloads on [npmjs.com](http://npmjs.com/), 2024
 	- [json5-writer](https://github.com/noahsug/json5-writer) by [noahsug](https://github.com/noahsug)
 		- #JS _Comment-preserving JSON5 parser
-	- [json5-spec](https://github.com/json5/json5-spec) by [json5](https://github.com/json5)
+
+- [json5-spec](https://github.com/json5/json5-spec) by [json5](https://github.com/json5)
 		- _The JSON5 Data Interchange Format_
 		- 2018 last commit
-	- :speech_balloon: [\[settings\] Use JSON5 instead of JSONC for configuration files | issue #100688 | vscode](https://github.com/microsoft/vscode/issues/100688)
-		- _Microsoft has provided much more robust tooling for dealing with JSONC than anything provided for the struggling JSON5 community. If Microsoft wants to help the community, please don’t stop them! Just try to do some roundtrip work with the partially abandoned JSON5 project and you will quickly find out there is absolutely no support for it._ / [brentonhouse](https://github.com/microsoft/vscode/issues/100688#issuecomment-715925440)
-		- mischkl, I actually used the JSON5 project early on in some of my projects but quickly found out that it is basically a personal project that wasn't updated much. Also, unless I am missing something, I see no way of actually updating JSON5 files using their library. There was one ticket that was closed back in 2016 but it doesn't look like that feature was ever implemented. [Is there a way to do a roundtrip (load and save) · Issue #121 · json5/json5](https://github.com/json5/json5/issues/121)  - Without that, it is just a fancy way of reading JSON with comments and has little real-world practical value. If VS Code relied on using JSON5, how would the settings file get updated if you changed a setting using the GUI? / [brentonhouse](https://github.com/microsoft/vscode/issues/100688#issuecomment-715925440)
 
+- :speech_balloon: [\[settings\] Use JSON5 instead of JSONC for configuration files | issue #100688 | vscode](https://github.com/microsoft/vscode/issues/100688)
+	- _Microsoft has provided much more robust tooling for dealing with JSONC than anything provided for the struggling JSON5 community. If Microsoft wants to help the community, please don’t stop them! Just try to do some roundtrip work with the partially abandoned JSON5 project and you will quickly find out there is absolutely no support for it._ / [brentonhouse](https://github.com/microsoft/vscode/issues/100688#issuecomment-715925440)
+	- mischkl, I actually used the JSON5 project early on in some of my projects but quickly found out that it is basically a personal project that wasn't updated much. Also, unless I am missing something, I see no way of actually updating JSON5 files using their library. There was one ticket that was closed back in 2016 but it doesn't look like that feature was ever implemented. [Is there a way to do a roundtrip (load and save) · Issue #121 · json5/json5](https://github.com/json5/json5/issues/121)  - Without that, it is just a fancy way of reading JSON with comments and has little real-world practical value. If VS Code relied on using JSON5, how would the settings file get updated if you changed a setting using the GUI? / [brentonhouse](https://github.com/microsoft/vscode/issues/100688#issuecomment-715925440)
+
+- [json5cpp](https://github.com/mortie/json5cpp) by [mortie](https://github.com/mortie)
+	- _A JSON5 parser for C++ built on JsonCpp._
+	- with benchmark!
+	- Json5Cpp assumes, but doesn't validate, that the input is UTF-8. If the input isn't valid UTF-8, the parsed JSON tree won't necessarily be valid UTF-8. Use a separate UTF-8 validation library if that's a problem
+	- only parsing?!
+		- :speech_balloon: [Serialization to JSON5? | issue #2 | json5cpp](https://github.com/mortie/json5cpp/issues/2)
+		- fgrthth
+
+- [packages depending on json5](https://www.npmjs.com/browse/depended/json5)
+
+### JSON flavours
+
+- [jsobject](https://github.com/tmarrinan/jsobject) by [tmarrinan](https://github.com/tmarrinan)
+	- :fallen_leaf: 2017
+	- _JavaScript Object Interface for C++ (Including JSON Parser / Generator)_
+	- [test input example](https://github.com/tmarrinan/jsobject/blob/master/example/resrc/json5_eg.json)
+
+- [smile-format-specification](https://github.com/FasterXML/smile-format-specification) by [FasterXML](https://github.com/FasterXML)
+	- _is a binary data format that defines a binary equivalent of standard_
+- [Jsonlite - JSON without quotes](https://deerchao.cn/projects/jsonlite/)
 - [jsonc](https://github.com/komkom/jsonc) by [komkom](https://github.com/komkom)
 	- #Go _json like config with comments._
 	- 2021 last commit
@@ -232,15 +254,12 @@
 - [-] [Hjson, a user interface for JSON](https://hjson.github.io/)
 	- don't like that quotes for values are unnecessary. It makes parsing with eyes harder
 
-
-
 ### :black_square_button: tser
 
 - [tser](https://github.com/KonanM/tser) by [KonanM](https://github.com/KonanM)
 - _tser - tiny serialization for C++_
 - :microbe: No support for `std::variant` (unless trivially copyable)
 - :microbe: No support for `std::stack`, `std::priority_queue`, `std::string_view`
-
 
 ### :black_square_button: bitsery
 
