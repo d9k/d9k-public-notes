@@ -9,11 +9,15 @@
 - [easy Serialization library ? : r/cpp](https://www.reddit.com/r/cpp/comments/p9ftmk/easy_serialization_library/)
 
 -  [schemaless-benchmarks](https://github.com/ludocode/schemaless-benchmarks?tab=readme-ov-file) by [ludocode](https://github.com/ludocode)
-	- _Benchmarks for Schemaless Data Serialization Libraries_
+	- _Benchmarks for schema-less Data Serialization Libraries_
 
 - Embedded Synonyms: MCU, Arduino, low memory
 
 - [ ] :newspaper: [Store multiple types in a single std::map in C++ with std::any, just like a python dict - Raymii.org](https://raymii.org/s/articles/Store_multiple_types_in_a_single_stdmap_in_cpp_just_like_a_python_dict.html)
+
+- Maybe if versions and migrations planned better be "manual" SAX/events/streaming/marshalling parser
+	- Difference between SAX and DOM: SAX Parser works on event based model. DOM works on tree based model. It can only perform reading operations on the XML document. SAX reads XML files in top down approach and can't provide random access.
+	- SAX is more appropriate for large XML documents where memory usage and parsing speed are crucial.
 
 ## Serialize c++ structures
 
@@ -145,6 +149,31 @@
 		- [simple-yenc](https://github.com/eshaz/simple-yenc) by [eshaz](https://github.com/eshaz)
 			- _Minimalist JavaScript binary string encoder / decoder with 1-2% overhead, compared to 33%-40% overhead for 6-bit encoding methods like Base64._
 
+- [rapidjson](https://github.com/Tencent/rapidjson) by [Tencent](https://github.com/Tencent)
+	- _A fast JSON parser/generator for C++ with both SAX/DOM style API_
+	- Added JSON Pointer
+	- Added JSON Schema
+	- Added relaxed JSON syntax (comment, trailing comma, NaN/Infinity)
+	- Iterating array/object with C++11 Range-based for loop
+	- :beginner: [RapidJSON: SAX](https://rapidjson.org/md_doc_sax.html)
+		- `writer.StartObject();`
+		- `writer.Key("hello");`
+		- `writer.String("world");`
+		- `writer.StartArray();`
+		- `writer.EndObject();`
+		- :balloon: [example/.../serialize.cpp](https://github.com/Tencent/rapidjson/blob/master/example/serialize/serialize.cpp) by [rapidjson](https://github.com/rapidjson)
+			- `for (std::vector<Dependent>::const_iterator dependentItr = dependents_.begin(); dependentItr != dependents_.end(); ++dependentItr)`
+				- `dependentItr->Serialize(writer);`
+	- parses JSON5?
+		- :speech_balloon: [rapidJson支持json5的解析吗 | issue #1971 | rapidjson](https://github.com/Tencent/rapidjson/issues/1971)
+
+- [centijson](https://github.com/mity/centijson) by [mity](https://github.com/mity)
+	- #C _JSON parser (both, SAX-like & full DOM)_
+	- SAX-like parser: Take just json.h + json.c and you have complete SAX-like parser.
+	- Serialization:
+		- Low-level serialization: json.h provides functions for outputting the non-trivial stuff like strings or numbers from C numeric types.
+		- :speaking_head_in_silhouette: [Output JSON object or array without DOM library | issue #11 | centijson](https://github.com/mity/centijson/issues/11)
+
 - [ ] [ArduinoJson](https://github.com/bblanchon/ArduinoJson) by [bblanchon](https://github.com/bblanchon)
 	- _📟 JSON library for Arduino and embedded C++. Simple and efficient._
 	- [Serialization tutorial | ArduinoJson 7](https://arduinojson.org/v7/tutorial/serialization/)
@@ -160,6 +189,19 @@
 	- :beginner: [JsonConfigFile.ino | ArduinoJson 7](https://arduinojson.org/v7/example/config/)
 		- This example shows how to store your project configuration in a file. It uses the [SD](https://www.arduino.cc/en/Reference/SD) library but can be easily modified for any other file-system, like [SPIFFS](http://arduino-esp8266.readthedocs.io/en/latest/filesystem.html).
 
+- [yajl](https://github.com/lloyd/yajl) by [lloyd](https://github.com/lloyd), 2015
+	- _A fast streaming JSON parsing library in C._
+	- [example/parse\_config.c at master · lloyd/yajl](https://github.com/lloyd/yajl/blob/master/example/parse_config.c) by [yajl](https://github.com/yajl)
+
+- [sjson](https://github.com/septag/sjson) by [septag](https://github.com/septag)
+	- #C _Fast and portable single-header C file Json encoder/decoder_
+	- :symbols: [sjson.h](https://github.com/septag/sjson/blob/master/sjson.h)
+		- `sjson_foreach`
+			- _Iterates through an Object or array child elements, first parameter should be a pre-defined json_node_
+
+- [qc-json](https://github.com/Daskie/qc-json) by [Daskie](https://github.com/Daskie)
+	- _(Legacy) Quick and clean JSON5 header library for C++20_
+
 - [jfes](https://github.com/dmitrii-eremin/jfes) by [dmitrii-eremin](https://github.com/dmitrii-eremin). #C
 		- _Json For Embedded Systems (JFES)_
 		- :newspaper: [Встроить JSON в Embedded? Проще простого | Хабр](https://habr.com/ru/articles/269383/)
@@ -168,6 +210,7 @@
 - [htcw\_json](https://github.com/codewitch-honey-crisis/htcw_json) by [codewitch-honey-crisis](https://github.com/codewitch-honey-crisis)
 	- _a small pull parser for JSON_
 	- :newspaper: [htcw\_json: A tiny streaming JSON parser- CodeProject](https://www.codeproject.com/Articles/5379857/htcw-json-A-tiny-streaming-JSON-parser)
+
 - [ ] [json](https://github.com/nlohmann/json) by [nlohmann](https://github.com/nlohmann)
 	- _JSON for Modern C++_
 	- We designed the JSON class to behave just like an STL container. In fact, it satisfies the [**ReversibleContainer**](https://en.cppreference.com/w/cpp/named_req/ReversibleContainer) requirement.
@@ -180,12 +223,15 @@
 	- :sparkles: Library supports CBOR, MessagePack
 	- :sparkles: `NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE` - macro to save `struct`
 	- [ ] Is `.at()` fast? Does it caches keys?
-	- :sparkles: `json` object assign as [nested const structure](https://github.com/nlohmann/json?tab=readme-ov-file#arbitrary-types-conversions)!
+	- :sparkles: `json` object assign as [nested const structure](https://github.com/nlohmann/json?tab=readme-ov-file#arbitrary-types-conversions)
+	- No SAX-style serialization? Only deserialization?
+		- :speech_balloon: [Better support for SAX style serialize and deserialize in new version? | issue #554 | json](https://github.com/nlohmann/json/issues/554)
+		- the rapidjson given `rapidjson::Reader` and `rapidjson::Writer` could do this.
+	- :beginner: [json_sax | nlohmann](https://json.nlohmann.me/api/json_sax/)
+
 - [LightJSON](https://github.com/skyformat99/LightJSON) by [skyformat99](https://github.com/skyformat99)
 	- _A Lightweight JSON CPP Library_
-- [yajl](https://github.com/lloyd/yajl) by [lloyd](https://github.com/lloyd), 2015
-	- _A fast streaming JSON parsing library in C._
-	- [example/parse\_config.c at master · lloyd/yajl](https://github.com/lloyd/yajl/blob/master/example/parse_config.c) by [yajl](https://github.com/yajl)
+
 - [json-parser](https://github.com/json-parser/json-parser) by [json-parser](https://github.com/json-parser)
 	- _Very low footprint DOM-style JSON parser written in portable ANSI C_
 - [tiny-json](https://github.com/rafagafe/tiny-json) by [rafagafe](https://github.com/rafagafe)
@@ -206,12 +252,6 @@
 
 ### JSON5
 
-- [json5](https://github.com/json5/json5) by [json5](https://github.com/json5)
-	- _JSON5 — JSON for Humans_
-	- [json5](https://github.com/P-i-N/json5) by [P-i-N](https://github.com/P-i-N)
-		- _Header only JSON/JSON5 parser and serializer for C++_
-		- :cactus: [gbooker/json5 fork](https://github.com/gbooker/json5/commits/master/)
-
 - :newspaper: [Подробный обзор JSON, JSON5 и циклических зависимостей](https://nuancesprog.ru/p/15692/)
 
 - :newspaper: [Understanding JSON and JSON5: A Beginner's Guide to JSON and JSON5 for Web Development](https://json-5.com/json-vs-json5)
@@ -221,6 +261,56 @@
 	- [json5-writer](https://github.com/noahsug/json5-writer) by [noahsug](https://github.com/noahsug)
 		- #JS _Comment-preserving JSON5 parser
 
+- [cj5](https://github.com/septag/cj5) by [septag](https://github.com/septag)
+	- #C _Very minimal single header JSON5 parser in C99, derived from jsmn_
+
+- [az-json](https://github.com/sergeniously/az-json) by [sergeniously](https://github.com/sergeniously)
+	- _Another JSON5 & JSON manipulator (reader & writer) C++ library_
+	- allows append to array
+	- path
+
+- [json5](https://github.com/P-i-N/json5) by [P-i-N](https://github.com/P-i-N)
+	- _Header only JSON/JSON5 parser and serializer for C++_
+	- :cactus: [gbooker/json5 fork](https://github.com/gbooker/json5/commits/master/)
+		- Added support for optionals. Corrected nulls not being parsed as such. Extract tuple value reading and writing to a function.
+	- `JSON5_ENUM` macro serializes enum member as string
+	- `JSON5_CLASS`, `JSON5_CLASS_INHERIT`
+	- `JSON5_MEMBERS` for structs
+	- migrations?!
+
+- [json5cpp](https://github.com/mortie/json5cpp) by [mortie](https://github.com/mortie)
+	- _A JSON5 parser for C++ built on [JsonCpp](https://github.com/open-source-parsers/jsoncpp)._
+		- :beginner: [jsoncpp Wiki](https://github.com/open-source-parsers/jsoncpp/wiki)
+			- `root["my-indent"].get("length", 3).asInt()`
+			- `root["my-indent"].get("use_space", true).asBool()`
+	- with benchmark!
+	- Json5Cpp assumes, but doesn't validate, that the input is UTF-8. If the input isn't valid UTF-8, the parsed JSON tree won't necessarily be valid UTF-8. Use a separate UTF-8 validation library if that's a problem
+	- only parsing?!
+		- :speaking_head_in_silhouette: [Serialization to JSON5? | issue #2 | json5cpp](https://github.com/mortie/json5cpp/issues/2)
+
+- [ArduinoJson](https://github.com/bblanchon/ArduinoJson) by [bblanchon](https://github.com/bblanchon)
+	- _📟 JSON library for Arduino and embedded C++. Simple and efficient._
+	- :microbe: deserialization only
+	- :speech_balloon: [Does this support JSON5 | issue #1687 | ArduinoJson](https://github.com/bblanchon/ArduinoJson/issues/1687)
+
+- [json5.c](https://gist.github.com/inlife/b54a0d9228e428284e1d8eccbed97e35)
+	- #C from [zpl](https://github.com/zpl-c/zpl) by [zpl-c](https://github.com/zpl-c)
+		- _📐 Pushing the boundaries of simplicity_
+
+- [JsonLib](https://github.com/WaterJuice/JsonLib) by [WaterJuice](https://github.com/WaterJuice)
+	- #C _Marshalls C Structures to and from JSON/JSON5_
+	- :beginner: [C library for JSON/JSON5 parsing and writing – Water Juice](https://waterjuiceweb.wordpress.com/2019/11/24/c-library-for-json-json5-parsing-and-writing/)
+	- malloc
+	- :symbols: `JlMarshallElement marshalSubStructType[] =`
+		- `JlMarshallFloat( SubStructType, f64, "f64" ),`
+	- [JsonRewrite.c](https://github.com/WaterJuice/JsonLib/blob/master/projects/JsonRewrite/Source/JsonRewrite.c#L159)
+		- Simple executable to read a json file, parse it, and then output a new json file with specified parameters.
+		- `bool outputJson5 = ParseCommandLineBoolArg( &ArgC, &ArgV, "-5", "--json5" );`
+
+- [json5](https://github.com/json5/json5) by [json5](https://github.com/json5)
+	- #JS _JSON5 — JSON for Humans_
+	- :link: [packages depending on json5 | npm](https://www.npmjs.com/browse/depended/json5)
+
 - [json5-spec](https://github.com/json5/json5-spec) by [json5](https://github.com/json5)
 		- _The JSON5 Data Interchange Format_
 		- 2018 last commit
@@ -229,17 +319,10 @@
 	- _Microsoft has provided much more robust tooling for dealing with JSONC than anything provided for the struggling JSON5 community. If Microsoft wants to help the community, please don’t stop them! Just try to do some roundtrip work with the partially abandoned JSON5 project and you will quickly find out there is absolutely no support for it._ / [brentonhouse](https://github.com/microsoft/vscode/issues/100688#issuecomment-715925440)
 	- mischkl, I actually used the JSON5 project early on in some of my projects but quickly found out that it is basically a personal project that wasn't updated much. Also, unless I am missing something, I see no way of actually updating JSON5 files using their library. There was one ticket that was closed back in 2016 but it doesn't look like that feature was ever implemented. [Is there a way to do a roundtrip (load and save) · Issue #121 · json5/json5](https://github.com/json5/json5/issues/121)  - Without that, it is just a fancy way of reading JSON with comments and has little real-world practical value. If VS Code relied on using JSON5, how would the settings file get updated if you changed a setting using the GUI? / [brentonhouse](https://github.com/microsoft/vscode/issues/100688#issuecomment-715925440)
 
-- [json5cpp](https://github.com/mortie/json5cpp) by [mortie](https://github.com/mortie)
-	- _A JSON5 parser for C++ built on JsonCpp._
-	- with benchmark!
-	- Json5Cpp assumes, but doesn't validate, that the input is UTF-8. If the input isn't valid UTF-8, the parsed JSON tree won't necessarily be valid UTF-8. Use a separate UTF-8 validation library if that's a problem
-	- only parsing?!
-		- :speech_balloon: [Serialization to JSON5? | issue #2 | json5cpp](https://github.com/mortie/json5cpp/issues/2)
-		- fgrthth
-
-- [packages depending on json5](https://www.npmjs.com/browse/depended/json5)
 
 ### JSON flavours
+
+- [JSON Lines Examples](https://jsonlines.org/on_the_web/)
 
 - [jsobject](https://github.com/tmarrinan/jsobject) by [tmarrinan](https://github.com/tmarrinan)
 	- :fallen_leaf: 2017
