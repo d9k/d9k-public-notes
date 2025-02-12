@@ -136,6 +136,9 @@
 - :sparkles: very widespread
 - :microbe: large size overhead
 - :sparkles: human-readable
+
+- :newspaper: [JSON-сериализатор на быстрых шаблонах | laphroaig | Хабр](https://habr.com/ru/articles/311262/)
+
 - encode binary string
 	- :speech_balloon: [Binary Data in JSON String. Something better than Base64 | SO](https://stackoverflow.com/questions/1443158/binary-data-in-json-string-something-better-than-base64)
 		- For download, you might be surprised how well base64 compresses under gzip (http://davidbcalhoun.com/2011/when-to-base64-encode-images-and-when-not-to)
@@ -148,6 +151,9 @@
 		- [python3-yenc](https://github.com/oe-mirrors/python3-yenc) by [oe-mirrors](https://github.com/oe-mirrors)
 		- [simple-yenc](https://github.com/eshaz/simple-yenc) by [eshaz](https://github.com/eshaz)
 			- _Minimalist JavaScript binary string encoder / decoder with 1-2% overhead, compared to 33%-40% overhead for 6-bit encoding methods like Base64._
+
+- [wjson](https://github.com/mambaru/wjson) by [mambaru](https://github.com/mambaru)
+	- _Fastest JSON Serializer for C++_
 
 - [rapidjson](https://github.com/Tencent/rapidjson) by [Tencent](https://github.com/Tencent)
 	- _A fast JSON parser/generator for C++ with both SAX/DOM style API_
@@ -188,6 +194,7 @@
 	- :sparkles: [custom converters](https://arduinojson.org/news/2021/05/04/version-6-18-0/)
 	- :beginner: [JsonConfigFile.ino | ArduinoJson 7](https://arduinojson.org/v7/example/config/)
 		- This example shows how to store your project configuration in a file. It uses the [SD](https://www.arduino.cc/en/Reference/SD) library but can be easily modified for any other file-system, like [SPIFFS](http://arduino-esp8266.readthedocs.io/en/latest/filesystem.html).
+	- :beginner: [ArduinoJson vs Arduino\_JSON](https://arduinojson.org/news/2019/11/19/arduinojson-vs-arduino_json/)
 
 - [yajl](https://github.com/lloyd/yajl) by [lloyd](https://github.com/lloyd), 2015
 	- _A fast streaming JSON parsing library in C._
@@ -214,6 +221,12 @@
 - [ ] [json](https://github.com/nlohmann/json) by [nlohmann](https://github.com/nlohmann)
 	- _JSON for Modern C++_
 	- We designed the JSON class to behave just like an STL container. In fact, it satisfies the [**ReversibleContainer**](https://en.cppreference.com/w/cpp/named_req/ReversibleContainer) requirement.
+	- :sparkles: SAX (event-based) parse
+		- :beginner: [sax\_parse - JSON for Modern C++](https://json.nlohmann.me/api/basic_json/sax_parse/#examples)
+		- :beginner: [SAX Interface - JSON for Modern C++](https://json.nlohmann.me/features/parsing/sax_interface/)
+		- [ ] iterative?
+			- seems not, see `while(true)` at `sax_parse_internal()`
+				- at :open_file_folder:`include/nlohmann/detail/input/parser.hpp`
 	- :sparkles: Conversion from STL containers
 	- :sparkles: library supports **JSON Pointer** ([RFC 6901](https://tools.ietf.org/html/rfc6901)) as alternative means to address structured values.
 	- `json::diff()`
@@ -294,6 +307,9 @@
 	- :speech_balloon: [Does this support JSON5 | issue #1687 | ArduinoJson](https://github.com/bblanchon/ArduinoJson/issues/1687)
 
 - [json5.c](https://gist.github.com/inlife/b54a0d9228e428284e1d8eccbed97e35)
+	- JSON5 parser & serializer module
+	- [x] :speaking_head_in_silhouette: [Where is the serializer?](https://gist.github.com/inlife/b54a0d9228e428284e1d8eccbed97e35?permalink_comment_id=5313274#gistcomment-5313274)
+		- `dump_json_contents()
 	- #C from [zpl](https://github.com/zpl-c/zpl) by [zpl-c](https://github.com/zpl-c)
 		- _📐 Pushing the boundaries of simplicity_
 
@@ -306,6 +322,8 @@
 	- [JsonRewrite.c](https://github.com/WaterJuice/JsonLib/blob/master/projects/JsonRewrite/Source/JsonRewrite.c#L159)
 		- Simple executable to read a json file, parse it, and then output a new json file with specified parameters.
 		- `bool outputJson5 = ParseCommandLineBoolArg( &ArgC, &ArgV, "-5", "--json5" );`
+		- `JlDataObject* jsonObject = NULL;`
+		- `jlStatus = JlParseJson( inputJsonString, &jsonObject, &errorAtPos )`
 
 - [json5](https://github.com/json5/json5) by [json5](https://github.com/json5)
 	- #JS _JSON5 — JSON for Humans_
