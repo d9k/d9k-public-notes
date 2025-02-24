@@ -208,3 +208,15 @@
 - http://www.quora.com/Do-you-feel-that-golang-is-ugly/answer/Tikhon-Jelvis
 - http://lambda-the-ultimate.org/node/4554
 - http://www.quora.com/What-reasons-are-there-to-not-use-Go-programming-language?redirected_qid=1787465
+
+## Why is Go's Garbage Collection so criticized? : r/golang
+
+- https://www.reddit.com/r/golang/comments/z1o2oe/why_is_gos_garbage_collection_so_criticized/?rdt=56407
+
+Takn0711:
+
+_IMHO it's because of the weird place Go is in._
+
+_If you have a low level language, such as C/C++, you want to control everything that's happening, and avoid the overhead of carbage collection: since you are in control of everything, you are supposed to know when to free memory, no need for someone else to scan your memory._
+
+_If you have a high level language, like Python, JS, and Java to a certain extend (I do consider Java as medium-high level), you already have performance overhead by definition, because of the VM/interpreter, so you don't mind having a bit more to delegate the memory handling to someone else and make your code simpler._
