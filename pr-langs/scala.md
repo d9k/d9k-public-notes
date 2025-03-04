@@ -154,3 +154,23 @@ Lag compensation + optimistic client-side rendering.
 - Case classes for immutable data storage. Auto methods: `copy()`, `equals()`, `getters`, pattern matching
 - Traits: no constructor args.
 - `val r = 1 to 5` - range generators
+
+## Why no early return from lambda in Scala
+
+### Many happy early returns – Making the matrix
+
+- https://makingthematrix.wordpress.com/2021/03/09/many-happy-early-returns/
+
+If / for / match as expression eliminates most need in early return.
+
+Option is a collection which can consist of either zero or one element.
+
+### Scala return statements in anonymous functions - Stack Overflow
+
+- https://stackoverflow.com/questions/17754976/scala-return-statements-in-anonymous-functions
+
+BTW, Ruby, Smalltalk, and Common Lisp (off the top of my head) also have similar "non-local" returns.
+
+Lambdas are expressions and it's nice when an expression and all its subexpression have the same meaning no matter what the nesting structure.
+
+The return keyword is reserved for (class) methods, it cannot be used in functions. You can easily test that
