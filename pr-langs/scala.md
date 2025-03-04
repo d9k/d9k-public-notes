@@ -2,7 +2,7 @@
 
 - [ ] :tv: [Путь от монолита на PHP к микросервисам на Scala / Денис Иванов (2GIS)](https://vkvideo.ru/video-152308462_456241576)
 
-#### Scala + #Android?
+## Scala + #Android?
 
 - :speech_balloon: [Any good examples of an android app written in Scala? : r/scala](https://www.reddit.com/r/scala/comments/y47zlz/any_good_examples_of_an_android_app_written_in/)
 	- Scala used to be useable on Android. However, the JVM advanced and android didn't and scala stuck with the former. If I remember correctly you have to downgrade to scala 2.11 if you want to write android apps with it.
@@ -13,12 +13,26 @@
 - [scalaonandroid](https://github.com/makingthematrix/scalaonandroid) by [makingthematrix](https://github.com/makingthematrix)
 	- _A tutorial and examples of how to write Android apps in Scala 2.13 and Scala 3._
 
-#### #scripting
+## #scripting
 
 - [scala-cli](https://github.com/VirtusLab/scala-cli) by [VirtusLab](https://github.com/VirtusLab)
 	- _Scala CLI is a command-line tool to interact with the Scala language. It lets you compile, run, test, and package your Scala code (and more!)_
+	- :beginner: [Dependencies | Scala CLI docs](https://scala-cli.virtuslab.org/docs/getting_started#dependencies)
 
-# СИЛА Функционального Программирования / Всё о Scala / Интервью со Scala Developer Олегом Нижниковым / АйТиБорода, 2021
+## #frontEnd
+
+- [scala-js](https://github.com/scala-js/scala-js) by [scala-js](https://github.com/scala-js)
+	- _Scala.js, the Scala to JavaScript compiler_
+	- :door: [Scala-js.org](https://www.scala-js.org/)
+	- :speech_balloon: [Scala.js in 2024 | /r/scala](https://www.reddit.com/r/scala/comments/1bvzzec/scalajs_in_2024/)
+		- _TypeScript is easier to build, has better tooling, has less overhead than Scala.js, and has more seamless interop with JS, but it just isn't anywhere near as good Scala_
+		- _TS lacks ADTs and pattern matching_
+		- _Some companies stopped using Scala mainly because of the difficulty in finding developers_
+			- _Developers can pick up Scala in 1 month or so with proper training materials and online lectures(like rockjvm)._
+		- We use Scala-js for everything related to JavaScript. All frontend libraries were interfaced to scala-js when this was done. By the way, Scala has macro support so that you can use excellent libraries like Slick or Autowire to do RPC and so on. Also, not to mention the Effects System! / PlatypusIllustrious7
+
+
+## СИЛА Функционального Программирования / Всё о Scala / Интервью со Scala Developer Олегом Нижниковым / АйТиБорода, 2021
 
 - https://www.youtube.com/watch?v=nII0ralSlRo
 
@@ -104,3 +118,39 @@ t.me/scala_ru
 Peopleware - читают с женой друг другу главы из книги.
 
 Конференции СНГ: ScalaRussia, FPure, F(by).
+
+## How 1 Software Engineer Outperforms 138 - Lichess Case Study / Tom Delalande
+
+- https://www.youtube.com/watch?v=7VSVfQcaxFY
+
+Scala + SnapDOM.
+
+Play framework.
+
+MongoDB - stores JSON objects, has good compression. Replicates. Aggregation framework.
+
+Redis is used to communicate between services. Websocket services saves events to the cache which then read by a core service (or WS service after redeploy).
+
+Architecture is a monolith with satellites. _It's convenient because all the state is in one place, and can be cached in-heap for all the modules on the site to use... Proper cache invalidation across multiple instances would be impossible_
+
+Lag compensation + optimistic client-side rendering.
+
+## Learn Scala in Y Minutes
+
+- https://learnxinyminutes.com/scala/
+
+- `def` instead of function. Type can be defined by return type only. Returns last expression automatically.
+- :microbe: WARNING: The `return` keyword exists in Scala, but it only returns from the inner-most `def` that surrounds it. Using return in Scala is error-prone and should be avoided. It has no effect on anonymous functions.
+- :sparkles: Constructor arguments are declared after the class name, and initialization is done in the class body.
++ :sparkles: Values and methods are assumed public by def.
+- :sparkles: No fall-through to next case.
+- :sparkles: match by value, type, case object field value, condition, list or tuple members, nest patterns. case-function
+- :thinking_face: Accessing undefined index in structure throws exception, not returns `undefined` value as in JS.
+- :thinking_face: No special syntax (square brackets) for arrays?
+- :thinking_face: Implicit conversion functions: `"Retriever".breed`
+	- _\[Seems implicit conversion functions are very dangerous almost like monkey-patching\]_
+- Round braces are tuples.
+- Object and classes can have same name: companion object for static methods.
+- Case classes for immutable data storage. Auto methods: `copy()`, `equals()`, `getters`, pattern matching
+- Traits: no constructor args.
+- `val r = 1 to 5` - range generators
