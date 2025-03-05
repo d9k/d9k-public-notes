@@ -13,6 +13,10 @@
 - [scalaonandroid](https://github.com/makingthematrix/scalaonandroid) by [makingthematrix](https://github.com/makingthematrix)
 	- _A tutorial and examples of how to write Android apps in Scala 2.13 and Scala 3._
 
+## articles
+
+- :newspaper: [4 вопроса для разработчика Scala](https://proglib.io/p/4-scala-questions)
+
 ## #scripting
 
 - [scala-cli](https://github.com/VirtusLab/scala-cli) by [VirtusLab](https://github.com/VirtusLab)
@@ -21,16 +25,17 @@
 
 ## #frontEnd
 
+#### Scala.js
 - [scala-js](https://github.com/scala-js/scala-js) by [scala-js](https://github.com/scala-js)
-	- _Scala.js, the Scala to JavaScript compiler_
-	- :door: [Scala-js.org](https://www.scala-js.org/)
-	- :speech_balloon: [Scala.js in 2024 | /r/scala](https://www.reddit.com/r/scala/comments/1bvzzec/scalajs_in_2024/)
-		- _TypeScript is easier to build, has better tooling, has less overhead than Scala.js, and has more seamless interop with JS, but it just isn't anywhere near as good Scala_
-		- _TS lacks ADTs and pattern matching_
-		- _Some companies stopped using Scala mainly because of the difficulty in finding developers_
-			- _Developers can pick up Scala in 1 month or so with proper training materials and online lectures(like rockjvm)._
-		- We use Scala-js for everything related to JavaScript. All frontend libraries were interfaced to scala-js when this was done. By the way, Scala has macro support so that you can use excellent libraries like Slick or Autowire to do RPC and so on. Also, not to mention the Effects System! / PlatypusIllustrious7
-
+	#### - _Scala.js, the Scala to JavaScript compiler_
+- :door: [Scala-js.org](https://www.scala-js.org/)
+- :speech_balloon: [Scala.js in 2024 | /r/scala](https://www.reddit.com/r/scala/comments/1bvzzec/scalajs_in_2024/)
+	- _TypeScript is easier to build, has better tooling, has less overhead than Scala.js, and has more seamless interop with JS, but it just isn't anywhere near as good Scala_
+	- _TS lacks ADTs and pattern matching_
+	- _Some companies stopped using Scala mainly because of the difficulty in finding developers_
+		- _Developers can pick up Scala in 1 month or so with proper training materials and online lectures(like rockjvm)._
+	- We use Scala-js for everything related to JavaScript. All frontend libraries were interfaced to scala-js when this was done. By the way, Scala has macro support so that you can use excellent libraries like Slick or Autowire to do RPC and so on. Also, not to mention the Effects System! / PlatypusIllustrious7
+	- I wouldn't recommend ScalablyTyped. The facades it generates are different from the ones you would create manually. It's often not obvious where to import things from, and it can be hard to map JS library's documentation and code examples to ScalablyTyped's output. You don't need to write types for the whole TS/JS library, just the parts that you need, and you can even use `js.Dynamic` when convenient. Choose Typescript if you have a node.js backend, of if you like the TypeScript way of doing things: superficial convenience over correctness (in many ways), using a thousand npm packages for every little thing, etc.
 
 ## СИЛА Функционального Программирования / Всё о Scala / Интервью со Scala Developer Олегом Нижниковым / АйТиБорода, 2021
 
@@ -140,6 +145,7 @@ Lag compensation + optimistic client-side rendering.
 - https://learnxinyminutes.com/scala/
 
 - `def` instead of function. Type can be defined by return type only. Returns last expression automatically.
+- `var` / `val` for variable/constant value.
 - :microbe: WARNING: The `return` keyword exists in Scala, but it only returns from the inner-most `def` that surrounds it. Using return in Scala is error-prone and should be avoided. It has no effect on anonymous functions.
 - :sparkles: Constructor arguments are declared after the class name, and initialization is done in the class body.
 + :sparkles: Values and methods are assumed public by def.
@@ -180,3 +186,28 @@ The return keyword is reserved for (class) methods, it cannot be used in funct
 :newspaper: [Memory leak in Scala application— Beginner’s guide | Medium](https://medium.com/@anasanjaria/investigating-memory-leak-in-scala-application-beginners-guide-1205b2041076)
 - [benchmarks](https://github.com/kostya/benchmarks) by [kostya](https://github.com/kostya)
 	- _Some benchmarks of different languages_
+
+## Java interoperability
+
+- :speech_balloon: [Can Scala classes be used in Java? | SO](https://stackoverflow.com/questions/44993014/can-scala-classes-be-used-in-java)
+
+## ML
+
+- :newspaper: [Варианты использования Java ML библиотек совместно со Spring, Docker, Spark, Rapids, CUDA | Хабр](https://habr.com/ru/articles/679248/)
+- :newspaper: [ML на Scala с улыбкой, для тех, кто не боится экспериментов | Хабр](https://habr.com/ru/companies/youla/articles/452914/)
+
+## Books
+
+- [5 книг, с которыми анализ данных и Scala до безобразия просты](https://proglib.io/p/scala-data-analysis)
+
+## #vs #TS (TypeScript)
+
+- :microbe: higher memory usage
+- :microbe: slow compilation
+- :microbe: more strict (soundness) type system may be inconvenience. TS in unsound (Type incompatibility may be easy ignored with hacks)
+- :sparkles: more stable libs
+- :sparkles: more extensive standard library
+- :sparkles: ML
+- :sparkles: doesn't require additional libs for FP
+- :sparkles: for / match / if - expressions which return result
+- :sparkles: `_` in lambdas
