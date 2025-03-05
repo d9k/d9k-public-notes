@@ -18,7 +18,7 @@ Primeagen doesn't trust Tiobe index.
 
 Everyone wants the speed of C but no one wants to use C.
 
-Primeagen thinka Rust suffers from too many features as C well as C++.
+Primeagen thinks Rust suffers from too many features as C well as C++.
 
 C++ example: const pointer to a constant
 TypeScript: `{} as const`.

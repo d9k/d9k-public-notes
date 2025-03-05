@@ -174,3 +174,9 @@ BTW, Ruby, Smalltalk, and Common Lisp (off the top of my head) also have similar
 Lambdas are expressions and it's nice when an expression and all its subexpression have the same meaning no matter what the nesting structure.
 
 The return keyword is reserved for (class) methods, it cannot be used in functions. You can easily test that
+
+## Memory usage
+
+:newspaper: [Memory leak in Scala application— Beginner’s guide | Medium](https://medium.com/@anasanjaria/investigating-memory-leak-in-scala-application-beginners-guide-1205b2041076)
+- [benchmarks](https://github.com/kostya/benchmarks) by [kostya](https://github.com/kostya)
+	- _Some benchmarks of different languages_
