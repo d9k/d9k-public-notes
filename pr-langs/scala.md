@@ -13,9 +13,16 @@
 - [scalaonandroid](https://github.com/makingthematrix/scalaonandroid) by [makingthematrix](https://github.com/makingthematrix)
 	- _A tutorial and examples of how to write Android apps in Scala 2.13 and Scala 3._
 
-## articles
+## #article
 
 - :newspaper: [4 вопроса для разработчика Scala](https://proglib.io/p/4-scala-questions)
+- :newspaper: [Как использовать implicit'ы в Scala и сохранить рассудок | Хабр](https://habr.com/ru/articles/329600/)
+
+## #video
+
+- :tv: [Why are #Scala devs paid so well? | DevInsideYou | YT](https://www.youtube.com/shorts/sJ1XWac28lA)
+	- Spark & Kafka are written in Scala.
+	- Designed for professionals.
 
 ## #scripting
 
@@ -26,9 +33,13 @@
 ## #frontEnd
 
 #### Scala.js
+
 - [scala-js](https://github.com/scala-js/scala-js) by [scala-js](https://github.com/scala-js)
 	#### - _Scala.js, the Scala to JavaScript compiler_
 - :door: [Scala-js.org](https://www.scala-js.org/)
+	- Scala.js and Vite: Set up a hello world project ready for live reloading in the browser. Generate minimized production assets.
+	- Laminar: Build UIs with Laminar using Functional Reactive Programming (FRP), a hybrid model between imperative and functional programming particularly well suited for UI development in Scala.
+	- ScalablyTyped: Integrate JavaScript libraries using ScalablyTyped.
 - :speech_balloon: [Scala.js in 2024 | /r/scala](https://www.reddit.com/r/scala/comments/1bvzzec/scalajs_in_2024/)
 	- _TypeScript is easier to build, has better tooling, has less overhead than Scala.js, and has more seamless interop with JS, but it just isn't anywhere near as good Scala_
 	- _TS lacks ADTs and pattern matching_
@@ -36,6 +47,7 @@
 		- _Developers can pick up Scala in 1 month or so with proper training materials and online lectures(like rockjvm)._
 	- We use Scala-js for everything related to JavaScript. All frontend libraries were interfaced to scala-js when this was done. By the way, Scala has macro support so that you can use excellent libraries like Slick or Autowire to do RPC and so on. Also, not to mention the Effects System! / PlatypusIllustrious7
 	- I wouldn't recommend ScalablyTyped. The facades it generates are different from the ones you would create manually. It's often not obvious where to import things from, and it can be hard to map JS library's documentation and code examples to ScalablyTyped's output. You don't need to write types for the whole TS/JS library, just the parts that you need, and you can even use `js.Dynamic` when convenient. Choose Typescript if you have a node.js backend, of if you like the TypeScript way of doing things: superficial convenience over correctness (in many ways), using a thousand npm packages for every little thing, etc.
+- :beginner: [JavaScript types - Scala.js](https://www.scala-js.org/doc/interoperability/types.html)
 
 ## СИЛА Функционального Программирования / Всё о Scala / Интервью со Scala Developer Олегом Нижниковым / АйТиБорода, 2021
 
@@ -160,6 +172,29 @@ Lag compensation + optimistic client-side rendering.
 - Case classes for immutable data storage. Auto methods: `copy()`, `equals()`, `getters`, pattern matching
 - Traits: no constructor args.
 - `val r = 1 to 5` - range generators
+
+## Scala in 100 Seconds | Fireship
+
+- https://www.youtube.com/watch?v=I7-hxTbpscU
+
+Scalable LAnguage. 2004.
+
+Data engineering, Apache Spark.
+
+`for / if..else` return result.
+
+`val` - immutable values
+`var` - mutable
+
+`Option[int]`. Option - monad. Return `None` instead of null
+
+trait
+
+List and most standart data structures immutable too.
+
+First-class function.
+
+More monads: `Either[Left, Right]`, `Try`, `Future` (like Promise in TS)
 
 ## Why no early return from lambda in Scala
 
