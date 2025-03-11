@@ -1,5 +1,7 @@
 # IT: people
 
+- :scroll: https://committers.top/russia
+
 ## Douglas Crockford
 
 - [social: Mastodon](https://layer8.space/@douglascrockford)
@@ -14,3 +16,40 @@
 	- _Timur Shemsedinov news feed_
 - :newspaper: [Современный курс по Node.js в 2020 / Хабр](https://habr.com/ru/articles/485294/)
 - :male-office-worker: [Timur Shemsedinov (@tshemsedinov) / X](https://x.com/tshemsedinov)
+
+## AdrenaLily
+
+- https://x.com/AdrenaLily
+- [Approaching The Foes by Flanny](https://soundcloud.com/flannyha)
+
+## Isaac Aronson
+
+- TypeScript & retro gamedev
+- [aronson | GH](https://github.com/aronson)
+- :door: [Projects - Isaac Aronson](https://pingas.org/projects)
+
+## Ali-Hussein-dev
+
+- AI client dev
+- [Ali-Hussein-dev](https://github.com/Ali-Hussein-dev?tab=repositories)
+- [KamousAI | AI Language Tools](https://kamous.noorai.io/)
+
+## Vitaly Rtishchev
+
+- [Mantine](https://mantine.dev)  developer
+- [rtivital | GH](https://github.com/rtivital)
+
+## Alex Grin
+
+- [lyoshenka | GH](https://github.com/lyoshenka)
+ - [LBRY](https://github.com/lbryio) — a decentralized media protocol for the modern era.
+ - [All Posts | grin.io](https://grin.io/posts)
+
+## Eric Murphy
+
+ - simplify web dev
+ - :door: [Eric Murphy](https://ericmurphy.xyz/)
+
+## Александр Соловьёв (укр.)
+
+- [ ] :tv: [Александр Соловьев, CTO Kasta — перешел c Python на Clojure, не кодит вечером и критикует свитчеров | YT](https://www.youtube.com/watch?v=ZNJAmgO4H7c)
