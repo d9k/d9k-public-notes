@@ -246,3 +246,16 @@ The return keyword is reserved for (class) methods, it cannot be used in funct
 - :sparkles: doesn't require additional libs for FP
 - :sparkles: for / match / if - expressions which return result
 - :sparkles: `_` in lambdas
+
+## Scala expressive language abilities for #coding
+
+### currying
+
+- [Currying in Scala | Baeldung on Scala](https://www.baeldung.com/scala/currying)
+
+Currying is the process of converting a function with multiple arguments into a sequence of functions that take one argument. Each function returns another function that consumes the following argument.
+
+```scala
+val curriedSum: Int => Int => Int = x => y => x + y
+val increment: Int => Int = curriedSum(1)
+```
