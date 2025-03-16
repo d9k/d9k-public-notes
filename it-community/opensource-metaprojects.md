@@ -46,3 +46,5 @@ https://github.com/coopenomics
 ## GrandCore
 
 - на данный момент проект приостановлен
+
+- https://t.me/grandcore_chat

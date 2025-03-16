@@ -41,3 +41,8 @@ JS on Bun - 1 hour.
 	- 2 types of language users:
 		- Doesn't care: just ship, `$$$`, want users
 		- Programming purist: Associates their self worth with the language. Hyper-fixates on complex programming solutions. "Above" the simpletons
+
+## #project<span>&hairsp;s</span> on Zig
+
+- [bun](https://github.com/oven-sh/bun) by [oven-sh](https://github.com/oven-sh)
+	- _Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one_
