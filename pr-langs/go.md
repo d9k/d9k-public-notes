@@ -191,6 +191,11 @@
 
 - vs #NodeJS
 	- :newspaper: [Node vs Go: API Showdown | dev.to](https://dev.to/ocodista/node-vs-go-api-showdown-4njl)
+	- :newspaper: [Переходим с Node.js на Go… но это не точно | mkant | Хабр](https://habr.com/ru/articles/890882/)
+		- Прикладные API-сервера, для которых чаще всего используют Ноду устроены таким образом, что получить выигрыш производительности переходом на Go довольно трудно, а вот замедлить разработку очень легко.
+		- BFF - В этой схеме основную нагрузку несёт система управления базой данных (СУБД). Скорость приёма запросов незначительно влияет на результат и зависит от архитектуры веб сервера
+		- Node: код короче, dev-режим запуска, максимально удобная работа с JSON, не нужно "прокидывать" ошибки по всей цепочке функций
+		- Golang: бинарный Protobuf удобнее
 
 - vs #Java
 	- :tv: [Pros & Cons of Golang (as a Java programmer) | Golang Dojo | YT](https://www.youtube.com/watch?v=mFKwF7m3GuM)
