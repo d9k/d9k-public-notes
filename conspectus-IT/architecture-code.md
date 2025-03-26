@@ -106,7 +106,45 @@ It is not so much you are building modules to re-use, but isolating components f
 
 Good code isn’t about getting it right the first time. Good code is just legacy code that doesn’t get in the way.
 
+## Small Functions considered Harmful | by Cindy Sridharan | Medium
 
+- https://copyconstruct.medium.com/small-functions-considered-harmful-91035d316c29
+
+Raymond Hettinger, a core Python developer, has a fantastic talk called Beyond PEP8: Best practices for beautiful, intelligible code. This talk is a must-watch, not just for Python programmers but for anyone interested in programming or who programs for a living, because it very incisively lays bare the fallacies of a dogmatic adherence to PEP8, which is the Python style guide many linters implement.
+
+The main problem with DRY is that it coerces one into abstractions — nested and premature ones at that.
+
+The fabulous Rubyist Sandi Metz has a famous talk called [All The Little Things](https://www.youtube.com/watch?v=8bZh5LMaSmE&feature=youtu.be).
+
+Abstract ONLY when you know all details. Since you can't be humble and flexible. Our carefully handcrafted artisanal “perfect” abstraction is only one business requirement or bug report away from being consigned to the status of “wrong”.
+
+Context switches are expensive, whether they are CPU context switches or a programmer having to mentally switch context while reading code.
+
+\[too many levels of abstraction are hard to grasp\]
+
+Smaller the functions, longer the names.
+
+Some say that small functions force stack calls list be more readable.
+
+When thinking about how to abstract, it greatly helps to be cognizant of the fact that the code we’re building might probably only be a few hours away from dying (being modified).
+
+the code we’re building might probably only be a few hours away from dying (being modified). Thus optimizing for ease of modification of code tends to work better than trying to build topdown narratives of the sort proposed in Clean Code.
+
+The more the number of classes/interfaces/packages, the harder it is to “take it all in” in one fell swoop, which does zilch to justify the maintenance cost of these various classes/interfaces/packages we’ve built.
+
+Explosion of small functions, especially one line functions, makes the codebase inordinately harder to read.
+
+"A Philosophy of Software Design" by John Ousterhout
+
+What I’m really hoping for during the times I venture into uncharted territory is to make the least number of mental hops and context switches while trying to find the answer to a given question. 
+
+The best modules are those that provide powerful functionality yet have simple interfaces. I use the term deep to describe such modules. A shallow module is one whose interface is relatively complex in comparison to the functionality that it provides. Splitting to smallest possible classes often doesn't help with writing deep modules.
+
+Mocks are an artificial simulation of some result. Mocks are also very likely to get out of sync from the real service they stand-in for. The way network I/O is tested is by, well, not actually testing it. I find limiting the surface area of mocks to the least amount of code to work best. Should be a function with no more than 1–2 lines
+
+Mocks also work best when there is just a single instance of every particular mock and every test uses the same mock.
+
+Property based testing: each time many passes with randomly generated tests: (Haskell) QuickCheck, (Scala) ScalaCheck, (Python) Hypothesis.
 
 ## One Big Fluke › What is "founder code"? / Brett Slatkin
 
