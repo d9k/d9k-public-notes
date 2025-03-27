@@ -161,3 +161,39 @@ Founder code is fundamentally just another name for prototyping. When a team has
 Thus, the ultimate goal of founder code is to become obsolete.
 
 About: author of the book [Effective Python](https://effectivepython.com/). A software engineer at Google. @haxor on Twitter.
+
+## The harsh reality of good software / ThePrimeTimeagen
+
+- https://www.youtube.com/watch?v=NiljDyzAOcI
+
+Author: if I have to sum up my coding skills after 15 years of software development I would probably go with something like "average". A lot of devs feel the same regardless of years of experience.
+
+Primeagen: usually you need to learn many things at the beginning of project. But once you do it, the interest goes down.
+
+Primeagen: People don't care how hard you worked. If you didn't sleep several days and deploy feature that breaks everything you'll be upset.
+
+Nobody besides your team really cares about DDD or how much layers of abstractions and design patterns you preemptively added to the project.
+
+As long as a software works nobody outside dev team will prioritise fixing it.
+
+Primeagen: software must be properly tested. There is no such thing as clean readable code. There are degrees of shitty code.
+
+Code must be clean, concise, planned, maintainable, secure, performant. Fight abstractions, understand the domain, follow standards, know your tech, refactor with caution.
+
+Fight abstractions - assume unexpected changes when you write code.
+
+All problems in computer science can be solved with another level of indirection except the problem of too many levels of indirection. / David Wheeler \[Isn't AI debugging is such a problem?\]
+
+The problem of too many abstractions can be easily solved with... talking to other people.
+
+Primeagen: first build atomic pieces of whatever you need. Next make a couple of things with these atomic pieces. Then abstract over these tiniest amount.
+
+Sonarqube static analyser, supports TypeScript
+
+18:45 Primeagen: small functions codebase requires so much hopping around to figure out what the function does. You don't want code that is hard to follow. Eyeshot development - context must be within eyeshot. It must be obvious what function does.
+
+20:20 The best tool for the job is the tool you know best. 43% of all sites are still built on WordPress.
+
+24:30 Programming is.. you failing on a sword of somebody else's shortcut.
+
+27:05 Just enjoy what you're doing. If you find a way to not look at a problem as inconvenient but as an opportunity to learn and get better your life will significantly be better.
