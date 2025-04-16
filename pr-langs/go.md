@@ -202,6 +202,11 @@
 
 ## :microbe: Go disadvantages
 
+- :tv: [HARD truths before switching to Go... | Awesome | YT](https://www.youtube.com/watch?v=UEU4SzBjqrc), 2025
+	- repetititve structure envelope
+	- repertitive error values handling
+	- no function overload
+
 - :tv: [Golang Is Not a Sexy Programming Language | YT](https://www.youtube.com/watch?v=eQbc7cUrKzA)
 
 - :newspaper: [We Need To Talk About The Bad Sides of Go | by Aviv Carmi | Oct, 2022 | Medium](https://web.archive.org/web/20221018104216/https://medium.com/@avivcarmis/we-need-to-talk-about-the-bad-sides-of-go-568a1e5adbc6)
