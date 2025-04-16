@@ -21,3 +21,14 @@
 23:45 6-й: Цукерберг позвонит (Google предложит деньги за поддержку проекта).
 
 27:50 последний уровень: донаты достигнут 100k $ / год (создатель LiveWire, AlpineJS, аналог Hmtx). OpenSource - место, где вполне можно заработать
+
+## DragonRuby’s Philosophy
+
+- https://docs.dragonruby.org/#/misc/philosophy
+
+Give what you create away for free to those that can’t afford it.
+
+This goes hand in hand with sustainable and ethical monetization. The current state of open source is not sustainable. There is an immense amount of contributor burnout. Users of open source expect everything to be free, and few give back. This is a problem we want to fix (we’re still trying to figure out the best solution).
+
+Building A Game Should Be Fun And Bring Happiness:
+We will prioritize the removal of pain. The aesthetics of Ruby make it such a joy to work with, and we want to capture that within the engine.
