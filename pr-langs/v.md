@@ -135,3 +135,6 @@ Python - оч. сложный язык. Фейк-простота завуали
 - private by default, needs pub
 - `outer:`, `continue outer`: labels to control execution flow
 
+## Features
+
+- [defer | V Documentation](https://docs.vlang.io/statements-&-expressions.html#defer)
