@@ -11,3 +11,13 @@ Automated tests handle regression and basic functionality, while exploratory tes
 In scripted testing, you might have automated tests, but exploratory is manual. However, there might be tools to assist, like note-taking apps or screen capture software to document findings. Some sources mention session-based testing, where testers allocate a specific time (a session) to explore a particular area, then report their findings. Session management tools: TestRail, qTest.
 
 Since it's unstructured, it's hard to measure coverage. How do you ensure that all parts of the application are tested? Maybe through charters or missions that guide the tester's exploration. Also, documentation is important; even though it's exploratory, testers need to record their process and findings for reproducibility and accountability.
+
+## Exploratory Testing | GeeksforGeeks
+
+- https://www.geeksforgeeks.org/exploratory-testing/
+
+Exploratory testing aims to optimize and improve the software in every possible way. The exploratory testing technique combines the experience of testers with a structured approach to testing. It is often performed as a black box testing technique.
+
+No matter how many test cases you have created you will run out of formally planned test cases.
+
+With exploratory testing, testers can annotate defects, add assertions, and voice memos and in this way, the user story is converted to a test case.
