@@ -197,3 +197,9 @@ Sonarqube static analyser, supports TypeScript
 24:30 Programming is.. you failing on a sword of somebody else's shortcut.
 
 27:05 Just enjoy what you're doing. If you find a way to not look at a problem as inconvenient but as an opportunity to learn and get better your life will significantly be better.
+
+## Мысли о хакатонах
+
+Мысли после просмотра :tv: [Seriously watch this if you're a computer science student | Lattice | YT](https://www.youtube.com/watch?v=-cCL0gO3Mg0)
+
+Хакатон - да, это код на выброс, но ты потратил минимальное количество времени. У тебя рабочий сырой прототип с минимальным кодом, который можно трансформировать во что-то ещё.
