@@ -58,10 +58,11 @@ JS on Bun - 1 hour.
 		- Doesn't care: just ship, `$$$`, want users
 		- Programming purist: Associates their self worth with the language. Hyper-fixates on complex programming solutions. "Above" the simpletons
 
-## #project<span>&hairsp;s</span> on Zig
+## :balloon: #project<span>&hairsp;s</span> on Zig
 
 - [bun](https://github.com/oven-sh/bun) by [oven-sh](https://github.com/oven-sh)
 	- _Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one_
+- [yorhel/ncdu: NCurses Disk Usage - Blicky.net Git Hosting](https://code.blicky.net/yorhel/ncdu/)
 
 ## #speed
 
