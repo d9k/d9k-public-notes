@@ -52,11 +52,21 @@ JS on Bun - 1 hour.
 		- 3rd person: I don't get the same feelings of Joy when writing Go like I do with other languages. But it's good for working with other people!
 	- Go was not a choise because wanted to own every single allocation.
 	- Talks with Zig author. Excellent community.
+
 - :tv: [Why does everyone hate Go? | YT](https://www.youtube.com/watch?v=VVb65xABTWw)
 	- 1:00 Zig creator criticizes Go.
 	- 2 types of language users:
 		- Doesn't care: just ship, `$$$`, want users
 		- Programming purist: Associates their self worth with the language. Hyper-fixates on complex programming solutions. "Above" the simpletons
+
+- :tv: [Why learn Zig? | Kodaps Academy | YT](https://www.youtube.com/watch?v=wKAsZImDtak), 2024
+	- Interoperability with C: Zig can use C libraries. Incremental adoption
+	- 2:00 Errors are part of type system. Managing errors is required
+	- 3:20 Rust tries to eliminate errors by design. Rust tracks variables lifetime.
+	- 4:00 Comptime instead separate C macro language
+	- 4:50 Cross-compilation. Toolchain is a part of the language. Integrated TDD
+	- 5:10 Zig concurrency is a native language feature
+	- 6:10 [Exercism](https://exercism.org/) ad (algo tasks and test assignments tasks (like build own SQLite))
 
 ## :balloon: #project<span>&hairsp;s</span> on Zig
 

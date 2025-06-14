@@ -54,3 +54,9 @@
 ## Александр Соловьёв (укр.)
 
 - [ ] :tv: [Александр Соловьев, CTO Kasta — перешел c Python на Clojure, не кодит вечером и критикует свитчеров | YT](https://www.youtube.com/watch?v=ZNJAmgO4H7c)
+
+## David Hockley
+
+- :dromedary_camel: [Gosev | GH](https://github.com/Gosev)
+- [Kodaps Academy - YouTube](https://www.youtube.com/@KodapsAcademy/videos)
+	- Хорошие очень простые для понимания лекция
