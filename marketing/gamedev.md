@@ -25,3 +25,7 @@
 	- Dev logs
 	- Streamers
 	- Game trailer
+
+- :tv: [How Is This So Hard To Understand?? | Asmongold | YT](https://www.youtube.com/shorts/78alC_VwVtI)
+	- (Games for gooners exceptional financial success.)
+	- Asmongold: "Nobody wants to look at ugly b\*tches :shrug:"
