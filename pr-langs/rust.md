@@ -17,3 +17,17 @@
 		- async has been added to the language at a later stage, so async integration sometimes feels limited and [complex](https://users.rust-lang.org/t/pin-unpin-sometimes-feels-slapped-on-top-of-an-existing-language/65944) (pinning, lifetime issues, etc.)
 		- error handling sometimes feels like having a lot of friction (one thing I ran into can be [found here](https://users.rust-lang.org/t/error-cannot-be-sent-shared-between-threads-safely/91455), [another example there](https://users.rust-lang.org/t/error-cannot-be-sent-shared-between-threads-safely/91455))
 		- complexity of the language leads to inevitable design flaws in std (e.g. [this one](https://internals.rust-lang.org/t/semantics-of-asref/17016?u=jbe)) which are probably [impossible to fix](https://internals.rust-lang.org/t/rusts-complexity-rusts-stability-policy/16946?u=jbe)
+
+## Rust - очень вредный язык программирования? | Миша Ларченко | YT
+
+https://www.youtube.com/watch?v=U8GS5ZB1CG0
+
+Главный разработчик Rust For Linux ушёл с проекта. не хватает энтузиазма, чтобы побороть нетехнические глупости.
+
+Люди работающие с Rust долгое время, склонны к выгоранию.
+
+jyn514: "the number of people who have left the rust project due to burnout is shockingly high. the number of people in the project who are close to burnout is also shockingly high". / https://jyn.dev/the-rust-project-has-a-burnout-problem/
+
+## Комментарии
+
+@gtr-o-dimm: Вы Миша на Раст не базарьте, просто зайдите в си-комьюнити и скажите слово раст, очнетесь на костре как еретик и сразу поймёте от чего устает раст разработчик
