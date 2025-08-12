@@ -1,6 +1,6 @@
 # Marketing: gamedev casual
 
-## Ловушка инфантильного игрока | Palach | YT
+## Ловушка инфантильного игрока | Palach | YT, 2025
 
 - https://www.youtube.com/watch?v=cKzyPwCw6_w
 

@@ -1,6 +1,6 @@
 streamers
 
-# Стримеры в Китае - цензура, бесправие, запреты, торговля / Good Girl NG
+# Стримеры в Китае - цензура, бесправие, запреты, торговля / Good Girl NG, 2022
 
 - https://www.youtube.com/watch?v=2yH17lBEM78
 
