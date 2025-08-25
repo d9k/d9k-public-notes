@@ -1,7 +1,12 @@
 # Zig
 
+## Links
+
+- [Zigistry: A package registry and manager for Zig | Find & Share Zig Packages](https://zigistry.dev/)
 - [awesome-zig](https://github.com/zigcc/awesome-zig) by [zigcc](https://github.com/zigcc)
 	- _A collection of some awesome public Zig programming language projects._
+- [News ⚡ Zig Programming Language](https://ziglang.org/news/)
+- [Devlog ⚡ Zig Programming Language](https://ziglang.org/devlog/2025/)
 
 ## Zig Language | Thoughts After 2 Years | codingjerk, 2025
 
@@ -68,11 +73,15 @@ JS on Bun - 1 hour.
 	- 5:10 Zig concurrency is a native language feature
 	- 6:10 [Exercism](https://exercism.org/) ad (algo tasks and test assignments tasks (like build own SQLite))
 
+
 ## :balloon: #project<span>&hairsp;s</span> on Zig
 
 - [bun](https://github.com/oven-sh/bun) by [oven-sh](https://github.com/oven-sh)
 	- _Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one_
-- [yorhel/ncdu: NCurses Disk Usage - Blicky.net Git Hosting](https://code.blicky.net/yorhel/ncdu/)
+- [yorhel/ncdu | Blicky.net Git Host](https://code.blicky.net/yorhel/ncdu/)
+	- NCurses Disk Usage
+- [tigerbeetle](https://github.com/tigerbeetle/tigerbeetle) by [tigerbeetle](https://github.com/tigerbeetle)
+	- _The financial transactions database designed for mission critical safety and performance._
 
 ## #speed
 
@@ -101,3 +110,9 @@ JS on Bun - 1 hour.
 	- `Writer` example
 - [Zig Interfaces for the Uninitiated, an update - Zig NEWS](https://zig.news/kilianvounckx/zig-interfaces-for-the-uninitiated-an-update-4gf1), 2022
 	- `Iterator` example
+
+## Zig cookbook: collection of simple Zig programs that demonstrate good practices | Hacker News
+
+https://news.ycombinator.com/item?id=38837807
+
+flohofwoe: In short: Zig can (and does) fix C warts from the ground up because it doesn't need to be backward compatible with C, while still getting the essence of what makes C useful (many other new languages don't get this important part). The biggest advantage over C for day-to-day coding is probably the much more complete and useful stdlib. You also don't need to "switch", mixed C/Zig projects are well supported by the Zig language and build system. Having said that, I still write most new code in C (C99 designated init is still superior to what Zig has to offer for struct initialization), but at least there's now a worthwhile alternative on the horizon to switch to in the future.

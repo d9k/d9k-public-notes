@@ -1,5 +1,7 @@
 # Programming languages
 
+[Admired and Desired | 2025 Stack Overflow Developer Survey](https://survey.stackoverflow.co/2025/technology#admired-and-desired)
+
 ## The Ultimate Tier Programming Tier List | Prime Reacts
 
 - https://www.youtube.com/watch?v=fIp-cWEHaCk
