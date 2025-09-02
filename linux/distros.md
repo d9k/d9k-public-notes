@@ -396,8 +396,10 @@ Vanilla OS uses ABRoot (https://github.com/Vanilla-OS/ABRoot) to provide its imm
 
 - Alt Linux
 	- работает на российских процессорах Эльбрус
+	- :beginner: [В самом начале ... | ALT Zero](https://plafon.gitbook.io/alt-zero)
 	- :tv: [ALT linux - что нового в 11 платформе и что мы имеем в текущей p10 | YT](https://www.youtube.com/watch?v=1JCj7mH9uwY)
 	- `epm` пакетный менеджер
+	- :tv: [100 лет на Линуксе (2025) | PLAFON | YT](https://www.youtube.com/watch?v=2eA_eqkX-bM)
 - РОСА Linux
 	- :tv: [Недостатки РОСА ОС Linux и других российских операционных систем | YT](https://www.youtube.com/watch?v=674_0hzDLSM)
 	- Нет скриншотов программ в центре приложений как в Ubuntu
