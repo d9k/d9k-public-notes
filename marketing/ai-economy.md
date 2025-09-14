@@ -63,3 +63,13 @@ Salesforce, Zapier, Jotform разрабатывают инструменты д
 ServiceNow, Workday с их Agentic AI и другие крупные игроки уже создают экосистемы ИИ-агентов, которые они предоставляют в аренду бизнесу.
 
 Когда все средства производства XIX и XX веков централизовались, это всегда вело к росту экономического неравенства, но компенсировалось созданием новых рабочих мест, требовавших новых навыков и образования. Но когда централизуются **Новые Трудовые Ресурсы XXI век**а, способные **полностью заменить человеческий труд**, возникает беспрецедентное социальное расслоение.
+
+## The AI Bubble is BURSTING… / Shade of Code, 2025.08
+
+https://youtube.com/watch?v=5os_nalLwvI
+
+Companies poured millions into AI transformations. But ROI isn't there.
+
+AI generated code that compiles as often as your wi-fi works during the Zoom call.
+
+Looks more like .com rerun.
