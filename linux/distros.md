@@ -58,11 +58,6 @@
 	- Toolbx is installed by default on Fedora Silverblue and Workstation
 	- install at user-space level
 
-- distrobox
-	- [Distrobox - ArchWiki](https://wiki.archlinux.org/title/Distrobox)
-	- :newspaper:  [How to integrate any Linux distribution inside a terminal with Distrobox - Linux Tutorials - Learn Linux Configuration](https://linuxconfig.org/how-to-integrate-any-linux-distribution-inside-a-terminal-with-distrobox)
-	- [Distrobox vs Toolbox? : r/Fedora](https://www.reddit.com/r/Fedora/comments/u69vr9/distrobox_vs_toolbox/)
-		- _The biggest issue with Toolbox (in my opinion), is it just hands your home directory over as the container's home directory, with no way to configure this. That issue is a deal-breaker for me and makes the software completely pointless and unusable. I've also had Toolbox just randomly break on me oftn. Distrobox supports configuring the container's home directory, which immediately makes it the much better option to me. Tlbx is another superior option._
 
 	- :tv: [Stop Distro Hopping! Use this AWESOME tool on Linux | YT](https://www.youtube.com/watch?v=Sj064D9ZUl8)
 	- [ ] :tv: [Distrobox Is Basically A Linux Subsystem For Linux | YT](https://www.youtube.com/watch?v=FhW-3PPldAg)
@@ -412,3 +407,44 @@ Vanilla OS uses ABRoot (https://github.com/Vanilla-OS/ABRoot) to provide its imm
 ## Truely #OSS distros
 
 - :tv: [your Linux distro isn't FREE! (these are) | YT](https://www.youtube.com/watch?v=IGV7A6X6uCg)
+
+## Install package from different Linux distro
+
+- :tv: [Gaming on Slackware with Conty, the Arch Linux container application | YT](https://www.youtube.com/watch?v=yugKXXzAdqY)
+
+- homebrew
+
+- Nix
+
+- [Is there a way to use AUR on ubuntu? : r/Ubuntu](https://www.reddit.com/r/Ubuntu/comments/9sogqg/is_there_a_way_to_use_aur_on_ubuntu/)
+
+- distrobox
+	- :tv: [New to DistroBox? Start Here: Full Beginner's Tutorial! | Learn Linux TV | YT](https://www.youtube.com/watch?v=eiDt4O6UPRw)
+		- install distrobox
+		- [distrobox](https://github.com/89luca89/distrobox) by [89luca89](https://github.com/89luca89)
+			- Use any linux distribution inside your terminal. Enable both backward and forward compatibility with software and freedom to use whatever distribution you’re more comfortable with.
+			- :zap: `wget https://github.com/89luca89/distrobox/raw/refs/tags/1.8.1.2/install; sudo sh install`
+		- install podman
+			- for better security
+		- 6:00 `distrobox create`
+		- 7:30 `distrobox --nvidia create` - expose NVidia videocard to the container
+		- 8:00 `distrobox enter my-distrobox` `cat /etc/os-release`
+		- 9:30 podman allows to run rootless containers.
+	- :tv: [Installing Mojo🔥 on Arch/Fedora/Distrobox | Mii beta | YT](https://www.youtube.com/watch?v=MHSGphClhZw)
+		- :zap: `distrobox create --image archlinux:multilib-devel --name d9k-arch-32-dev-container`
+			- [x] :rotating_light: `short-name "archlinux:multilib-devel" did not resolve to an alias and no unqualified-search registries are defined in "/etc/containers/registries.conf"`
+				- :zap: `sudo nvim /etc/containers/registries.conf`
+					- add `sudo nvim /etc/containers/registries.conf`
+				- :zap: `distrobox enter d9k-arch-32-dev-container`
+					- :rotating_light: `lua: error while loading shared libraries: libreadline.so.6: cannot open shared object file: No such file or directory`
+	- Check space occupied
+		- :zap: `sudo du -h ~/.local/share/containers`
+
+
+
+	- [Distrobox - ArchWiki](https://wiki.archlinux.org/title/Distrobox)
+	- :newspaper:  [How to integrate any Linux distribution inside a terminal with Distrobox - Linux Tutorials - Learn Linux Configuration](https://linuxconfig.org/how-to-integrate-any-linux-distribution-inside-a-terminal-with-distrobox)
+	- [Distrobox vs Toolbox? : r/Fedora](https://www.reddit.com/r/Fedora/comments/u69vr9/distrobox_vs_toolbox/)
+		- _The biggest issue with Toolbox (in my opinion), is it just hands your home directory over as the container's home directory, with no way to configure this. That issue is a deal-breaker for me and makes the software completely pointless and unusable. I've also had Toolbox just randomly break on me oftn. Distrobox supports configuring the container's home directory, which immediately makes it the much better option to me. Tlbx is another superior option._
+	- apx
+		- There is a distro called VanillaOS, and its package manager, apx, is a wrapper around distrobox. The killer feature is that it allows to have APT, DNF and AUR on a single system.
