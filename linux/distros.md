@@ -25,6 +25,7 @@
 - [DistroWatch Project Ranking (>100 reviews)](https://distrowatch.com/dwres.php?resource=ranking)
 - :tv: [The Linux Tier List | Christ Titus Tech | YT](https://www.youtube.com/watch?v=KyADkmRVe0U&t=1220s)
 - [DistroWatch Project Ranking (>10 reviews)](https://distrowatch.com/dwres.php?resource=ranking&sort=average10)
+- :tv: [What Your Linux Distro Says About You in 2025 | The Linux Cast | YT](https://www.youtube.com/shorts/ImtoYNt8lFw)
 
 ## #theory
 
@@ -127,7 +128,12 @@
 
 ## Smol
 
-- [DistroWatch.com: KNOPPIX](https://distrowatch.com/table.php?distribution=knoppix)
+- Loc-OS
+	- [DistroWatch.com: Loc-OS](https://distrowatch.com/table.php?distribution=locos)
+	- :tv: [Can this Linux distro resurrect my tiny laptop from 2010? | foci | YT](https://www.youtube.com/watch?v=OMl69uCu6jY)
+		- 64 Linux vesion bit works faster
+- KNOPPIX
+	- [DistroWatch.com: KNOPPIX](https://distrowatch.com/table.php?distribution=knoppix)
 - Alpine
 	- :tv: [Alpine Linux - Simple, Small, and Secure | Titus Tech Talk | YT](https://www.youtube.com/watch?v=UmXNI9PcxDI)
 		- _The less crap you have on a system the smaller attack surface you have_
@@ -225,7 +231,7 @@ Vanilla OS uses ABRoot (https://github.com/Vanilla-OS/ABRoot) to provide its imm
 
 - :tv: [Linux Mint 22 is great, but are they trying to do too much? | The Linux Experiment | YT](https://www.youtube.com/watch?v=SO6xx-KF3qs)
 
-## Fedora
+## Fedora-based
 
 - :tv: [Why Has Fedora Become So Popular? | YT](https://www.youtube.com/watch?v=SVVe40Qhaug)
 	- stability, amount of software
@@ -236,6 +242,12 @@ Vanilla OS uses ABRoot (https://github.com/Vanilla-OS/ABRoot) to provide its imm
 	- :zap: `sudo dnf group install Multimedia`
 - supports rpm fusion (?) for additional packages
 - :tv: [uBlue Linux: Immutable Fedora With Batteries Included | YT](https://www.youtube.com/watch?v=HsKKh3WS1q0)
+
+### Bluefin
+
+- [DistroWatch.com: Bluefin](https://distrowatch.com/table-mobile.php?distribution=bluefin)
+	- _If you edit video, you can even install DaVinci Resolve just by typing "ujust install-resolve", and it'll be installed into a preconfigured Distrobox. Installing Resolve on Linux is infamously a bit of a minefield._
+	- _Coming from Arch and tired of having to built my own system, this seems to be the "Linux Mint" substitute, as there is absolutely no maintenance with it._
 
 ## OpenSuse
 
@@ -326,6 +338,10 @@ Vanilla OS uses ABRoot (https://github.com/Vanilla-OS/ABRoot) to provide its imm
 	- [Why "Nobara" as a name? : r/NobaraProject](https://www.reddit.com/r/NobaraProject/comments/1aty9t2/why_nobara_as_a_name/)
 		- _the creator(s) really liked Nobara Kugisaki_
 - [ ] [ChimeraOS](https://chimeraos.org/)
+
+- [ ] SteamOS
+	- Arch, BTW
+	- [Why did they choose KDE Plasma as a Desktop Environment for SteamOS? :: Steam Deck General Discussions](https://steamcommunity.com/app/1675200/discussions/0/3319736698850085211/)
 
 ## LTS distros
 
