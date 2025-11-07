@@ -16,8 +16,7 @@ Good promotion. Sega master system games to game gear cartridge converter
 faulty capacitors.
 Sega Nomad could play Sega Genesis cartridges!
 
-
-# Unleashing the strengths of the Lynx - How Atari's handheld worked | White\_Pointer Gaming
+## Unleashing the strengths of the Lynx - How Atari's handheld worked | White\_Pointer Gaming
 
 https://www.youtube.com/watch?v=h8OL9YchbsU
 
@@ -34,3 +33,29 @@ Warzone 2000 - really cool 3d gfx.
 Gordo106 - parallax effect.
 
 13:30 Only 70 commercial games released.
+
+## Почему Nintendo 3DS лучшая портативка / Луцай, 2022
+
+https://www.youtube.com/watch?v=Qf8bhqR2BYU
+
+0:45 "С возрастом я заметил, чем больше возни и подготовки к какому-то делу, тем ленивее мне его начинать, даже если это досуг"
+
+2:10 Есть PS4, PS5, Switch, но выбрать что-то из библиотеки всё сложнее. Это хорошие, но гигантские игры размером с сериал. А я говорил, что не люблю сериалы.
+
+4:00 Повторяющаяся цикличная тема это и есть поп-музыка. David Bowie - открыл поп-музыку, визуальная составляющая поп-арт стала дополнять композицию.
+
+6:00 Судя по всему, Nintendo переняли приёмы из поп-музыки, поэтому так успешны.
+
+10:00 3DS играть на улице невозможно, тусклый экран
+
+11:00 Switch - открытые миры.
+
+11:40 3DS - мало портов.
+
+12:00 PS Vita - много хороших игр, но - большие. За них надо садиться как за чтение книги.
+
+12:30 3DS - короткие сегменты, расстояния преодолеваются быстро, выразительное окружение.
+
+13:30 Zelda: Breath of The Wild для Switch: тоже короткие данжи, до 20 мин. Ocarina / Mask портированы на 3DS, но данжи можно проходить по 1.5 часа и застревать, так как загадки неочевидны.
+
+37:30 В каждом меню свой джингл и звуки нажатия кнопок.
