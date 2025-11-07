@@ -60,3 +60,24 @@
 - :dromedary_camel: [Gosev | GH](https://github.com/Gosev)
 - [Kodaps Academy - YouTube](https://www.youtube.com/@KodapsAcademy/videos)
 	- Хорошие очень простые для понимания лекция
+
+## JeodC
+
+- [JeodC (Jeod) | GH](https://github.com/jeodc)
+- Visits Rocklinux Discord
+- [RHH-Ports](https://github.com/JeodC/RHH-Ports) by [JeodC](https://github.com/JeodC)
+	- _My ports designed for Linux arm64 devices._
+	- :door: [Jeod's Retro Handheld Ports](https://jeodc.github.io/RHH-Ports/)
+
+## Dominic Szablewski
+
+- #gameDev, #speed
+- [phoboslab :dromedary_camel:](https://github.com/phoboslab)
+- :door: [PhobosLab](https://phoboslab.org/)
+- [q1k3](https://github.com/phoboslab/q1k3) by [phoboslab](https://github.com/phoboslab)
+	- _13kb Quake-like FPS for js13k_
+- [qoi](https://github.com/phoboslab/qoi) by [phoboslab](https://github.com/phoboslab)
+	- _The “Quite OK Image Format” for fast, lossless image compression_
+	- QOI's compression is roughly comparable to PNG (usually worse than [libPNG](https://github.com/pnggroup/libpng), but better than [stb_image_write.h](https://github.com/nothings/stb/blob/master/stb_image_write.h)), while throughput is a lot higher.
+- [qoa](https://github.com/phoboslab/qoa) by [phoboslab](https://github.com/phoboslab)
+	- _The “Quite OK Audio Format” for fast, lossy audio compression_
