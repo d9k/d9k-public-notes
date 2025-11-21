@@ -128,6 +128,7 @@
 
 ## Smol
 
+- [Comparison of lightweight Linux distributions - Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_lightweight_Linux_distributions)
 - Loc-OS
 	- [DistroWatch.com: Loc-OS](https://distrowatch.com/table.php?distribution=locos)
 	- :tv: [Can this Linux distro resurrect my tiny laptop from 2010? | foci | YT](https://www.youtube.com/watch?v=OMl69uCu6jY)
@@ -144,6 +145,9 @@
 	- :tv: [I Used Alpine Linux For 30 Days, Here's How It Went | PenguinByte |  YT](https://www.youtube.com/watch?v=JjctvUcQkjA)
 		- Couldn't render video in video editor
 		- Network Manager loses connection
+- OpenWRT
+	- [Unable to install xorg-server - Installing and Using OpenWrt - OpenWrt Forum](https://forum.openwrt.org/t/unable-to-install-xorg-server/158114/2)
+		- You cannot install a graphics server on OpenWrt. The fundamental dependenceis are not available for OpenWrt and would likely take years to develop (and nobody is interested in doing this).
 
 - Tails
 	- incognito-mode OS
