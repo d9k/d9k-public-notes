@@ -18,3 +18,15 @@ https://www.youtube.com/watch?v=LLY6KPHmmmQ
 - Dev logs
 - Streamers
 - Game trailer
+
+## Reviews count on new games, 2025.12
+
+https://x.com/SteamDB/status/1999420488271937702
+
+Over 19,000 games have released on Steam in 2025. Almost half of them have fewer than ten reviews.
+
+## Corporation (1990). Шутер, обогнавший время / OKEANMUDROSTI
+
+https://www.youtube.com/watch?v=Nau7FSCV8Ys
+
+35:00 Концепция расширялась быстрее, чем продумывалось её воплощение

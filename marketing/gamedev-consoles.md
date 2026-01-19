@@ -1,4 +1,4 @@
-# Marketing: gamedev: consoles
+# Marketing: gamedev for consoles
 
 ## Setting Boundaries, Open Source, & Gamedev on Consoles
 

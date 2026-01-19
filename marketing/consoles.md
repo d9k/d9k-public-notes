@@ -5,3 +5,5 @@
 	- Slower time to game
 	- Large slow downloading updates
 	- Less exclusive games
+
+	

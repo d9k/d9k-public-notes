@@ -5,3 +5,7 @@
 https://4pda.to/2025/10/18/448364/issledovanie_yaponskie_gejmery_ochen_redko_ostavlyayut_pozitivnye_otzyvy_k_igram/
 
 Некоторых участников опрос убедил в том, что необходимо менять собственные привычки — ведь из-за нежелания геймеров высказываться страдают местные инди-разработчики. Их игры просто не получают достаточно базовых метрик, чтобы выйти за пределы локального рынка.
+
+## An up and rising identity in Japan: Rekijo
+
+https://www.youtube.com/shorts/U_0tUzCL1dw
