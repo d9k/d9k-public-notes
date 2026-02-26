@@ -72,7 +72,7 @@
 ## Dominic Szablewski
 
 - #gameDev, #speed
-- [phoboslab :dromedary_camel:](https://github.com/phoboslab)
+- :dromedary_camel: [phoboslab](https://github.com/phoboslab)
 - :door: [PhobosLab](https://phoboslab.org/)
 - [q1k3](https://github.com/phoboslab/q1k3) by [phoboslab](https://github.com/phoboslab)
 	- _13kb Quake-like FPS for js13k_
@@ -81,3 +81,21 @@
 	- QOI's compression is roughly comparable to PNG (usually worse than [libPNG](https://github.com/pnggroup/libpng), but better than [stb_image_write.h](https://github.com/nothings/stb/blob/master/stb_image_write.h)), while throughput is a lot higher.
 - [qoa](https://github.com/phoboslab/qoa) by [phoboslab](https://github.com/phoboslab)
 	- _The “Quite OK Audio Format” for fast, lossy audio compression_
+
+## Seenkao
+
+- https://habr.com/ru/users/Seenkao/
+- #FreePascal, #Android
+
+## Venus Sunev / Samael Kethill
+
+- [rmn20 | GH](https://github.com/rmn20?tab=repositories&q=&type=source&language=&sort=)
+- :balloon: [Samael Kethill | itch.io](https://samael-kethill.itch.io/)
+	- :tv: [Bizarre Dream Bazaar (Carpet Edition) | YT](https://www.youtube.com/watch?v=dKzSH1iUKGc)
+
+## Snusmumriken
+
+- :label: / Tommy / HDPLocust.
+- :label: #Lua, #Love2D, #gameDev
+- [HDPLocust (Snusmumriken) | GH](https://github.com/HDPLocust)
+
