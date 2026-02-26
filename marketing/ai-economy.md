@@ -112,3 +112,103 @@ https://www.vedomosti.ru/technology/articles/2025/12/18/1164563-tri-chetverti-ro
 – Наличие ИИ-стратегии ускоряет получение реальной бизнес-выгоды
 – В основном ИИ внедряют через частное и публичное облако (23%)
 – Локальные установки задействуют 20%, гибридные сценарии – 13%
+
+## Why Everyone Is Wrong About the AI Bubble | Maxinomics | YT, 2026
+
+https://www.youtube.com/watch?v=Wcv0600V5q4
+
+What was the failed promise of AI bubble? The copper cable and slow internet.
+Laying optic fiber cables but not the last mile. Dark fiber.
+9:00 You can rotate gold nugget in imagination, AI can't.
+10:30 Data center the size of Manhattan.
+12:30 Text - 1D, Image - 2D, Video - 3D (time is third dimension)
+14:30 Electricity demand never grew this fast in the human history.
+15:30 If AI used 3 times in 1 week 95% of people would never stop using it.
+16:30 Retention. Users ditch AI for month than come back to try again. Most people ready to try paid AI with more precise answers.
+18:00 If something gets cheaper we increase amount of buying it. - Jevon's paradox.
+20:00 AI just repackaging data accumulated by humanity.
+
+### Вывод
+
+ИИ-пузырь в любом случае лопнет в течение пары лет, потому что датацентрам требуется всё больше электроэнергии и только плановая экономика Китая сможет частично поспевать за новыми требованиями.
+
+Так же как пузырь доткомов лопнул из-за медленного интернета по телефонному проводу. Тогда были вбуханы миллиарды в сеть магистральных оптоволоконных кабелей, но интернет в квартирах оставался медленным - средняя скорость загрузки страницы составляла 30 секунд. Если бы сосредоточились на прокладке оптоволокна до офисов и квартир в богатых районах больших городов, всё могло бы быть по-другому.
+
+## Пузырь ИИ: крах, который изменит поколения | Shubhransh Rai | Хабр, 2025
+
+https://habr.com/ru/companies/bothub/articles/982404/
+
+Цены на акции полностью оторвались от реальной прибыли компаний.
+
+Семь крупнейших игроков в сфере искусственного интеллекта - Nvidia, Microsoft, Apple, Amazon, Alphabet и Tesla - сегодня составляют 35% всего индекса S&P 500. 75% рыночного роста с октября 2022 года приходится именно на эти семь компаний.
+
+Но вот проблема: многие из них уже сейчас убыточны. Они сжигают колоссальные суммы на строительство дата-центров и инфрас
+
+Консалтинговые гиганты оценивают возможный рост производительности от внедрения ИИ так:
+
+McKinsey - 3,4% в год
+Goldman Sachs - 1,5%
+
+Все ставят на то, что ИИ заменит людей, компании станут сверхприбыльными... Но в этом случае у таких компаний не останется клиентов - ведь у большинства не будет работы.
+
+### Призраки доткомов
+
+Когда появился интернет, все были уверены в вечности Yahoo, Excite, Netscape... Большинство из них не выжило.
+
+«Войны браузеров» и «войны поисковиков» смели целые корпорации. Даже уцелевшие гиганты вроде Intel и Oracle так и не восстановили свои докризисные котировки. Они стали чем-то вроде «технических старожилов», хранящих былое величие.
+
+Теперь история повторяется с ИИ. Сотни компаний с гордостью заявляют, что они «на базе искусственного интеллекта» или «используют машинное обучение». Большинство из них исчезнет. Некоторые выживут, но их акции все равно рухнут.
+
+Пузыри приходят и уходят, но технологии остаются. Интернет пережил крах доткомов - и изменил мир. ИИ переживет свой пузырь тоже. Вопрос в том, кто успеет извлечь из него пользу уже сейчас.
+
+### 2008-й возвращается
+
+Бывший президент Трамп обещает «все дерегулировать» - убрать ограничения, дать банкам сливаться. Так, шаг за шагом, возникает сценарий нового 2008 года.
+
+Тогда тоже разрешили слияния, банки стали «слишком большими, чтобы упасть» - и рисковали без меры, зная, что государство все равно спасет их нашими деньгами.
+
+Теперь история повторяется. Региональные банки объединяются. Появляются криптобанки. Потребительские агентства лишаются финансирования.
+
+### Почему на этот раз все серьезнее
+
+Железные дороги остались. Они создавали реальную ценность. Некоторые компании из сферы ИИ тоже выживут и принесут пользу.
+
+Но финансовый разгром будет настоящим и глубоким.
+
+И в отличие от железных дорог, ИИ заменит миллионы рабочих мест, не создавая новых. Компании не будут вслух говорить: «Мы заменяем людей ИИ». Просто будут сокращать. А сэкономленные деньги оставят себе.
+
+Результат - рост безработицы, падение спроса и застой экономики. Напечатать новые доллары уже не получится - инфляция станет непреодолимым ограничением.
+
+### Комментарии
+
+Rukh: https://lovi.care/ Наши химики написали методологию анализа компонентов косметики. И чтобы заполнить базу данных, нам понадобилось парсить сайты всех крупных производителей косметики, чтобы получить состав каждого конкретного продукта. Но у всех производителей разные форматы. Одно и то же химическое соединение может быть написано десятком разных способов. И всё это — на разных языках и в разных форматах. Как это всё распарсить? Можно, конечно, нанять 10 программистов-рабов и заставить их бесконечно писать и обновлять парсеры. А можно сделать пайплайн с LLM внутри и «пассивно» простреливать и валидировать данные. А если в контекст положить методологию, то можно ещё и автоматически валидировать результаты. Без LLM такое было бы невозможно сделать дёшево \[.....\] Ну и если вы использовали LLM в продакшене, вы должны знать, что это недешёвое удовольствие с высокой долей погрешности. Без правильно выстроенного пайплайна с валидацией и кешами ничего не выйдет.
+
+## AI Can’t Code: 7 Myths Debunked / theSeniorDev
+
+https://www.youtube.com/watch?v=k5w04RHCFpE
+
+AI doesn't really code. It guesses, tries come up with a best prediction.
+
+Human develop certain understanding and mental model.
+
+0:45 Trust in the accuracy of AI has fallen from 40% in previous years to just 29%. AI solutions makes debugging more time-consuming.
+
+1:40 Parameters exponential increase only adds slightly amount of accuracy? But we can try context engineering, agent harness, scaffolding, MCP. Long context actually increases failure rate. The smaller the conversation context the easier LLM to come up with good solution.
+
+2:20 Longer the conversation - longer the conversation - the answer is more expensive to process. Multisteps scenarios doesn't help much - 1) expensive burning of the tokens, 2) every new step may fail, multiplication of fail probabilities
+
+2:40 It's user skill issue: the sign that the product is overengineered and broken. AI "expert" with zero domain knowledge will not be able to tell mistakes in the result.
+
+4:30 Devs using AI excessively are slowly making themselves obsolete. Experiment had 2 parts: 1st: medium tasks: allow AI or Google. 2nd part: hard task without help. Almost everyone who used AI failed. Almost everyone who googled succeeded.
+
+5:00 When economy slows down junior positions are first to take down. 1980.
+
+6:00 Bullshit news headers: senior engineers don't like to build AI agents because they think determinist not probabilistic.
+
+7:30 OpenAI needs to raise 500 bln $ the next ř years to survive. The average lifetime of NVidia chip in datacenter is 3 years.
+
+# Gemini 3.1 is making me question my beliefs about AI / Mo Bitar / 2026.02
+
+https://www.youtube.com/watch?v=LLAow8rctkM
+
+4:30 AI was oversold but underdelivered.
