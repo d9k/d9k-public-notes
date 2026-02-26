@@ -129,6 +129,14 @@
 ## Smol
 
 - [Comparison of lightweight Linux distributions - Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_lightweight_Linux_distributions)
+- [Bodhi Linux](https://www.bodhilinux.com/)
+	- (See also at [[#Debian-based]])
+	- :speech_balloon: [Lowest memory usage | /r/bodhilinux](https://www.reddit.com/r/bodhilinux/comments/1cvi7qa/lowest_memory_usage/)
+		- rbtylee: _(This requires a large amount of technical knowledge and has the potential to break your system)._ Go over the list of installed packages, every single one, and uninstall whatever you do not need. Do you need a DM (ie login screen) or are you able to boot to a command line, login, and start Moskha there? Do you really need network manager or would you be able to connect to the internet without it?
+			 - Go over every single systemd service that starts or is installed. Make a decision as to whether you need it or not? If it is unneeded remove it, maybe even uninstall whatever installed it but if not at least make sure it does not start at boot.
+			 - If your system still boots and works after doing the above go over all the modules that are loaded in Moksha. Unload the ones not 100% needed by you. The Places module and the Clipboard module are 2 that you could certainly unload.
+			 - The Big one: compile your own kernel and make it as minimal as you can and still support your hardware with the features you need.
+			- git clone EFL and moksha switch to a tty and uninstall both. Now compile and install EFL after going over all the compile options carefully and make sure it is as minimal of an install as possible. You may even want to consider using an older version of EFL that what is current. Look over EFL branches to find one that works with moksha.
 - Loc-OS
 	- [DistroWatch.com: Loc-OS](https://distrowatch.com/table.php?distribution=locos)
 	- :tv: [Can this Linux distro resurrect my tiny laptop from 2010? | foci | YT](https://www.youtube.com/watch?v=OMl69uCu6jY)
