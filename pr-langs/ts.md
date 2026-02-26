@@ -20,3 +20,15 @@ zambizzi: 10 years in the JS universe after first-half of my career in Enterpris
 lars_jeppesen: Which is a good thing.
 
 kross10000: Not really a good thing for developers and companies who just want to get stuff done and keep it around for a while without doing a rewrite every 2 years. A lot of that "innovation" is only because the baseline sucks so much on every level, from language to tooling all around, so people are constantly trying to improve it. I like to write TS + react a lot, but the constantly evolving stuff around it is a pain in the ass. No one working many years professionally with that can deny it. Basically every time I start a new project there's a bunch of new stuff which is just now en vogue, until I start my next project in 2 years.
+
+## Don’t Overcomplicate TypeScript | ExcaliBear | Medium
+
+https://medium.com/@amitrockach/dont-overcomplicate-typescript-29822ae978bb
+
+TypeScript is not something to be “learned”; it’s a tool that you “learn by doing”, much like Git.
+
+## Turbo 8 is dropping TypeScript | DHH
+
+https://world.hey.com/dhh/turbo-8-is-dropping-typescript-70165c01
+
+Things that should be easy become hard, and things that are hard become `any`.

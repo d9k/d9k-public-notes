@@ -58,6 +58,10 @@
 
 ## :sparkles: Go features
 
+- [Go features by version](https://antonz.org/which-go/)
+	- 1.18 / Mar 2022
+		- Generic programming using type parameters.
+
 - _Golang was designed to solve several problems, including **slow build time**, uncontrolled dependencies, effort duplication, difficulty writing automatic tools and cross-language development._
 
 - [Go Developer Survey 2023 H2 Results - The Go Programming Language](https://go.dev/blog/survey2023-h2-results)
