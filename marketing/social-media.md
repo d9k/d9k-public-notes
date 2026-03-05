@@ -1,4 +1,4 @@
-# Markting: social media
+# Marketing: social media
 
 ## Why everyone is quitting social media | Matt D'Avella | YT
 
