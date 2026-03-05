@@ -49,3 +49,20 @@ https://www.ft.com/content/33914f25-093c-4069-bb16-8626cfc15a51
 
 Американские рынки падают и Financial Times заявляет, что Уолл-стрит напугал отчёт из именитого MIT. Согласно ему, на внедрение искусственного интеллекта бизнес в США потратил около 40 миллиардов долларов, однако лишь 5% компаний смогли интегрировать ИИ в свои производственные процессы и зафиксировать увеличение прибыльности. 95% организаций не получают никакой отдачи («are getting zero return»).
 
+## After two years of vibecoding, I’m back to writing by hand | Mo Bitar | YT, 2026.01
+
+https://www.youtube.com/watch?v=SKTsNV41DYg
+
+https://x.com/CryptoCyberia/status/2014380759956471820
+
+Devs tend to gaslight themselves it was their skill issue. But actually doing structural work for AI.
+
+3:00 Next phase: Detailed markdown specs for everything.
+
+4:30 You asked for a plane. Result: an amorphous matter pretending to be a plane.
+
+5:10 Next phase: Long promts for extremely miniature scope.
+
+6:30 Passing tests is not enough.
+
+9:30 You just can't vibecode something on which reasonable money or human lives depend.
