@@ -116,3 +116,7 @@ JS on Bun - 1 hour.
 https://news.ycombinator.com/item?id=38837807
 
 flohofwoe: In short: Zig can (and does) fix C warts from the ground up because it doesn't need to be backward compatible with C, while still getting the essence of what makes C useful (many other new languages don't get this important part). The biggest advantage over C for day-to-day coding is probably the much more complete and useful stdlib. You also don't need to "switch", mixed C/Zig projects are well supported by the Zig language and build system. Having said that, I still write most new code in C (C99 designated init is still superior to what Zig has to offer for struct initialization), but at least there's now a worthwhile alternative on the horizon to switch to in the future.
+
+## Five reasons to Learn Zig in 2026 | Pokelego Dev | YT
+
+https://www.youtube.com/watch?v=K5e3PAk7VDc
