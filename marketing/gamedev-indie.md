@@ -30,3 +30,17 @@ Over 19,000 games have released on Steam in 2025. Almost half of them have fewer
 https://www.youtube.com/watch?v=Nau7FSCV8Ys
 
 35:00 Концепция расширялась быстрее, чем продумывалось её воплощение
+
+## The Game Dev Crisis No One Is Talking About | CoffeeCup Studios | YT
+
+https://www.youtube.com/watch?app=desktop&v=yD7afU6l-Z8
+
+1:00 Mass layoffs and projects shutdowns.
+
+2:10 Many of the laid off are becoming indie. Steam is more crowded. Marketing is essential.
+
+Indie devs sometimes outperform AAA companies. Focus on creativity.
+
+## Comments
+
+@Xerophun: The elephant in the room is hardware prices. The next indiepocalypse is when the average player can no longer afford anything more than an integrated graphics card. The big 3 engines are all well and good when the average player has a 2060, but when those inevitably go away, the only ones left will be the hardcore technical people that can optimize and still make an engaging experience. There are going to be a lot of unplayable games soon.
