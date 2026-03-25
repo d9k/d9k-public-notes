@@ -287,6 +287,20 @@ LLM настолько яркая штука, что уже мало кто сп
 
 The four most expensive words in the English language are «this time it's different.» / Sir John Templeton
 
+## It's (Finally) Bursting... / Logically Answered / YT, 2026.02
+
+- https://youtube.com/watch?v=yYe9YrdyJNQ
+
+ИИ неосилит, думают инвесторы. Скоро видяхи с памятью подешевеют.
+
+4:30 Both republicans and democrats are agree AI will not become profitable in the nearest time.
+
+5:00 ChatGPT history leaked.
+
+6:30 Google searches for AI are becoming less popular.
+
+7:20 The end of AI tourism.
+
 ## Нейросети обанкротили Buzzfeed #новости / Миша Ларченко / YT, 2026.03
 
 - https://youtube.com/watch?v=Tb0qToNh8jw
