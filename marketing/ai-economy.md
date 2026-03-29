@@ -207,13 +207,13 @@ Human develop certain understanding and mental model.
 
 7:30 OpenAI needs to raise 500 bln $ the next ř years to survive. The average lifetime of NVidia chip in datacenter is 3 years.
 
-# Gemini 3.1 is making me question my beliefs about AI / Mo Bitar / 2026.02
+## Gemini 3.1 is making me question my beliefs about AI / Mo Bitar / 2026.02
 
 https://www.youtube.com/watch?v=LLAow8rctkM
 
 4:30 AI was oversold but underdelivered.
 
-## Когда лопнет пузырь AI?
+## Когда лопнет пузырь AI? / antipov_dmitry
 
 - https://habr.com/ru/articles/993078/
 
@@ -286,6 +286,22 @@ LLM настолько яркая штука, что уже мало кто сп
 Доткомы сожгли 5 триллионов, но выжившие построили всю современную экономику.
 
 The four most expensive words in the English language are «this time it's different.» / Sir John Templeton
+
+## AI Fails at 96% of Jobs (New Study) | ColdFusion | YT, 2026.02
+
+https://www.youtube.com/watch?v=z3kaLM8Oj4o
+
+1:00 AI is time-saving tool not a replacement
+
+Worse than human in 96% freelancer tasks
+
+3:30 Integrity issues, Incomplete work, poor unprofessional quality
+
+4:00 Work inconsistencies. 3d interior warping on different projections.
+
+4:40 Where AI was OK? Audio & image related work, writing, data retrieval & web scraping. Advertisement & logo creation. Infographics with simple code. Report writing. Video generation. But human oversight is still needed.
+
+Из сфер: рекламная и развлекательная
 
 ## It's (Finally) Bursting... / Logically Answered / YT, 2026.02
 
