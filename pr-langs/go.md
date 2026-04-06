@@ -234,3 +234,44 @@ _IMHO it's because of the weird place Go is in._
 _If you have a low level language, such as C/C++, you want to control everything that's happening, and avoid the overhead of carbage collection: since you are in control of everything, you are supposed to know when to free memory, no need for someone else to scan your memory._
 
 _If you have a high level language, like Python, JS, and Java to a certain extend (I do consider Java as medium-high level), you already have performance overhead by definition, because of the VM/interpreter, so you don't mind having a bit more to delegate the memory handling to someone else and make your code simpler._
+
+## Downsides of Go | /r/golang, 2024
+
+https://www.reddit.com/r/golang/comments/1dxax0m/downsides_of_go/
+
+zer00eyz:
+- You have to throw away a lot of muscle memory from other languages. It's pretty easy to move from JS/Ruby/Python ... Go is a shift to how you think and work. Strong standard lib, resist the urge to "grab a package for that" and so on...
+- There are some funky edge cases: closed channels is a great example here.
+- C integration leaves something to be desired. It works, and works well, but there are dragons there that can bite you in the ass. Escaping to C isn't an easy magic bullet Ala python.
+- Plugins are abject misery. The hashicorp lib does a lot to make this livable but it isn't "real" plugins. If you need a pluggable system look elsewhere (or use hashis' api hack)
+
+reflect25:
+* It’s not null-safe (in the sense that it does have null values)
+* Nils, even if you code is safe from them, somebody else's on the project might not be and it just sucks
+Just to explain a bit; it is moderately mitigated with golang's ability for multiple return values and the common pattern of returning (result, err) as well as checking if the err is nil.
+
+Handsomefoxhf: My complaints usually are:
+Nils, even if you code is safe from them, somebody else's on the project might not be and it just sucks;
+Zero-values instead of defaults, JSON encoding nil-slices as nil, not empty slice;
+Lack of standard library components like a generic syncmap, some slice and string operations;
+No generic methods on structs, only generic structs.
+
+zirouk: nils are one of Go’s worst features. I don’t think people truly appreciate the cost of not being able to guarantee something isn’t nil. Who on earth wants to handle nils at every layer of their application? Give me a proper algebraic type system any day.
+
+- Handsomefoxhf: For me an even bigger issue is that I see different workarounds for this every time and they're all kind of stupid, I've seen those:
+	- Passing everything as values. Works well until you're copying 800-byte structures or passing slices, as they're still "passed by reference"
+	- Using some obscure library to represent nil's in structs (null.String) and such.
+	- Straight up not checking anything:)
+
+p_bzn:
+- Weak abstraction power which limits the expressiveness of the language resulting in “idiomatic reinvent the wheel” all over the place.
+- Implicit interfaces and mutations. There is no way to see whether anything method implements an interface or not in a simple declarative way. You don’t know whether reference type is gets mutated / cloned in the method / function.
+- Imperative paradigm with no OOP nor FP resulting in awkward software design at scale. Complete lack of FP paradigm makes data processing cumbersome with no alternative.
+- Weak type system by design. Generics as an afterthought.
+- Error identification at handling stage. Code is awkward with Error.Is when you need to know why, for example, SQL driver returned error. Constrain violation? Field limit check fault? Good luck write code to figure that out.
+
+gomsim: I'm probably too new (a month-ish) to Go have any real gripes with it. Most things mentioned here I just roll with and accept.
+What really made me consider tearing out my hair for a second was something as silly as the lack of function overloading. Eg: func Publish(message string) func Publish(message string, id int)
+Oh, and I also swore loudly when I realized strings are formatted java style with fmt.Sprintf and lots of %s and variables. I greatly prefer the Kotlin and TypeScript style with in-string varable references.
+
+poggioreal: Go takes a minimalist approach, so it doesn’t offer as many data structures as, for example, C++. For this reason, certain specific data structures need to be reimplemented in Go using a combination of Maps, Slices, and Channels.
