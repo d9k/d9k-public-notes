@@ -11,6 +11,7 @@
 
 ## Тимур Шемсединов
 
+- :label: #NodeJS
 - крутой NodeJS разработчик, создать курса по NodeJS (2020)
 - :newspaper: [feed](https://github.com/tshemsedinov/feed) by [tshemsedinov](https://github.com/tshemsedinov)
 	- _Timur Shemsedinov news feed_
@@ -19,50 +20,59 @@
 
 ## AdrenaLily
 
+- :label: #PS1, #muMake
 - https://x.com/AdrenaLily
 - [Approaching The Foes by Flanny](https://soundcloud.com/flannyha)
 - [FlannyH | GH](https://github.com/FlannyH)
 
 ## Isaac Aronson
 
-- TypeScript & retro gamedev
+- :label: #TS, #retro #gameDev
 - [aronson | GH](https://github.com/aronson)
 - :door: [Projects - Isaac Aronson](https://pingas.org/projects)
 
 ## Ali-Hussein-dev
 
-- AI client dev
+- :label: #TS, #AI
 - [Ali-Hussein-dev](https://github.com/Ali-Hussein-dev?tab=repositories)
 - [KamousAI | AI Language Tools](https://kamous.noorai.io/)
 
 ## Vitaly Rtishchev
 
+- :label: #React
 - [Mantine](https://mantine.dev)  developer
 - [rtivital | GH](https://github.com/rtivital)
 
 ## Alex Grin
 
+- :label: #blockchain
 - [lyoshenka | GH](https://github.com/lyoshenka)
+	- _a lifelong founder and web wizard_
  - [LBRY](https://github.com/lbryio) — a decentralized media protocol for the modern era.
  - [All Posts | grin.io](https://grin.io/posts)
 
 ## Eric Murphy
 
+- :label: #YouTube
  - simplify web dev
  - :door: [Eric Murphy](https://ericmurphy.xyz/)
+ - :tv: [Eric Murphy | YT](https://www.youtube.com/@ericmurphyxyz)
 
 ## Александр Соловьёв (укр.)
 
+- :label: #frontEnd
 - [ ] :tv: [Александр Соловьев, CTO Kasta — перешел c Python на Clojure, не кодит вечером и критикует свитчеров | YT](https://www.youtube.com/watch?v=ZNJAmgO4H7c)
 
 ## David Hockley
 
+- :label: #edu
 - :dromedary_camel: [Gosev | GH](https://github.com/Gosev)
 - [Kodaps Academy - YouTube](https://www.youtube.com/@KodapsAcademy/videos)
 	- Хорошие очень простые для понимания лекция
 
 ## JeodC
 
+- :label: #retroHandheld
 - [JeodC (Jeod) | GH](https://github.com/jeodc)
 - Visits Rocklinux Discord
 - [RHH-Ports](https://github.com/JeodC/RHH-Ports) by [JeodC](https://github.com/JeodC)
@@ -71,7 +81,7 @@
 
 ## Dominic Szablewski
 
-- #gameDev, #speed
+- :label: #gameDev, #speed
 - :dromedary_camel: [phoboslab](https://github.com/phoboslab)
 - :door: [PhobosLab](https://phoboslab.org/)
 - [q1k3](https://github.com/phoboslab/q1k3) by [phoboslab](https://github.com/phoboslab)
@@ -84,18 +94,19 @@
 
 ## Seenkao
 
+- :label: #FreePascal, #Android
 - https://habr.com/ru/users/Seenkao/
-- #FreePascal, #Android
 
 ## Venus Sunev / Samael Kethill
 
+- #gameDev #C, #J2ME
 - [rmn20 | GH](https://github.com/rmn20?tab=repositories&q=&type=source&language=&sort=)
 - :balloon: [Samael Kethill | itch.io](https://samael-kethill.itch.io/)
 	- :tv: [Bizarre Dream Bazaar (Carpet Edition) | YT](https://www.youtube.com/watch?v=dKzSH1iUKGc)
 
 ## Snusmumriken
 
-- :label: / Tommy / HDPLocust.
-- :label: #Lua, #Love2D, #gameDev
+- :label: #Lua,  #gameDev, #Love2D
+- a. k. a. / Tommy / HDPLocust.
 - [HDPLocust (Snusmumriken) | GH](https://github.com/HDPLocust)
 
