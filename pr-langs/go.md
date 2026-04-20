@@ -275,3 +275,35 @@ What really made me consider tearing out my hair for a second was something as s
 Oh, and I also swore loudly when I realized strings are formatted java style with fmt.Sprintf and lots of %s and variables. I greatly prefer the Kotlin and TypeScript style with in-string varable references.
 
 poggioreal: Go takes a minimalist approach, so it doesn’t offer as many data structures as, for example, C++. For this reason, certain specific data structures need to be reimplemented in Go using a combination of Maps, Slices, and Channels.
+
+# Go - самый скучный язык? / Merion Academy / YT, 2026.04
+
+- https://youtube.com/watch?v=r5sS2T2Nx9M
+
+Google поняли, что разработчики тратят часы рабочего времени каждую неделю только на сборку.
+
+2007 - начало разработки. Нужен был надёжный предсказуемый язык, решающий типичные реальные проблемы.
+
+1:10 Лёгкий в изучении, простой для чтения. Компилятор должен работать настолько быстро, чтобы разработчик не успевал отвлечься и сходить за кофе. Простая в использовании многозадачность.
+
+2:10 Отказ от модификаторов доступа, классов, наследования, перегрузки методов, исключений.
+
+3:40 Март 2009.
+
+4:30 Go компилирует не отдельные файлы, а целые пакеты и компилятор помнит, что уже собирал.
+
+5:30 Композиция вместо наследования. Автоматические интерфейсы (утиная типизация).
+
+7:30 Мощная stdlib, особенно пакет для работы с сетью. Тестирование, бенчмарки.
+
+8:30 Профилировщик go pprof - куда уходит память и проц. мощь. Статический анализатор `go vet`. Управление зависимостями go mod. go fmt.
+
+9:20 Горутины. go перед функцией => параллельный запуск. Горутины очень лёгкие, от 2kb оперативы, не как потоки в системе. Можно запускать десятки тысяч.
+
+11:00 Каналы нужны для общения между горутинами. Горутина будет ждать, если канал не готов. Однако горутины будут висеть в памяти, если их неправильно спроектировать.
+
+12:00 Что пишут на Go? Микросервисы. DevOps (docker, kubernetes, Terraform).
+
+12:30 Можно писать быстрые и надёжные утилиты.
+
+13:00 Недостаточно фич. Генерики добавили в 2022.
