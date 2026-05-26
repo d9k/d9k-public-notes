@@ -307,3 +307,56 @@ Google поняли, что разработчики тратят часы ра�
 12:30 Можно писать быстрые и надёжные утилиты.
 
 13:00 Недостаточно фич. Генерики добавили в 2022.
+
+## Results from the 2025 Go Developer Survey - The Go Programming Language
+
+https://go.dev/blog/survey2025
+
+### What types of things do you build with Go?
+
+- Command-line tools (CLI): 74%
+- API/RPC services (returning non-HTML): 73%
+- Libraries or frameworks: 49%
+- Websites / web services (returning HTML): 46%
+- Cloud infrastructure tools: 38%
+- Data processing pipelines: 37%
+- Monitoring / observability tools: 32%
+- Desktop / GUI applications: 12%
+- ML/AI models, tools, or agents: 11%
+- Games or gaming infrastructure: 7%
+- Something else: 4%
+
+### What are the biggest challenges facing Go developers?¶
+
+“There is nothing (in the compiler) that stops me from using a maybe nil pointer, or using a value without checking the err first. That should be [baked into] the type system.” — Somewhat satisfied / < 3 years / Technology
+
+“I like \[Go\] but I didn’t expect it to have nil pointer exceptions :)” — Somewhat satisfied / 3 – 10 years / Financial services
+
+“Many pacakges are just clones/forks or one-off pojects with no history/maintenance. [sic]” — Very satisfied / 10+ years / Financial services
+
+“Being able to filter by criteria like stable version, number of users and last update age at pkg.go.dev could make things a bit easier.” — Very satisfied / < 3 years / Technology
+
+### What are your three most frustrating things about working with Go?
+
+- Ensuring our Go code follows best practices / Go idioms: 33%
+- A feature I value from another programming language isn't part of Go: 28%
+- Finding trustworthy Go modules and packages: 26%
+- Writing code documentation / keeping it up-to-date: 15%
+- Keeping my module dependencies up-to-date with security patches: 15%
+- Ensuring our Go code is thoroughly tested: 15%
+- Optimizing for resource consumption (CPU, memory, etc.): 14%
+- Learning how to use Go modules and packages: 12%
+- Diagnosing problems in Go code: 11%
+- Something else: 10%
+- The responsiveness of gopls / VS Code: 10%
+- Monitoring our Go services running in production: 10%
+- Building AI/agentic systems in Go: 9%
+- Ensuring our Go services running in production don't have known security vulnerabilities: 8%
+- Optimizing for resource scale (high CPU counts, large memory, etc.): 8%
+- Optimizing for latency: 6%
+- Missing functionality in gopls / VS Code: 6%
+- Problems with the stability / reliability of the services we build with Go: 2%
+
+## #security
+
+- :scroll: [Golang | Products and vulnerabilities, CVEs](https://www.cvedetails.com/vendor/14185/Golang.html)
