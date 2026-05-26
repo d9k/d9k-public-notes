@@ -44,3 +44,13 @@ Indie devs sometimes outperform AAA companies. Focus on creativity.
 ## Comments
 
 @Xerophun: The elephant in the room is hardware prices. The next indiepocalypse is when the average player can no longer afford anything more than an integrated graphics card. The big 3 engines are all well and good when the average player has a 2060, but when those inevitably go away, the only ones left will be the hardcore technical people that can optimize and still make an engaging experience. There are going to be a lot of unplayable games soon.
+
+## Убийцы индустрии - всё / V. Gadirovs / YT, 2026.05
+
+- :tv: https://youtube.com/watch?v=96_gczVgCAI
+
+1:55 Godot — я могу на пальцах неумелого сапёра пересчитать толковые игры на этом движке.
+
+4:00 Игрок: почему я должен уходить со своей любимой игры и платить тебе $20?
+
+5:00 Сделанная вчера вещь имеет намного большую ценность, чем сделанная когда-то в будущем.
