@@ -33,7 +33,7 @@ Richard P. Gabriel "Worse is better" (1989)
 
 5:25 "Unix and C are the ultimate computer viruses" because of simple implementation can be ported anywhere and run on garbage hardware.
 
-5:50 PCLSRing problem. P *program counter. If Unix user resizes terminal (SIGWINCH) this may interrupt what program is doing. In MIT way OS should handle it, not program.
+5:50 PCLSRing problem. P program counter. If Unix user resizes terminal (SIGWINCH) this may interrupt what program is doing. In MIT way OS should handle it, not program.
 
 6:00 EINTR
 
@@ -45,4 +45,4 @@ Richard P. Gabriel "Worse is better" (1989)
 
 12:50 "Back to the future: is worse (still) better?" - 4th essay (2000)
 
-Read essays at Dreamsongs.com!
+Read Richard P. Gabriel essays at Dreamsongs.com!
