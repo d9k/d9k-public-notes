@@ -354,3 +354,107 @@ sonorma8281: It's been 4 years since ''programmers will be gone in 6 months''...
 > / Один из инвесторов OpenAI
 
 В начале апреля 2026 года Bloomberg со ссылкой на источники сообщило, что акции OpenAI начали терять популярность на вторичном рынке. По данным агентства, инвесторы проявляют больше интереса к Anthropic. Об этом же говорят собеседники FT: с точки зрения инвесторов, Anthropic с оценкой в $380 млрд выглядит более привлекательной ставкой.
+
+## DHH’s new way of writing code | The Pragmatic Engineer | YT
+
+https://www.youtube.com/watch?v=JiWgKRgdgpI
+
+Host: Gergely Orosz
+
+16:40 Email protocol was developed for polite scientists talk.
+
+17:00 Finding a Grand Why is really important. It allows you to walk through the snow when it's cold and uncomfortable. Read Viktor Frankl about the meaning of a man.
+
+18:30 Orosz: 2 years took to ship hey.com, seems a lot. 37 signals is small nimble company but with great developers.
+
+19:20 DHH: We could build prototype in days. But figuring out what you want to build takes a lot longer. Completing something that worth publishing takes longer.
+
+19:45 DHH: Original HEY construction was me at the technical side. Make a product people would love to buy.
+
+21:44 Figuring out what is epicentre, what's the most important part and testing all that apart.
+
+22:05 1-2 people start a project, then ramp, getting few more people. 80% done => full speed, maximum of the team can participate.
+
+23:00 Designers at 37 signals are people which defines what spec should be and implement HTML+CSS template, sometimes JS+Ruby prototype. These work natively with the fabric of the Internet. Building architecture must understand both design and materials engineering too.
+
+25:00 Daring Fireball, Gruber disappointed by the new Apple direction. Electron hater - web in the box.
+
+27:15 Some people say it's not possible to build product without a team. But they didn't try best tools. Didn't experience acceleration which gives Ruby on Rails.
+
+27:40 With AI support industry comes to understanding smaller team the better. Logarithmic curve of communication cost.
+
+28:10 Orosz: You're valuing design, building a thing that feels good, software, hardware. You also value it as a craft and look for it.
+
+28:30 Aesthetics is truth. When something is beautiful it's likely to be correct. This is true in math and physics. It's like we have an intuition.
+
+28:50 Being surrounded by beautiful, well functioning objects is a key part of happiness. And the greatest source of frustration and anxiety is when everything is laggy, when touch interface doesn't register, when you have to restart. World is full of plain awful. It's serious source of malaise for civilization.
+
+30:00 For DHH Ruby was the seminal language because it provided most beautiful code.
+
+31:40 Ruby has aesthetic quality and is not rigid about it's ideology. It's a house I want to live in. Care about polishing until no splinters left.
+
+35:00 Using AI: autocomplete sucked. Shut up! Let me finish the thought. But asking AI how this piece of code works like that, what's wrong with it was OK.
+
+Orosz: Jonas Tyroller game dev.
+
+40:10 Orosz: I think people played with AI because you could give it your unfinished side-project.
+
+42:00 You can pick up everything on AI in the next 3 weeks. Last year everyone were talking about MCPs. Now we can skip it and go straight to CLI and skills.
+
+46:00 Anthropic revenue growed 30x in 15 months. The jump from $9B to $30B happened in four months. the-ai-corner.com/p/anthropic-30b-arr-passed-openai-revenue-2026
+
+47:00 2 models workflow. Kimi + Opus. If I get stuck, "Give me a second opinion"
+
+49:00 AI singing up for web services autonomously. Took ~7 minutes but was shocking.
+
+51:30 AI + CLI validated fundamental Unix philosophy from '71.
+
+54:30 The most successful agent acceleration is seen from the most senior developers
+
+55:00 We can't rely on agents in deploying mission critical code. And you have senior devs who can 5x their individual productivity.
+
+57:00 Self-driving Teslas now drive better than average person do.
+
+58:30 The cost of transition to another company learning it AI systems.
+
+1:00:30 I'm impatient. Tesla is the best chauffeur. Smooth speed change.
+
+1:03:30 I didn't want to be project manager of AI swarm. What I didn't realise it's more like steppiing in super mecha suit and suddenly you have 10 arms instead of 2, typing on 5 keyboards for 5 screens.
+
+1:05:15 In 90 minutes Claude processed 100 PRs. Merged 10%. 20% was merged but with Claude's implemention. To be agent accelerated was one of the top 20 programming moments.
+
+1:07:30 Orosz: Sounds like AI agent is especially efficient for work that is waiting on you but you don't want to do it or you not as skilled of doing it but it's a hassle to delegate it.
+
+1:10:10 The cost of exploring a hunch just dropped a thousandfold. You CS wave your hands and AI will answer your stupid questions, terrible ideas. The suddenly "it wasn't so terrible".
+
+1:11:45 Omarchy dual boot feature. Opus, come up with a plan. Codex, critique the plan. Ping-pong the plan a couple times. "Kick it on a hunch while you go to lunch". That is a new world. Thank the helpful clankers.
+
+1:14:00 First and last games on PS2 looked like from different generations.
+
+1:16:25 Software devs were constraint on how much can be produced. Now project manager alone can ship working changes. We don't need the same number of well-educated programmers to do the same work.
+
+1:17:20 Javon's paradox: if something becomes cheaper it usually demanded more. But not all programmers will bailed out of it just because more software than ever will be produced.
+
+1:17:40 BTW, GitHub gotten a lot of slack lately.
+
+1:20:00 Orosz: in 90s programmers who new programming language got a good job. In 2000s who knew algos. I 2010s requirement shifted to communication \[and soft-\] skills.
+
+1:21:00 DHH: The constraint value now is figuring out what should we build, how should it be built, which customer should we be talking to, where should we be focusing. It's project management. Historically I've not necesseraly had the highest esteem for product management as a function.
+
+1:24:00 37 signals now is 60 people, 20 programmers. 10 designers, 14 at customer support. HR, finance. 10 DevOps.
+
+1:25:30 Google research paper: couldn't find correlation with person performance outcome and his resume.
+
+1:26:30 To get a job you have to standout.
+
+1:31:00 You should do your best even at the sh*tty workplace. At good places needed people who can overcome difficulties and get the bar. If you worked hard with a good person at a bad place he may recommended you if he gets into the good place. Show up. Do as good as you can. Learn more.
+
+1:37:00 Kent Beck tries using AI for hobby projects too. SmallTalk best practices is my #1 recommendation for OOP developers.
+
+1:39:00 8 hours of sleep at night is still best investment in cognitive capacity.
+
+1:41:00 My drive is a deep love for computers. At 5 years it was video games, now it may be instrumenting all these AIs which is similar to video games for me actually.
+
+1:42:30 Many entrepreneurs sell a business, then 3 weeks on a beach and back to business willingly. Affirmation of being a human. I'm not just a blob laying around. I'm useful individual who puts my skills to the best use possible.
+
+1:45:00 I love computers more than I did 5 years ago.
