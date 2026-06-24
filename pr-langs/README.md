@@ -79,3 +79,15 @@ Don't worry about using language in future, even year from now.
 Worry about writing code only.
 
 Writing bad code more often probably would save a lot of time.\[🤔🤨\]
+
+## Every Programmer Should Know These 3 Languages (No, NOT Python!) / HuwsTube / YT, 2026
+
+https://youtube.com/watch?v=AJeIB5rcWgU
+
+C - relatively simple. Array is not a high-level structure as in other languages so you have to understand how the hardware works. So the C is #1 must know language.
+
+1:40 Smalltalk - to really learn object orientation.
+
+3:00 Message passing in SmallTalk.
+
+4:30 ObjectPascal. Program structure.
