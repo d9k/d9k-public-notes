@@ -110,3 +110,9 @@
 - a. k. a. / Tommy / HDPLocust.
 - [HDPLocust (Snusmumriken) | GH](https://github.com/HDPLocust)
 
+## Дмитрий Химич
+- :label: #freelancer, #Украина
+- https://www.weblancer.net/users/ArtStranger/
+- :tv: [Фриланс прокачка | YT](https://www.youtube.com/@freelance-pro)
+- :door: https://freelance-blog.com/
+- t.me/freelance_free_study/3
