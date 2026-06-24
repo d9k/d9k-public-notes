@@ -22,3 +22,7 @@ You will need to pay for kits, and you will need to get through official console
 The worst part is you can't google this stuff, you have to either seek support from the console holder or hope someone on their private forum that's also under NDA can help you out.
 
 Developing for multiple consoles at once - don't do it. Just don't. Take one thing at a time. Doing multiple consoles simultaneously multiplies all of the above challenges by ten. I developed for three consoles simultaneously (four technically, but we gave up on the WiiU). Big studios will have a separate build machine for each console, not to mention entire separate porting teams, whereas I was plugging them all into my one PC, and trying to sort it out in parallel with James Gray, my long-suffering console porting engineer who had his own kits. And each platform all wanted different versions of compiler software and all had their own cables and controllers, and they didn't all play nicely together, and everything was a tangled mess both virtually and literally, and if I sneezed everything would break and it would take me all day to get everything straight again just to be able to compile something
+
+:tv: [Игры Valve для Nintendo 3DS ЭТО П\*\*\*\*\*! | Paulus | YT](https://www.youtube.com/watch?v=u8RmKZ6ptg8)
+
+1:50 2 философии гейминга, которые существовали параллельно. Valve - ПК, открытая платформа Steam, моддинг, свобода. Nintendo - закрытый сад с контролем качества, где игра работает только так, как задумал разработчик и никак иначе
