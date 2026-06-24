@@ -447,7 +447,7 @@ Orosz: Jonas Tyroller game dev.
 
 1:26:30 To get a job you have to standout.
 
-1:31:00 You should do your best even at the sh*tty workplace. At good places needed people who can overcome difficulties and get the bar. If you worked hard with a good person at a bad place he may recommended you if he gets into the good place. Show up. Do as good as you can. Learn more.
+1:31:00 You should do your best even at the sh\*tty workplace. At good places needed people who can overcome difficulties and get the bar. If you worked hard with a good person at a bad place he may recommended you if he gets into the good place. Show up. Do as good as you can. Learn more.
 
 1:37:00 Kent Beck tries using AI for hobby projects too. SmallTalk best practices is my #1 recommendation for OOP developers.
 
@@ -458,3 +458,11 @@ Orosz: Jonas Tyroller game dev.
 1:42:30 Many entrepreneurs sell a business, then 3 weeks on a beach and back to business willingly. Affirmation of being a human. I'm not just a blob laying around. I'm useful individual who puts my skills to the best use possible.
 
 1:45:00 I love computers more than I did 5 years ago.
+
+## Gemini is for normies / The PrimeTime / YT, 2026.06
+
+- https://youtube.com/watch?v=I9MOnMX5LtU
+
+Developers put huge strain on the infrastructure.
+
+Gemini is not good for coding because Google don't want 100 thousands of developers, they want billions of users.
