@@ -466,3 +466,39 @@ Orosz: Jonas Tyroller game dev.
 Developers put huge strain on the infrastructure.
 
 Gemini is not good for coding because Google don't want 100 thousands of developers, they want billions of users.
+
+## Ai will Fail and I can prove it / FUTC / YT, 2026.06
+
+https://youtube.com/watch?v=gGnci_0l-M0
+
+\[Preview image: Trillion dollar problem\]
+
+2:00 GPT 2 was released with warning that it may be used for fake news, spam and desinformation generation.
+
+2:30 Training models on literally everything humanity had written.
+
+5:00 High competition, companies constantly have to cut model usage prices.
+
+7:00 Meta is building data centers in tents.
+
+8:00 Supply chain lock. AI boom depends on NVidia but NVidia depends on TSMC. TSMC depends on ASML.
+
+10:00 Making computer chips may be the hardest problem ever existed. Chips production can't scale fast.
+
+13:00 Despite $30-40 bln in interprise investment into GenAI, this report uncovers a surprising result in that 95% of organizations are getting zero return.
+
+16:00 Uber burned entire 2026 AI budget on 4 months.
+
+16:45 Microsoft suggests using AI is more expensive than hiring people.
+
+18:20 Unneeded AI features being crammed into apps, the software user experience is getting worse, the misinformation, the stupid automated support hotlines you need to go through before getting help.
+
+19:00 Author doesn't accept any sponsorship from AI company.
+
+22:00 Light in the end of the tunnel: smaller, more efficient , smarter models being released that can actually run on consumer hardware.
+
+22:40 Qwen and Gemma have set completely new standards for local models. Phone can run Google AI Edge Gallery app which can translate text on the photos offline.
+
+24:00 I'd rather have something a bit less smart that isn't yielding all of my data to servers in a foreign country.
+
+25:00 Closer to dream: I can talk to the computer and it's just does whatever I ask.
