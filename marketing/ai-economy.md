@@ -502,3 +502,20 @@ https://youtube.com/watch?v=gGnci_0l-M0
 24:00 I'd rather have something a bit less smart that isn't yielding all of my data to servers in a foreign country.
 
 25:00 Closer to dream: I can talk to the computer and it's just does whatever I ask.
+
+## Ларпкодинг или как НЕ зарабатывать деньги / скрепочка / YT, 2026
+
+https://youtube.com/watch?v=6qGsjQzGN9g
+
+4:45 Claude Code
+6:00 AirBnb и Stripe заявили, что в их последнем наборе [?] 95% кода написаны нейросетью. А люди, пишущие код - не программисты, а проджект-менеджеры. дизайнеры.
+6:20 Стартап Vulcan для юридической помощи. Людской работы было очень много, а нейросеть просто её ускоряла, но всё равно нейросеть нужно было контролировать.
+8:00 creatorbuddy.io:
+- AI Content Coach - advices what to post next based on your content post history and it's popularity
+- AI Account Researcher - agent that analyzes X accounts in seconds. Find out who people are engaging with and why their content goes viral.
+8:40 Создатель стартапов Алекс Фин, хорошо разобравшийся в раскрутке постов x.com. 50$/mo.
+10:20 https://futuretools.io
+11:30 Можно указать чужой ник. Автоматизированное воровство постов с переработкой.
+12:30 Плата в $49 за то, чтобы ПЕРЕСТАТЬ быть творцом.
+13:15 "Сайты на миллион", сделанные в Claude Code. Панорама 360, анимации, салюты.
+25:00 Предположение, что всё это - огромный проект Anthropic по зомбификации населения, чтобы все оплачивали их подписки и пытались делать сайты, SaaS и боты-трейдеры
