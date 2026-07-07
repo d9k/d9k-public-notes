@@ -545,3 +545,18 @@ https://youtube.com/watch?v=pwyxctDCAxY
 40:15 Бизнесу всегда будут нужны информационные системы для автоматизации процессов и завлечения/развлечения клиентов (управление вниманием)
 42:00 Пока что AI это T9 на стероидах.
 45:30 Завтра безлимитные подписки на ИИ отменят и владельцы бизнесов придут к вам.
+
+## OpenAI's Finances Just Leaked. We're Cooked / MonkeyExplains / YT, 2026
+
+https://youtube.com/watch?v=eXbZrx5XW_k
+
+3:00 -122% operating margin. 5.7b revenue, lost 7b.
+5:00 3.7B -> 13.1B revenue. Impressive growth curve.
+But costs 12.5B -> 34B. Cost effective slowly growing.
+8:00 If AI isn't so useful and isn't even cheap why are corpo monkeys hellbent on spending billions on this in the first place?
+9:15 AI agents replacing jobs failed repeatedly across many-many industries.
+9:25 WV built AI operating system for every single brand they own. The result: a 20 mln lines mess riddled with bugs. Porsche Electric & Audi Q6 e-tron delayed for over a year.
+9:45 Pizza Hut rolled out AI system to manage pizza delivery times. Deliveries under 30 minutes started to take over 45.
+10:30 This year many employees were forced to use AI in completely unnecessary just to inflate internal AI usage scores.
+11:10 Uber CEO: currently no link between spending more on AI and actually shipping a better product corroborating MIT and Golden Sachs studies.
+11:50 OpenAI is thinking about lowering AI cost. When you zoom out you realize it's just a race to the bottom.
