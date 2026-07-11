@@ -91,3 +91,14 @@ C - relatively simple. Array is not a high-level structure as in other languages
 3:00 Message passing in SmallTalk.
 
 4:30 ObjectPascal. Program structure.
+
+## A brief history of programming... / Fireship / YT, 2026
+
+https://youtube.com/watch?v=9uW6B9LPntY
+
+1:45 McCarthy: LISP, interpreter, data is code, garbage collection.
+3:15 Smalltalk: first pure OOP language, where everything is an object. Everybody copies it and forgets about it.
+3:45 Java: revolutionaly virtual machine. Like a fake computer that run in the real computer. Compiles Java to byte code instead of machine code.
+4:00 JS now runs servers, phones, databases and spacecraft [SpaceX revolutionized aerospace by using JavaScript and Chromium to power the touchscreen interfaces inside their Crew Dragon spacecraft].
+4:40 In 2020 the world was beautiful and perfect. But the Asteroid hit. Someone says: What if we can get statistics to write code? At first it's autocomplete, then linters, refactors, then functions, then entire fullstack application.
+5:05 Programming is dead? But typing code was never the job. The job was thinking.
