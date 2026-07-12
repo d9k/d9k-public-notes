@@ -67,3 +67,40 @@ Rust кажется не сложнее Go и явно интереснее.
 
 Str - указатель на кусочек String с длинной. Компилятор проверяет, чтобы данные, на которые ссылается Str, всегда существовали.
 
+## Rewriting Bun in Rust / bun.com
+
+https://bun.com/blog/bun-in-rust
+
+We could have kept fixing these kinds of bugs one-off in perpetuity, but we owe it to our users counting on us to do better than that, and systematically prevent these kinds of bugs from recurring.
+
+What we were already doing
+- We patched the Zig compiler to add Address Sanitizer support. We run our test suite with ASAN on every commit.
+- fuzz Bun's runtime APIs 24/7 using Fuzzilli, the JavaScript engine fuzzer used by V8 & JavaScriptCore
+- a lot end-to-end memory leak tests
+
+For Bun, correctly handling the lifetimes of garbage-collected values and manually-managed values has been a major source of stability issues - most often small memory leaks and occasionally, crashes. Every memory allocation has to be meticulously reviewed. Where do these bytes get freed? How do we ensure it only gets freed once? Did we check for JavaScript exceptions properly? Is this garbage-collected pointer visible to the conservative stack scanner? Is this garbage collected memory or manually managed memory?
+
+ I don't blame Zig for that - other users of Zig don't have the bugs we had, and mixing GC with manually-managed memory is an uncommon enough thing for software to need that no language really designs for it.
+
+Zig does not have constructors/destructors, and most cleanup is expected to be written out explicitly at each call site with defer.
+
+Our current approach is a mix of:
+- arena lifetimes, where the scope of when it's accessible is clear (parser state doesn't escape the calling function and so AST nodes are a good choice there)
+- reference-counting
+- pay really close attention
+
+Many projects opt to answer these kinds of questions through a style guide. TigerBeetle's TigerStyle is an example in Zig and Google's 31,000 word C++ style guide is another.
+
+How do you make sure the style guide is followed? code review, linters & static analyzers.
+
+A large percentage of bugs from that list are use-after-free, double-free, and "forgot to free" in an error path. In safe Rust, these are compiler errors and RAII-like automatic cleanup with Drop. Compiler errors are a better feedback loop than a style guide.
+
+About 20% of Bun's code is written in C++ and Bun embeds several C/C++ libraries:
+
+C++ instead of Zig would be a reasonable choice for Bun. We would get constructors & destructors. We could delete lots of extern "C" wrapper code.
+
+We added Rust-inspired smart pointers to Bun's codebase. But honestly, I didn't want to do it. Homegrown smart pointers offer worse ergonomics than Rust, with none of the guarantees.
+
+The least risky approach to getting something shippable would be a mechanical port from Zig to Rust, with the minimal number of behavioral changes, using the exact same test suite we already use for testing Bun.
+
+//. . . . .
