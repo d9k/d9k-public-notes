@@ -79,8 +79,8 @@ and solutions that are meant to get money from consumers into the industry are p
 
 But I took a dive and I really love the language because it fits how my brain operates. I don't have to fight the language, don't have to be always searching for syntax rules. Everything is as simple as possible.
 
-| used to program in Python, really loved it at the beginning, but after a couple of projects | really came to dislike it. Simplicity is only apparent. The language of the reptiles, as many things is life, look like something in the surface but being another thing in reality.
+I used to program in Python, really loved it at the beginning, but after a couple of projects I really came to dislike it. Simplicity is only apparent. The language of the reptiles, as many things is life, look like something in the surface but being another thing in reality.
 
 37:20 kt24601: I learned to like TCL after a heavy period of using C++. It wasn't my choice, someone pushed it on me, but I quickly grew to like its overly simplistic syntax.
 
-Alan Perliss said, "A language that doesn't affect the way you think about programming, is not worth knowing.” The thing | learned from TCL is how much mental load you get from a complex language. When | write C++ (or any language), | have to roughly parse it in my brain, to make sure | type something that will compile. TCL syntax is simple, so it feels relaxing and easy to type. Like walking through a green field after climbing over rocks.
+Alan Perliss said, "A language that doesn't affect the way you think about programming, is not worth knowing.” The thing I learned from TCL is how much mental load you get from a complex language. When I write C++ (or any language), I have to roughly parse it in my brain, to make sure I type something that will compile. TCL syntax is simple, so it feels relaxing and easy to type. Like walking through a green field after climbing over rocks.
