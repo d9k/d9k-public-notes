@@ -560,3 +560,12 @@ But costs 12.5B -> 34B. Cost effective slowly growing.
 10:30 This year many employees were forced to use AI in completely unnecessary just to inflate internal AI usage scores.
 11:10 Uber CEO: currently no link between spending more on AI and actually shipping a better product corroborating MIT and Golden Sachs studies.
 11:50 OpenAI is thinking about lowering AI cost. When you zoom out you realize it's just a race to the bottom.
+
+## Илья Климов о важности маркетологов, 2026.07.18
+
+Дмитрий Комаров: Тем не менее, сейчас самые важные люди в IT уже не программисты, а маркетологи/продакт-менеджеры. Какие фичи нужны людям и какие из них реализовать прямо сейчас это самые важные вопросы, за правильные ответы на которые платят топовые деньги.
+
+Илья Климов: Вообще не очевидно, я вот смотрю на рынок и этого не вижу. Я вижу ровно наоборот. с ростом скорости реализации фич, вопросы "какие фичи нужны людям и которые реализовать прямо сейчас" становятся все менее важными. потому что мы можем попробовать реализовать все, померять метрики и оставить то что реально работает.
+\- А не заниматься гаданием на кофейной гуще "залетит - не залетит". Раньше мы не могли этого сделать потому что разработка долго было.
+
+Дмитрий Комаров: Интересное замечание! Смотрел твои видео, Илья 🙏
