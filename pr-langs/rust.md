@@ -80,7 +80,7 @@ What we were already doing
 
 For Bun, correctly handling the lifetimes of garbage-collected values and manually-managed values has been a major source of stability issues - most often small memory leaks and occasionally, crashes. Every memory allocation has to be meticulously reviewed. Where do these bytes get freed? How do we ensure it only gets freed once? Did we check for JavaScript exceptions properly? Is this garbage-collected pointer visible to the conservative stack scanner? Is this garbage collected memory or manually managed memory?
 
- I don't blame Zig for that - other users of Zig don't have the bugs we had, and mixing GC with manually-managed memory is an uncommon enough thing for software to need that no language really designs for it.
+I don't blame Zig for that - other users of Zig don't have the bugs we had, and mixing GC with manually-managed memory is an uncommon enough thing for software to need that no language really designs for it.
 
 Zig does not have constructors/destructors, and most cleanup is expected to be written out explicitly at each call site with defer.
 
@@ -104,3 +104,15 @@ We added Rust-inspired smart pointers to Bun's codebase. But honestly, I didn't 
 The least risky approach to getting something shippable would be a mechanical port from Zig to Rust, with the minimal number of behavioral changes, using the exact same test suite we already use for testing Bun.
 
 //. . . . .
+
+### Rewriting Bun in Rust: comments | Hacker News
+
+https://news.ycombinator.com/item?id=48837877
+
+minraws:Rust compiler is slow (very slow is arguable, compared to modern C++ it isn't that bad, but compared to say Go without cgo, its horrid), Cargo is just bad, without proper hermetic builds and stuff, even when I setup sccache for our team and our cache hit rate remained below 20% and most of it was just C++ deps hitting the cache.
+
+Just to be clear Zig builds are quite slow too, especially on windows where debug builds also use llvm.
+
+TBH Zig debug builds on Linux also don't really feel that fast, C still compiles faster for me by a considerable margin.
+
+pjmlp: Sometimes we have no option, given the industry standards that expect C or C++. Khronos, Open Group, NVidia, Microsoft, Sony, Nintendo... aren't going to change their APIs and SDKs, just because of social media discussions on the merits of C, C++ vs other safer alternatives.
