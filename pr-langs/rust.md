@@ -116,3 +116,25 @@ Just to be clear Zig builds are quite slow too, especially on windows where debu
 TBH Zig debug builds on Linux also don't really feel that fast, C still compiles faster for me by a considerable margin.
 
 pjmlp: Sometimes we have no option, given the industry standards that expect C or C++. Khronos, Open Group, NVidia, Microsoft, Sony, Nintendo... aren't going to change their APIs and SDKs, just because of social media discussions on the merits of C, C++ vs other safer alternatives.
+
+## The Rust Cult is Wrong / Macro Lens / YT, 2026
+
+https://youtube.com/watch?v=vUKkj2a0rZE
+
+2:40 cargo - one tool. Builds, deps, tests, benchs, docs, publishing.
+
+4:10 Rust is slow to master.
+
+5:00 Rust is slow to compile. Golang builds 100x faster.
+
+6:05 DB and network almost always are a bottleneck.
+
+7:15 Rust shines when memory safety is non-negotiable: Kernels, browsers, cryptography.
+
+7:40 CPU is a budget-line item. Discord rewrote their read satete service from go to rust.
+
+8:00 Real-time multimedia, embedded (no heap), game engines
+
+8:20 Rust loses: time to market matters , building a prototype, no time for deep language learning, when I/O or DB is bottleneck, CI/CD speed is more important.
+
+8:45 Rust is not a hammer. It's a precision tool for precision work.
