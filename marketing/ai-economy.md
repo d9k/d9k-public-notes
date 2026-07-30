@@ -585,7 +585,7 @@ VB6 jobs disappeared. DVD training course builder job was replaced in the age of
 
 2:00 AI slop hits 80% wall.
 
-3:00 Javon's paradox. When something becomes cheaper it's demanded more. A ton of custom software applications.
+3:00 Jevons paradox. When something becomes cheaper it's demanded more. A ton of custom software applications.
 
 5:50 The whole tech stack is evolving quickly, so how do you keep up with that? Just do your fundamentals.
 
