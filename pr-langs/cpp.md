@@ -160,3 +160,12 @@ https://youtube.com/watch?v=u8mZqAA19SE
 8:10 Another languages are islands. C++ is a continent.
 9:10 When a studio tries to render photorealistic world at 120 fps they can't afford unpredictable latency of garbage collector. They need to manage cache, lines and memory alignment.
 10:00 Rendering engine of the browser.
+
+## Why C++ is faster than C / Bjarne Stroustrup / YT, 2026
+
+https://youtube.com/watch?v=P1MIIShElgE
+Host: Ryan Peterman
+Bjarne Stroustrup
+Full video: https://www.youtube.com/watch?v=U46fJ2bJ-co
+
+Zero-overhead abstractions which are compiled away. We're not as smart as optimizers anymore.
