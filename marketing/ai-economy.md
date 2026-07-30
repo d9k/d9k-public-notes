@@ -569,3 +569,30 @@ But costs 12.5B -> 34B. Cost effective slowly growing.
 \- А не заниматься гаданием на кофейной гуще "залетит - не залетит". Раньше мы не могли этого сделать потому что разработка долго было.
 
 Дмитрий Комаров: Интересное замечание! Смотрел твои видео, Илья 🙏
+
+
+## Developer Jobs Are as Safe as Houses, Because AI Isn't Wearing the Trousers / Stefan Mischook / YT, 2026.07
+
+https://youtube.com/watch?v=bNF6NN5PPPU
+
+There cycles when old tech and jobs were replaced by new ones.
+
+VB6 jobs disappeared. DVD training course builder job was replaced in the age of web dev.
+
+1:00 AI is a force multiplier, a power tool.
+
+1:35 It's not replacing developers, it's just changing a game.
+
+2:00 AI slop hits 80% wall.
+
+3:00 Javon's paradox. When something becomes cheaper it's demanded more. A ton of custom software applications.
+
+5:50 The whole tech stack is evolving quickly, so how do you keep up with that? Just do your fundamentals.
+
+6:10 Orchestration, harnessing becomes must-to-learn fundamentals.
+
+6:50 Learn technologies based on market opportunities. Don't fall in love with the tech. Tech changes.
+
+### Comments
+
+My last live round interview I had to use Copilot for AI fluency and collaboration. The interviewer also tested me for spotting hallucinations and bad logic. Slop AI coding isn’t going to work.
