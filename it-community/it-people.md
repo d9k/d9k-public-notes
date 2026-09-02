@@ -116,3 +116,15 @@
 - :tv: [Фриланс прокачка | YT](https://www.youtube.com/@freelance-pro)
 - :door: https://freelance-blog.com/
 - t.me/freelance_free_study/3
+
+## Андрей Апанасик
+- :label: #gameDev
+
+- https://apanasik.com/projects/
+- https://t.me/apanasik_jobless
+- https://t.me/gamedev_suffering
+
+## Кирилл Мокевнин
+
+- Школа [Хекслет](https://hexly.ru/)
+- :scroll: :tv: [Организованное программирование | Кирилл Мокевнин | YT](https://www.youtube.com/@mokevnin/videos)
