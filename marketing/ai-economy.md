@@ -596,3 +596,24 @@ VB6 jobs disappeared. DVD training course builder job was replaced in the age of
 ### Comments
 
 My last live round interview I had to use Copilot for AI fluency and collaboration. The interviewer also tested me for spotting hallucinations and bad logic. Slop AI coding isn’t going to work.
+
+# Как за 15 лет it скатилось / Роман Сакутин / YT, 2026
+
+https://youtube.com/watch?v=3yj3mBbI3NU
+
+Власть инженеров.
+5:20 Анекдот "почему вы так не любите проджект-менеджеров? они же ничего не сделали!"
+5:40 Agile, SCRUM, итеративность. Нанимали менеджеров, закончивших двухнедельные SCRUM-курсы, а SCRUM-мастеров для их контроля не нанимали.
+10:30 Бенефиты для работников IT, печеньки, спортзалы.
+11:30 Бумажную работу для AI-стартапов могут создавать тоже AI-агенты
+11:50 Программист с AI теперь водиночку может сделать стартап. Но ему пока ещё нужно разбираться в DevOps и информационной безопасности для контроля AI-агента.
+13:15 HR'ам нужно просто нанимать людей, которые не создают скандалы и умеют приспосабливаться. Делает всё, что скажут, получает деньги и молчит.
+14:45 Автор исследовал АТСки, отсеивающие резюме и написал небольшой сервис https://hack-offer.tech/cv-roasting, который рекомендует, как резюме изменить.
+15:40 Предсказание: бум небольших качественных стартапов на 5-10 человек, HR'ы станут не нужны, потому что найм будет производить собственник.
+16:45 Успешность разработчика будет измеряться количестрвом продуктов, которые он успешно продал инвесторам.
+
+# AI productivity gains are real but so is bad management / Fortune, 2026.06
+
+https://fortune.com/2026/06/05/ai-productivity-paradox-bad-leadership-tokenmaxxing-big-tech-boston-consulting-group/
+
+Boston Consulting Group (BCG) : surveying nearly 12,000 frontline employees, found 42% of respondents reported eight hours of saved time, the equivalent of one workday a week, as a result of regular AI use, but 66% said they received limited to no guidance on what to do with the time they saved.
