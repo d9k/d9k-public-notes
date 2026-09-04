@@ -2,6 +2,22 @@
 
 - 2024.07
 
+## Преимущества Golang, 2026
+
+- :sparkles: Подходит для разработки на маломощном железе
+- :sparkles: Сверхбыстрая компиляция
+- :sparkles: Экономия оперативы - потребляет десятки мегабайт вместо сотен, как у NodeJS / PHP / Ruby / Java
+- :sparkles: Сборщик мусора - редкость для компилируемого языка, ориентированного на максимальную производительность
+- :sparkles: Самый быстрый в рантайме "из коробки" для разработки web-серверов
+- :sparkles: Хорошая стандартная библиотека
+- :sparkles: Поощряет писать простой понятный код
+- :microbe: Нужна система 2010+ для запуска/компиляции программ на Golang
+- :microbe: Популярность уже почти не растёт
+- :microbe: Не самое дружелюбное к новичкам коммьюнити
+- :microbe: Меньше библиотек и готовых проектов. И те, что есть, менее популярны и хуже более сырые.
+- :microbe: В основном деплой и web-разработка.
+- :microbe: Есть TinyGo для embedded-устройств, но он ограничен (однопоточный)
+
 ## :scroll: Go #navigator
 
 - [awesome-go](https://github.com/avelino/awesome-go) by [avelino](https://github.com/avelino)
@@ -276,7 +292,7 @@ Oh, and I also swore loudly when I realized strings are formatted java style wit
 
 poggioreal: Go takes a minimalist approach, so it doesn’t offer as many data structures as, for example, C++. For this reason, certain specific data structures need to be reimplemented in Go using a combination of Maps, Slices, and Channels.
 
-# Go - самый скучный язык? / Merion Academy / YT, 2026.04
+## Go - самый скучный язык? / Merion Academy / YT, 2026.04
 
 - https://youtube.com/watch?v=r5sS2T2Nx9M
 
