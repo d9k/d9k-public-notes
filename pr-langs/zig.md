@@ -8,6 +8,52 @@
 - [News ⚡ Zig Programming Language](https://ziglang.org/news/)
 - [Devlog ⚡ Zig Programming Language](https://ziglang.org/devlog/2025/)
 
+## :balloon: #project<span>&hairsp;s</span> on Zig
+
+- :mag_right: [Zig repos | GH](https://github.com/search?q=language%3AZig&type=repositories&s=stars&o=desc&p=2)
+
+- [tigerbeetle](https://github.com/tigerbeetle/tigerbeetle) by [tigerbeetle](https://github.com/tigerbeetle)
+	- _The financial transactions database designed for mission critical safety and performance._
+
+- [flow: Flow Control](https://github.com/neurocyte/flow) by [neurocyte](https://github.com/neurocyte)
+	- _a programmer's text editor_
+
+- [xit](https://github.com/xit-vcs/xit) by [xit-vcs](https://github.com/xit-vcs)
+	- _a git alternative written in zig_
+
+- [dvui](https://github.com/david-vanderson/dvui) by [david-vanderson](https://github.com/david-vanderson)
+	- _Immediate Zig GUI for Apps and Games_
+
+- [fizzy](https://github.com/fizzyedit/fizzy) by [fizzyedit](https://github.com/fizzyedit)
+	- _Pixel art editor made with Zig_
+	- [pixi](https://github.com/fizzyedit/pixi) by [fizzyedit](https://github.com/fizzyedit)
+		- _Pixel art editing plugin for fizzy_
+
+- [mach](https://code.hexops.org/hexops/mach) by [hexops](https://github.com/hexops)
+	- _zig game engine & graphics toolkit_
+
+- [jetzig](https://github.com/jetzig-framework/jetzig) by [jetzig-framework](https://github.com/jetzig-framework)
+	- _Jetzig is a web framework written in Zig_
+
+- [libvaxis](https://github.com/rockorager/libvaxis) by [rockorager](https://github.com/rockorager)
+	- _a modern tui library written in zig_
+
+- [zig-clap](https://github.com/Hejsil/zig-clap) by [Hejsil](https://github.com/Hejsil)
+	- _Command line argument parsing library_
+
+- [yorhel/ncdu | Blicky.net Git Host](https://code.blicky.net/yorhel/ncdu/)
+	- NCurses Disk Usage
+
+- [poop](https://github.com/andrewrk/poop) by [andrewrk](https://github.com/andrewrk)
+	- #benchmark ?
+	- _Performance Optimizer Observation Platform_
+
+- [arcan](https://github.com/letoram/arcan) by [letoram](https://github.com/letoram)
+	- _a powerful development framework for creating virtually anything from user interfaces for specialized embedded applications all the way to full-blown standalone desktop environments._
+
+- [zpdf](https://github.com/Lulzx/zpdf) by [Lulzx](https://github.com/Lulzx)
+	- _Zero-copy PDF text extraction library written in Zig. High-performance, memory-mapped parsing with SIMD acceleration._
+
 ## Zig Language | Thoughts After 2 Years | codingjerk, 2025
 
 - https://www.youtube.com/watch?v=TCcPqhRaJqc
@@ -73,15 +119,6 @@ JS on Bun - 1 hour.
 	- 5:10 Zig concurrency is a native language feature
 	- 6:10 [Exercism](https://exercism.org/) ad (algo tasks and test assignments tasks (like build own SQLite))
 
-
-## :balloon: #project<span>&hairsp;s</span> on Zig
-
-- [bun](https://github.com/oven-sh/bun) by [oven-sh](https://github.com/oven-sh)
-	- _Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one_
-- [yorhel/ncdu | Blicky.net Git Host](https://code.blicky.net/yorhel/ncdu/)
-	- NCurses Disk Usage
-- [tigerbeetle](https://github.com/tigerbeetle/tigerbeetle) by [tigerbeetle](https://github.com/tigerbeetle)
-	- _The financial transactions database designed for mission critical safety and performance._
 
 ## #speed
 
