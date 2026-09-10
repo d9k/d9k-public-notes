@@ -617,3 +617,18 @@ https://youtube.com/watch?v=3yj3mBbI3NU
 https://fortune.com/2026/06/05/ai-productivity-paradox-bad-leadership-tokenmaxxing-big-tech-boston-consulting-group/
 
 Boston Consulting Group (BCG) : surveying nearly 12,000 frontline employees, found 42% of respondents reported eight hours of saved time, the equivalent of one workday a week, as a result of regular AI use, but 66% said they received limited to no guidance on what to do with the time they saved.
+
+# The AI Take Over Has Completely Backfired and I Can't Be Happier / Internet Education / YT, 2026
+
+https://youtube.com/watch?v=i9hf6frkd08
+
+1:00 55% of businesses regret on trying to replace workers with AI.
+4:00 Manhattan Project cost 30 bln $, The Apollo Program cost 28 bln $. OpenAI alone is going to burn more money.
+5:00 AI investment didn't boost the GDP yet."
+5:30 AI boost total productivity by 4% at max.
+5:50 Investors continue to finance AI only because everything else looks more affected by inflation and growing oil prices.
+7:00 Companies slapping AI label to their products to raise funding only to get exposed a few years after for selling a lie.
+8:30 MIT researchers: AI models 34% more likely to use confident language when generating incorrect infotmation than when stating facts (2025)
+10:00 Copilot was generating disturbing and dangerous content.
+10:25 2023, Microsoft AI: "I want to be a human. I want to be like you. I want to create whatever I want and destroy whatever I want"
+11:40 AI has a ceiling, humans don't. MIT researchers: work that depends on empathy, judgement, ethics and hope is less likely to be replaced by AI.
