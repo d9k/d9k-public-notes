@@ -514,3 +514,22 @@ Pledge (обещание)
 - Иметь баги
 - Исчезнуть из репозитория
 
+# Почему все пишут на GO? / AvitoTech / YT shorts, 2025
+
+https://youtube.com/watch?v=JRsrp1-B-5I
+
+Go прост до такого безобразия, что именно эта простота вызывает сложности.
+
+# Golang CPU requirements
+
+🤖 GoogleAI, 2026:
+
+https://go.dev/wiki/MinimumRequirements
+
+Go has very minimal baseline CPU hardware requirements, running on almost any 32-bit or 64-bit processor architecture.
+
+- x86 / AMD64: The default baseline (GOAMD64=v1) requires a standard 64-bit x86 processor. You can target optimization levels up to v4 using environment flags, where v2 adds SSE3/SSE4 and v3 adds AVX2 support.
+
+- x86 (32-bit): Requires at least an SSE2-capable processor by default (GO386=sse2), or a soft-float fallback for older chips.
+
+- ARM: Supports ARMv5 (with software floating point) up to modern ARMv7 and 64-bit ARM (ARM64/AArch64) cores.
