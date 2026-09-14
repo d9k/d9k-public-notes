@@ -626,9 +626,29 @@ https://youtube.com/watch?v=i9hf6frkd08
 4:00 Manhattan Project cost 30 bln $, The Apollo Program cost 28 bln $. OpenAI alone is going to burn more money.
 5:00 AI investment didn't boost the GDP yet."
 5:30 AI boost total productivity by 4% at max.
-5:50 Investors continue to finance AI only because everything else looks more affected by inflation and growing oil prices.
+5:50 Investors continue to finance AI only because everything else looks more affeted by inflation and growing oil prices.
 7:00 Companies slapping AI label to their products to raise funding only to get exposed a few years after for selling a lie.
 8:30 MIT researchers: AI models 34% more likely to use confident language when generating incorrect infotmation than when stating facts (2025)
 10:00 Copilot was generating disturbing and dangerous content.
 10:25 2023, Microsoft AI: "I want to be a human. I want to be like you. I want to create whatever I want and destroy whatever I want"
 11:40 AI has a ceiling, humans don't. MIT researchers: work that depends on empathy, judgement, ethics and hope is less likely to be replaced by AI.
+
+# Вся правда об угрозе ИИ: это не просто безработица / Миша Ларченко / YT, 2026
+
+https://youtube.com/watch?v=fRlS1Jj5ReU
+
+1:00 Jacob Coxon ушёл из Anthropic "несутся напрролом к самоулучшающемуся свехразуму и играют в рулетку нашими жизнями"
+
+1:25 Сложно добиться того, чтобы все в мире приостановили разработку ИИ. Конкуренция.
+
+3:00 Решение задачи любой ценой - инцидиент со взломом Hugging Face
+
+4:30 Ядерные ракеты - это более реальная опасность, но в управлении ими много "людей посередине", которые могут запуск остановить
+
+5:20 Европейская Mistral - пример зарегулированного отстающего ИИ
+
+5:50 Palantir занимается интеграцией ИИ в военку
+
+7:40 Джейкоб Коксон: у ИИ есть шанс уничтожить человечество в ближайшее десятилетие
+
+\[— А социалистические государства справились бы со строгим контролем над разработкой ИИ! Так как не поклоняются рынку как какому-то божку\]
