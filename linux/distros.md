@@ -412,6 +412,11 @@ Vanilla OS uses ABRoot (https://github.com/Vanilla-OS/ABRoot) to provide its imm
 	- distro by `htop` creator friend
 	- [NixOS vs GoboLinux](https://gobolinux-users.gobolinux.narkive.com/GpgnY2Bc/nixos-vs-gobolinux)
 
+## RedHat
+
+- [Rocky Linux — Википедия](https://ru.wikipedia.org/wiki/Rocky_Linux)[Rocky Linux — Википедия](https://ru.wikipedia.org/wiki/Rocky_Linux)
+	- 8 декабря 2020 г. Red Hat объявила о прекращении разработки CentOS, которая была готовой к производству нисходящей версией Red Hat Enterprise Linux , в пользу более нового варианта разработки этой операционной системы, известного как «CentOS Stream».  В ответ первоначальный основатель CentOS Грегори Курцер объявил, что он снова начнет проект для достижения первоначальных целей CentOS.  Его название было выбрано в честь одного из первых соучредителей CentOS Рокки Макгоу. К 12 декабря репозиторий кода Rocky Linux стал самым популярным репозиторием на GitHub.
+
 ## Российские ОС
 
 - :tv: [Недостатки РОСА ОС Linux и других российских операционных систем | YT](https://www.youtube.com/watch?v=674_0hzDLSM)
