@@ -2,6 +2,18 @@
 
 [Admired and Desired | 2025 Stack Overflow Developer Survey](https://survey.stackoverflow.co/2025/technology#admired-and-desired)
 
+## GitHut
+
+- https://madnight.github.io/githut/
+	- stats on PRs till 2024
+	- Golang, TypeScript - growth
+	- PHP, JS - decline
+	- Scala - not much
+	- Pascal, Haxe, R, Julia - little all the time
+	- Dart - little, but small growth
+	- C# - slowly growing, not much
+
+
 ## The Ultimate Tier Programming Tier List | Prime Reacts
 
 - https://www.youtube.com/watch?v=fIp-cWEHaCk
