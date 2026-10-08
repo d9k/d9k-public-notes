@@ -533,3 +533,13 @@ Go has very minimal baseline CPU hardware requirements, running on almost any 32
 - x86 (32-bit): Requires at least an SSE2-capable processor by default (GO386=sse2), or a soft-float fallback for older chips.
 
 - ARM: Supports ARMv5 (with software floating point) up to modern ARMv7 and 64-bit ARM (ARM64/AArch64) cores.
+
+# I Tested 8 Programming Languages on a Server / Arjay McCandless / YT, 2026
+
+https://youtube.com/watch?v=sQXFhh_PiG4
+
+9:40 Go
+10:10 vs Rust. Postgres became a bottleneck
+12:00 SQLite: но network/socket round-trip (library inside application)
+12:15 SQLite Write-ahead mode. Doubled users througput compared to PostgreSQL!
+13:30 Alternative: Move DB to separate host?
