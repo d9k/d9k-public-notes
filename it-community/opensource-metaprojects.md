@@ -48,3 +48,9 @@ https://github.com/coopenomics
 - на данный момент проект приостановлен
 
 - https://t.me/grandcore_chat
+
+## Обзоры opensource-проектов
+
+- https://opennet.ru
+- https://distrowatch.com
+- https://opensource.microsoft.com/projects/
