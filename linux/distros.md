@@ -137,6 +137,16 @@
 			 - If your system still boots and works after doing the above go over all the modules that are loaded in Moksha. Unload the ones not 100% needed by you. The Places module and the Clipboard module are 2 that you could certainly unload.
 			 - The Big one: compile your own kernel and make it as minimal as you can and still support your hardware with the features you need.
 			- git clone EFL and moksha switch to a tty and uninstall both. Now compile and install EFL after going over all the compile options carefully and make sure it is as minimal of an install as possible. You may even want to consider using an older version of EFL that what is current. Look over EFL branches to find one that works with moksha.
+- Q4OS
+	- :tv: [This Is the Best OS for Low End PCs! | Spec Tech | YT](https://www.youtube.com/watch?v=u-4Ki18Jxp0)
+		- LTS: 4 years support
+		- 2:20 Windows installer
+		- [Trinity Desktop Environment](https://www.trinitydesktop.org/) - most Linux distros don't support it at all
+		- 6:50 Window becomes transparent when moving
+		- 7:00 Konqueror browser doesn't display pages well. Firefox needed.
+	- 256 mb, 300 MHz, 3 gb HDD - requirements for TrinityDE?
+	- :tv: [Обзор на самый дружелюбный Linux для слабого ПК | Клик Свайп | YT](https://www.youtube.com/watch?v=I4vRP7FuNS0)
+
 - Loc-OS
 	- [DistroWatch.com: Loc-OS](https://distrowatch.com/table.php?distribution=locos)
 	- :tv: [Can this Linux distro resurrect my tiny laptop from 2010? | foci | YT](https://www.youtube.com/watch?v=OMl69uCu6jY)
