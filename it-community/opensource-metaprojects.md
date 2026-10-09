@@ -54,3 +54,5 @@ https://github.com/coopenomics
 - https://opennet.ru
 - https://distrowatch.com
 - https://opensource.microsoft.com/projects/
+- OSSDEVCONF
+	- :tv: [Stas Fomin | YT](https://www.youtube.com/@belonesox)
