@@ -16,5 +16,5 @@
 
 ## Cases
 
-- [Why #D language is unpopular?](./d.md)
+- [Why #D language is unpopular?](pr-lang-d.md)
 -
