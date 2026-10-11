@@ -103,15 +103,11 @@
 		 - :speaking_head_in_silhouette: [Is it possible to show first letters of running windows titles in **vertical** shelf?](https://discord.com/channels/274702482473746432/353945066168909846/1257882209122123878)
 	- Slow install.
 		- `Preparing to completely remove...` ?
-- Trisquel Mini
-	- 128 mb RAM!
-	- образ 1.2 GB, есть NetInstall
-	- LXDE
-	- :tv: [Trisquel linux лёгкий , свободный , безопасный | YT](https://www.youtube.com/watch?v=ReXd9KRjMic)
-	- Trisquel не содержит в себе закрытых участков исходного кода
-	- Abrowser - дебрендир. Firefox
-	- нет и не будет телеметрии
-	- NVidia видеокарта может не заработать
+- antiX
+	- [DistroWatch.com: antiX](https://distrowatch.com/table.php?distribution=antix)
+	- System V, no `journalctl`
+	- :tv: [AntiX Vs Puppy Linux - Which One Is Better? | YT](https://www.youtube.com/watch?v=IXJCt_jhDYs)
+		- 3:30 IceWM, JWM, Fluxbox
 - [DistroWatch.com: Devuan GNU+Linux](https://distrowatch.com/table.php?distribution=devuan)
 	- [Welcome to devuan.org | Devuan GNU+Linux Free Operating System](https://www.devuan.org/)
 	- _Runit and openrc are quarter-implemented on this distro, whereas Artix and Void and even antiX have accomplished more_
@@ -129,14 +125,35 @@
 ## Smol
 
 - [Comparison of lightweight Linux distributions - Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_lightweight_Linux_distributions)
+
+- Trisquel Mini
+	- 128 mb RAM!
+	- образ 1.2 GB, есть NetInstall
+	- LXDE
+	- :tv: [Trisquel linux лёгкий , свободный , безопасный | YT](https://www.youtube.com/watch?v=ReXd9KRjMic)
+	- Полностью свободный. Trisquel не содержит в себе закрытых участков исходного кода
+	- Abrowser - дебрендир. Firefox
+	- нет и не будет телеметрии
+	- NVidia видеокарта может не заработать
+	- :tv: [Дыра в Linux, Дистрибутивы Deepin 20.4, Nitrux 2, Свободный Trisquel | YT](https://www.youtube.com/watch?v=soKYVaTckYk), 2022
+		- 11:00 Появление поддержки ARM, но прекратили поддержку 32-bit
+
 - [Bodhi Linux](https://www.bodhilinux.com/)
 	- (See also at [[#Debian-based]])
 	- :speech_balloon: [Lowest memory usage | /r/bodhilinux](https://www.reddit.com/r/bodhilinux/comments/1cvi7qa/lowest_memory_usage/)
-		- rbtylee: _(This requires a large amount of technical knowledge and has the potential to break your system)._ Go over the list of installed packages, every single one, and uninstall whatever you do not need. Do you need a DM (ie login screen) or are you able to boot to a command line, login, and start Moskha there? Do you really need network manager or would you be able to connect to the internet without it?
+		- rbtylee: _(This requires a large amount of technical knowledge and has the potential to break your system)._ Go over the list of installed packages, every single one, and uninstall whatever you do not need. Do you need a DM (ie login screen) or are you able to boot to a command line, login, and start M,oskha there? Do you really need network manager or would you be able to connect to the internet without it?
 			 - Go over every single systemd service that starts or is installed. Make a decision as to whether you need it or not? If it is unneeded remove it, maybe even uninstall whatever installed it but if not at least make sure it does not start at boot.
 			 - If your system still boots and works after doing the above go over all the modules that are loaded in Moksha. Unload the ones not 100% needed by you. The Places module and the Clipboard module are 2 that you could certainly unload.
 			 - The Big one: compile your own kernel and make it as minimal as you can and still support your hardware with the features you need.
 			- git clone EFL and moksha switch to a tty and uninstall both. Now compile and install EFL after going over all the compile options carefully and make sure it is as minimal of an install as possible. You may even want to consider using an older version of EFL that what is current. Look over EFL branches to find one that works with moksha.
+
+- MX Linux
+	- :tv: [Why MX Linux Beats Ubuntu & Fedora | YT](https://www.youtube.com/watch?v=A9Qnd6Obbgg)
+		- 3:30 MXLinux LiveUSB: enable advanced option to persist
+		- :tv: [MX Linux with Moksha Desktop: MX Moksha Overview | YT](https://www.youtube.com/watch?v=cvoSlNGuIu4)
+		- :tv: [I Compared All MX Linux Editions | Here’s The Best One! | YT](https://www.youtube.com/watch?v=_gp8xD-q-hw)
+			- 6:20 Fluxbox is the lightest
+
 - Q4OS
 	- :tv: [This Is the Best OS for Low End PCs! | Spec Tech | YT](https://www.youtube.com/watch?v=u-4Ki18Jxp0)
 		- LTS: 4 years support
@@ -151,8 +168,10 @@
 	- [DistroWatch.com: Loc-OS](https://distrowatch.com/table.php?distribution=locos)
 	- :tv: [Can this Linux distro resurrect my tiny laptop from 2010? | foci | YT](https://www.youtube.com/watch?v=OMl69uCu6jY)
 		- 64 Linux vesion bit works faster
+
 - KNOPPIX
 	- [DistroWatch.com: KNOPPIX](https://distrowatch.com/table.php?distribution=knoppix)
+
 - Alpine
 	- :tv: [Alpine Linux - Simple, Small, and Secure | Titus Tech Talk | YT](https://www.youtube.com/watch?v=UmXNI9PcxDI)
 		- _The less crap you have on a system the smaller attack surface you have_
@@ -163,12 +182,14 @@
 	- :tv: [I Used Alpine Linux For 30 Days, Here's How It Went | PenguinByte |  YT](https://www.youtube.com/watch?v=JjctvUcQkjA)
 		- Couldn't render video in video editor
 		- Network Manager loses connection
+
 - OpenWRT
 	- [Unable to install xorg-server - Installing and Using OpenWrt - OpenWrt Forum](https://forum.openwrt.org/t/unable-to-install-xorg-server/158114/2)
 		- You cannot install a graphics server on OpenWrt. The fundamental dependenceis are not available for OpenWrt and would likely take years to develop (and nobody is interested in doing this).
 
 - Tails
 	- incognito-mode OS
+
 - [DistroWatch.com: EasyOS](https://distrowatch.com/table.php?distribution=easyos)
 	- :tv: [20 лет МАТЕРИНКЕ! Устанавливаю EasyOS LINUX! Не ожидал такого в 2024 году!!! | YT](https://www.youtube.com/watch?v=O-2sXOjP8Cs)
 	- The distribution features custom container technology called Easy Containers which can run applications or the entire desktop environment in a container.
@@ -176,9 +197,13 @@
 	- [EasyOS: An Experimental Distro With Unique Qualities](https://news.itsfoss.com/easyos/)
 	- :tv: [Barry Kaulder's 'flagship' system, "EasyOS".... | YT](https://www.youtube.com/watch?v=SZgJy93ivjM)
 		- (Σ)  not very useful video, but shows some bugs
+
 - PuppyLinux
-	- as root
-	 напрягает, отбрось это. ПСистема не должна быть умнее пользователя
+	- as root напрягает, отбрось это. Система не должна быть умнее пользователя
+	- :tv: [AntiX Vs Puppy Linux - Which One Is Better? | YT](https://www.youtube.com/watch?v=IXJCt_jhDYs)
+		- 3:10 Puppy Linux runs as root by default.
+		  On shutdown asks to save session on folder
+	- :tv: [Bring An Ancient Computer Back To Life Install Puppy Linux in Minutes! | YT](https://www.youtube.com/watch?v=Fdrc-1WD4lw)
 	- :tv: [BionicPup | Linux for an Old Laptop | YT](https://www.youtube.com/watch?v=aJcWcQ8ew6Q)
 	- [How to setup Root with password? - Puppy Linux Discussion Forum](https://forum.puppylinux.com/viewtopic.php?t=4054)
 		- Unlike mainstream distros, Puppy is a single-user system, and runs as 'root' by default.
@@ -379,17 +404,20 @@ Vanilla OS uses ABRoot (https://github.com/Vanilla-OS/ABRoot) to provide its imm
 	- "If you're serious about security, @QubesOS is the best OS available today. It's what I use, and free." /Edward Snowden,
 	- :tv: [the most secure OS in the world.....I hate it | YT](https://www.youtube.com/watch?v=i3sRSS6fN0g&t=60s)
 
-- Gentoo
-	- [Slotting – Gentoo Development Guide](https://devmanual.gentoo.org/general-concepts/slotting/)
-		- Packages can support having multiple versions installed simultaneously.
-		- Portage permits at most one instance of a package installation _per `SLOT` value_.
-		- Sometimes a package installs a library that changes interfaces between versions. This situation can be handled by using sub-slots, which are delimited from the regular slot by a `/` character
+## Gentoo
 
+- [Slotting – Gentoo Development Guide](https://devmanual.gentoo.org/general-concepts/slotting/)
+	- Packages can support having multiple versions installed simultaneously.
+	- Portage permits at most one instance of a package installation _per `SLOT` value_.
+	- Sometimes a package installs a library that changes interfaces between versions. This situation can be handled by using sub-slots, which are delimited from the regular slot by a `/` character
+
+- Exherbo
+	- https://exherbo.org/
+	- :tv: [How to Install Exherbo Linux | YT](https://www.youtube.com/watch?v=gKJu_di_Zsw), 2026
+		- Fork of Gentoo
 
 ## Independent / Unique
 
-- [Guix System | DistroWatch](https://distrowatch.com/table.php?distribution=guixsd)
-	- Stateless, uses some NixOS libs
 - [Clear Linux | DistroWatch](https://distrowatch.com/table.php?distribution=clear)
 	- Gnome only?
 	- :tv: [The History of Clear Linux | YT](https://www.youtube.com/watch?v=13CxUbumzPA)
@@ -438,6 +466,8 @@ Vanilla OS uses ABRoot (https://github.com/Vanilla-OS/ABRoot) to provide its imm
 	- :tv: [ALT linux - что нового в 11 платформе и что мы имеем в текущей p10 | YT](https://www.youtube.com/watch?v=1JCj7mH9uwY)
 	- `epm` пакетный менеджер
 	- :tv: [100 лет на Линуксе (2025) | PLAFON | YT](https://www.youtube.com/watch?v=2eA_eqkX-bM)
+	- :heavy_dollar_sign:[Base\_prices.pdf](https://www.basealt.ru/fileadmin/user_upload/pdf/Base_prices.pdf)
+		- :microbe: Цены жесть
 - РОСА Linux
 	- :tv: [Недостатки РОСА ОС Linux и других российских операционных систем | YT](https://www.youtube.com/watch?v=674_0hzDLSM)
 	- Нет скриншотов программ в центре приложений как в Ubuntu
@@ -449,7 +479,22 @@ Vanilla OS uses ABRoot (https://github.com/Vanilla-OS/ABRoot) to provide its imm
 
 ## Truely #OSS distros
 
+- [Guix System | DistroWatch](https://distrowatch.com/table.php?distribution=guixsd)
+	- Stateless, uses some NixOS libs
+	- :tv: [Why I Choose Guix Over NixOS | YT](https://www.youtube.com/watch?v=PiAMRXYIri0)
+		- 0:35 Entire system is built using Scheme language
+
+- :scroll: [List of Free GNU/Linux Distributions - GNU Project - Free Software Foundation](https://www.gnu.org/distros/free-distros.html)
+
 - :tv: [your Linux distro isn't FREE! (these are) | YT](https://www.youtube.com/watch?v=IGV7A6X6uCg)
+
+- https://www.hyperbola.info/
+	- #Arch - based
+	- OpenRC вместо SystemD
+	- [Hyperbola GNU/Linux-libre | DistroWatch](https://distrowatch.com/table.php?distribution=hyperbola)
+		- For desktop users, it provides a package called lumina-desktop. It uses xenocara as the default window system. It uses sndio instead of pulseaudio or pipewire.
+	- :tv: [Hyperbola GNU/Linux-libre/BSD | фанатичная преданность идеалам свободы | YT](https://www.youtube.com/watch?v=FOO4JsoZlxk), 2021
+		- 3:50 Философия защиты от глобальной слежки
 
 ## Install package from different Linux distro
 
@@ -491,3 +536,8 @@ Vanilla OS uses ABRoot (https://github.com/Vanilla-OS/ABRoot) to provide its imm
 		- _The biggest issue with Toolbox (in my opinion), is it just hands your home directory over as the container's home directory, with no way to configure this. That issue is a deal-breaker for me and makes the software completely pointless and unusable. I've also had Toolbox just randomly break on me oftn. Distrobox supports configuring the container's home directory, which immediately makes it the much better option to me. Tlbx is another superior option._
 	- apx
 		- There is a distro called VanillaOS, and its package manager, apx, is a wrapper around distrobox. The killer feature is that it allows to have APT, DNF and AUR on a single system.
+
+## #christian
+
+- [Run Live / Install | Computers4Christians](https://computers4christians.org/download/install-c4c-ubuntu/)
+- [Mauna Christian Edition - Mauna Linux](https://maunalinux.top/download/mauna-christian-edition/)
