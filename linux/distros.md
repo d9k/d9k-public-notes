@@ -103,11 +103,13 @@
 		 - :speaking_head_in_silhouette: [Is it possible to show first letters of running windows titles in **vertical** shelf?](https://discord.com/channels/274702482473746432/353945066168909846/1257882209122123878)
 	- Slow install.
 		- `Preparing to completely remove...` ?
+
 - antiX
 	- [DistroWatch.com: antiX](https://distrowatch.com/table.php?distribution=antix)
 	- System V, no `journalctl`
 	- :tv: [AntiX Vs Puppy Linux - Which One Is Better? | YT](https://www.youtube.com/watch?v=IXJCt_jhDYs)
 		- 3:30 IceWM, JWM, Fluxbox
+
 - [DistroWatch.com: Devuan GNU+Linux](https://distrowatch.com/table.php?distribution=devuan)
 	- [Welcome to devuan.org | Devuan GNU+Linux Free Operating System](https://www.devuan.org/)
 	- _Runit and openrc are quarter-implemented on this distro, whereas Artix and Void and even antiX have accomplished more_
@@ -127,9 +129,10 @@
 - [Comparison of lightweight Linux distributions - Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_lightweight_Linux_distributions)
 
 - Trisquel Mini
+	- :door: https://trisquel.info/en/wiki/trisquel-mini
 	- 128 mb RAM!
 	- образ 1.2 GB, есть NetInstall
-	- LXDE
+	- LXDE + Openbox
 	- :tv: [Trisquel linux лёгкий , свободный , безопасный | YT](https://www.youtube.com/watch?v=ReXd9KRjMic)
 	- Полностью свободный. Trisquel не содержит в себе закрытых участков исходного кода
 	- Abrowser - дебрендир. Firefox
@@ -153,6 +156,10 @@
 		- :tv: [MX Linux with Moksha Desktop: MX Moksha Overview | YT](https://www.youtube.com/watch?v=cvoSlNGuIu4)
 		- :tv: [I Compared All MX Linux Editions | Here’s The Best One! | YT](https://www.youtube.com/watch?v=_gp8xD-q-hw)
 			- 6:20 Fluxbox is the lightest
+
+- AV Linux
+	- :tv: [Hello AV Linux MX Moksha ! | YT](https://www.youtube.com/watch?v=TEeLLvAPRDY)
+		- AV Linux — дистрибутив Linux, рассчитанный на создателей мультимедийного контента. Доступен для архитектур i386 и x86-64, оптимизирован под максимальную производительность и производство аудио с малым временем отклика / [AV Linux — Википедия](https://ru.wikipedia.org/wiki/AV_Linux)
 
 - Q4OS
 	- :tv: [This Is the Best OS for Low End PCs! | Spec Tech | YT](https://www.youtube.com/watch?v=u-4Ki18Jxp0)
@@ -179,9 +186,20 @@
 	- `man` doesn't work out of the box
 	- `apk` package manager - alpine package keeper
 		- very fast
+	- :tv: [How to Install and Configure Alpine Linux (2027 Edition) | YT](https://www.youtube.com/watch?v=NKggFBdee94&t=72s)
+		- 18:00 RAM usage
+	- :tv: [Okay fine, I'll try Alpine Linux.. | YT](https://www.youtube.com/watch?v=CGoFQY1yhFA)
+		- 1:40 So much targets! Works on RPi
+		- 350 mb
+		- 6:50 doas instead of sudo
+		- 7:30 setup-desktop
+		- 8:15 sound setup
+		- 8:55 musl, not glib
+		- 12:50 Steam, MineCraft Prism launcher: flatpak were required
 	- :tv: [I Used Alpine Linux For 30 Days, Here's How It Went | PenguinByte |  YT](https://www.youtube.com/watch?v=JjctvUcQkjA)
 		- Couldn't render video in video editor
 		- Network Manager loses connection
+
 
 - OpenWRT
 	- [Unable to install xorg-server - Installing and Using OpenWrt - OpenWrt Forum](https://forum.openwrt.org/t/unable-to-install-xorg-server/158114/2)
@@ -193,12 +211,17 @@
 - [DistroWatch.com: EasyOS](https://distrowatch.com/table.php?distribution=easyos)
 	- :tv: [20 лет МАТЕРИНКЕ! Устанавливаю EasyOS LINUX! Не ожидал такого в 2024 году!!! | YT](https://www.youtube.com/watch?v=O-2sXOjP8Cs)
 	- The distribution features custom container technology called Easy Containers which can run applications or the entire desktop environment in a container.
-	- [DistroWatch.com: Put the fun back into computing. Use Linux, BSD.](https://distrowatch.com/dwres.php?resource=ratings&distro=easyos)
+	- :beginner: [How and why EasyOS is different](https://easyos.org/about/how-and-why-easyos-is-different.html)
+		- Easy containers: Easy runs each non-root app as its own user. For example, by default Firefox runs as user 'firefox',
+	- Работа под Root, но приложения в контейнерах сбрасывают права ради безопасности.
+	- :speech_balloon: [DistroWatch.com: Put the fun back into computing. Use Linux, BSD.](https://distrowatch.com/dwres.php?resource=ratings&distro=easyos)
+		- The desktop is JWM, not quite as flexible as some, but very lightweight. I was unable to pin icons on the stock taskbar, so I added an app dock, deleted some desktop icons, and put some others in the new dock. None of that was difficult.
 	- [EasyOS: An Experimental Distro With Unique Qualities](https://news.itsfoss.com/easyos/)
 	- :tv: [Barry Kaulder's 'flagship' system, "EasyOS".... | YT](https://www.youtube.com/watch?v=SZgJy93ivjM)
 		- (Σ)  not very useful video, but shows some bugs
 
 - PuppyLinux
+	- [DistroWatch.com: Puppy Linux](https://distrowatch.com/table.php?distribution=puppy)
 	- as root напрягает, отбрось это. Система не должна быть умнее пользователя
 	- :tv: [AntiX Vs Puppy Linux - Which One Is Better? | YT](https://www.youtube.com/watch?v=IXJCt_jhDYs)
 		- 3:10 Puppy Linux runs as root by default.
@@ -207,8 +230,6 @@
 	- :tv: [BionicPup | Linux for an Old Laptop | YT](https://www.youtube.com/watch?v=aJcWcQ8ew6Q)
 	- [How to setup Root with password? - Puppy Linux Discussion Forum](https://forum.puppylinux.com/viewtopic.php?t=4054)
 		- Unlike mainstream distros, Puppy is a single-user system, and runs as 'root' by default.
-	- [How and why EasyOS is different](https://easyos.org/about/how-and-why-easyos-is-different.html)
-		- Easy runs each non-root app as its own user. For example, by default Firefox runs as user 'firefox',
 
 ## Slackware
 
@@ -407,6 +428,7 @@ Vanilla OS uses ABRoot (https://github.com/Vanilla-OS/ABRoot) to provide its imm
 ## Gentoo
 
 - [Slotting – Gentoo Development Guide](https://devmanual.gentoo.org/general-concepts/slotting/)
+	- Через slots и eselect можно держать несколько версий одного пакета одновременно: например, python:3.11, python:3.12, gcc:12, gcc:13, llvm:16, llvm:17. Переключение — командой eselect.
 	- Packages can support having multiple versions installed simultaneously.
 	- Portage permits at most one instance of a package installation _per `SLOT` value_.
 	- Sometimes a package installs a library that changes interfaces between versions. This situation can be handled by using sub-slots, which are delimited from the regular slot by a `/` character
@@ -495,6 +517,9 @@ Vanilla OS uses ABRoot (https://github.com/Vanilla-OS/ABRoot) to provide its imm
 		- For desktop users, it provides a package called lumina-desktop. It uses xenocara as the default window system. It uses sndio instead of pulseaudio or pipewire.
 	- :tv: [Hyperbola GNU/Linux-libre/BSD | фанатичная преданность идеалам свободы | YT](https://www.youtube.com/watch?v=FOO4JsoZlxk), 2021
 		- 3:50 Философия защиты от глобальной слежки
+		- 6:30 Даже Libre-ядро Linux включает DRM. Хотят перейти на OpenBSD
+		- 7:20 Распространение Rust и cargo требуют изменения версии. Mozilla уже убивала свободные проекты на этой почве
+			- Upd: 2021 права были переданы Rust Fondation
 
 ## Install package from different Linux distro
 
@@ -527,8 +552,6 @@ Vanilla OS uses ABRoot (https://github.com/Vanilla-OS/ABRoot) to provide its imm
 					- :rotating_light: `lua: error while loading shared libraries: libreadline.so.6: cannot open shared object file: No such file or directory`
 	- Check space occupied
 		- :zap: `sudo du -h ~/.local/share/containers`
-
-
 
 	- [Distrobox - ArchWiki](https://wiki.archlinux.org/title/Distrobox)
 	- :newspaper:  [How to integrate any Linux distribution inside a terminal with Distrobox - Linux Tutorials - Learn Linux Configuration](https://linuxconfig.org/how-to-integrate-any-linux-distribution-inside-a-terminal-with-distrobox)
