@@ -668,3 +668,14 @@ Job security только на 9 месяцев. Некоторые ищут р�
 ## Комментарии
 
 SuperYuri009: В будущем робот сможет купить себе человека-питомца, как в рассказе Роберта Шекли.
+
+# Big Tech Can't Hide This For Much Longer / MonkeyExplains / YT, 2026
+
+https://youtube.com/watch?v=DS6p9pEwCPs
+
+0:45 5% of the US GDP. $3 trln in debts collectively.
+1:20 Shell companies
+2:15 Hyperion - giant data center built by Meta.
+5:15 Blue Owl Capital owns 80%. Meta pays B.O. data center rent.
+5:45 Blue Owl got money from bond investors like Pimco. Actually Meta repays investors back throw B.O.
+// . . . . .
