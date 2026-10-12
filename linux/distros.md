@@ -480,8 +480,6 @@ Vanilla OS uses ABRoot (https://github.com/Vanilla-OS/ABRoot) to provide its imm
 
 ## Independent / Unique / Experimental
 
-- [Bedrock Linux | DistroWatch](https://distrowatch.com/table.php?distribution=bedrock)
-	- BedrockLinux cured me of my distroholism.
 
 - [CRUX | DistroWatch](https://distrowatch.com/table.php?distribution=crux)
 
@@ -507,17 +505,23 @@ Vanilla OS uses ABRoot (https://github.com/Vanilla-OS/ABRoot) to provide its imm
 	- distro by `htop` creator friend
 	- [NixOS vs GoboLinux](https://gobolinux-users.gobolinux.narkive.com/GpgnY2Bc/nixos-vs-gobolinux)
 
-- [-] [Clear Linux | DistroWatch](https://distrowatch.com/table.php?distribution=clear)
-	- :fallen_leaf:
-	- Gnome only?
-	- :tv: [The History of Clear Linux | YT](https://www.youtube.com/watch?v=13CxUbumzPA)
-	- :tv: [Why Clear Linux OS? | YT](https://www.youtube.com/watch?v=VxA-vim715w)
-	- от Intel
-	- немного быстрее
-	- free security scanner
-	- lightweight delta updates
-	- :tv: [Clear Linux 35000 (GNOME 40.4) | YT](https://www.youtube.com/watch?v=Jv_p7MF4bP0)
+### Bedrock Linux
 
+- Позволяет запускать на одном ядре без виртуализации несколько дистрибутивов
+- :speech_balloon: [Bedrock Linux | DistroWatch](https://distrowatch.com/table.php?distribution=bedrock)
+	- BedrockLinux cured me of my distroholism.
+	- :tv: [Bedrock Linux: All the distros! / DenshiVideo / YT, 2020](https://youtube.com/watch?v=PX-Y3znIBEY)
+		- 0:30 Hijack existing Linux installation
+		- 2:45 Strata is a Linux distribution layer
+		- 4:10 Install packages from different Linux distros
+		- 5:40 `brl which apk` => tut-alpine
+		- 6:30 `brl which /` => tut-debian
+		- 9:05 Across file paths: `/bedrock/strata/$STRATUM`
+		- 9:50 `strat tut-alpine ls`
+		- 10:45 stratum for init system
+		- 11:20 `-r $STRATUM` to restrict seeing other stratum commands
+		- 12:30 Package Manager Manager: Update all package managers at once: configure `[pmm]` in `/bedrock/etc/bedrock.conf/`, then `brl apply`, `pmm --help`
+		- 17:40 Go through other tutorials: `brl tutorial --help`
 
 ## RedHat
 
