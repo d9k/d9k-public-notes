@@ -35,7 +35,6 @@
 - [ ] deb / yum / pacman difference?
 
 - :tv: [100+ Linux Things you Need to Know | Fireship | YT](https://www.youtube.com/watch?v=LKCVKw9CzFo&t=4s)
-
 - immutable distro
 	- [ ] :tv: [uBlue Linux: Immutable Fedora With Batteries Included | YT](https://www.youtube.com/watch?v=HsKKh3WS1q0)
 	- [What are immutable distros, and are they the future of Linux? - YouTube](https://www.youtube.com/watch?v=9hiPFEUoUyI&t=86s)
@@ -59,9 +58,8 @@
 	- Toolbx is installed by default on Fedora Silverblue and Workstation
 	- install at user-space level
 
-
-	- :tv: [Stop Distro Hopping! Use this AWESOME tool on Linux | YT](https://www.youtube.com/watch?v=Sj064D9ZUl8)
-	- [ ] :tv: [Distrobox Is Basically A Linux Subsystem For Linux | YT](https://www.youtube.com/watch?v=FhW-3PPldAg)
+- [bubblewrap](https://github.com/containers/bubblewrap) by [containers](https://github.com/containers)
+	- _Low-level unprivileged sandboxing tool used by Flatpak and similar projects_
 
 ## Install multiple versions of same package
 
@@ -107,12 +105,20 @@
 - antiX
 	- [DistroWatch.com: antiX](https://distrowatch.com/table.php?distribution=antix)
 	- System V, no `journalctl`
+	- :tv: [antiX 19.4 - Linux с Позитивной аурой. AV Linux - для создания аудио и видео. Легкие и быстрые | YT](https://www.youtube.com/watch?v=QNXlEWvDhXw), 2021
+		- 1:55 Отличия среды рабочего стола от оконного менеджера?
+		- 2:30 Rox-IceWM
+		- 3:15 Кастомизир. ядро Linux со своими патчами
+		- 9:15 AVL MXE Assistant
 	- :tv: [AntiX Vs Puppy Linux - Which One Is Better? | YT](https://www.youtube.com/watch?v=IXJCt_jhDYs)
 		- 3:30 IceWM, JWM, Fluxbox
 
 - [DistroWatch.com: Devuan GNU+Linux](https://distrowatch.com/table.php?distribution=devuan)
 	- [Welcome to devuan.org | Devuan GNU+Linux Free Operating System](https://www.devuan.org/)
 	- _Runit and openrc are quarter-implemented on this distro, whereas Artix and Void and even antiX have accomplished more_
+	- [Peppermint OS - Wikipedia](https://en.wikipedia.org/wiki/Peppermint_OS)
+		- based on Devuan
+
 - [DistroWatch.com: Parrot](https://distrowatch.com/table.php?distribution=parrot)
 	- security-oriented distribution featuring a collection of utilities designed for penetration testing, computer forensics, reverse engineering, hacking, privacy, anonymity and cryptography
 - [DistroWatch.com: SpiralLinux](https://distrowatch.com/table.php?distribution=spiral)
@@ -128,18 +134,29 @@
 
 - [Comparison of lightweight Linux distributions - Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_lightweight_Linux_distributions)
 
-- Trisquel Mini
-	- :door: https://trisquel.info/en/wiki/trisquel-mini
-	- 128 mb RAM!
-	- образ 1.2 GB, есть NetInstall
-	- LXDE + Openbox
-	- :tv: [Trisquel linux лёгкий , свободный , безопасный | YT](https://www.youtube.com/watch?v=ReXd9KRjMic)
-	- Полностью свободный. Trisquel не содержит в себе закрытых участков исходного кода
-	- Abrowser - дебрендир. Firefox
-	- нет и не будет телеметрии
-	- NVidia видеокарта может не заработать
-	- :tv: [Дыра в Linux, Дистрибутивы Deepin 20.4, Nitrux 2, Свободный Trisquel | YT](https://www.youtube.com/watch?v=soKYVaTckYk), 2022
-		- 11:00 Появление поддержки ARM, но прекратили поддержку 32-bit
+- [Exton Linux | Live Systems](https://www.exton.se/download/)
+
+- [Elive - Wikipedia](https://en.wikipedia.org/wiki/Elive)
+	- Enlightenment desktop
+
+- [Porteus (operating system) - Wikipedia](https://en.wikipedia.org/wiki/Porteus_(operating_system))
+	- [Porteus-v5.01 is released! - Porteus](https://forum.porteus.org/viewtopic.php?f=35&t=11004)
+		- [ftp.cc.uoc.gr - University of Crete / Computer Center](https://ftp.cc.uoc.gr/pub/linux/porteus/x86_64/Porteus-v5.01/)
+			- LXDE, Openbox
+	- :speech_balloon: [DistroWatch.com: Porteus](https://distrowatch.com/table.php?distribution=porteus)
+		- Some configuration annoyances in the openbox version I use. Setting time zone did nothing so had to manually force it at startup.
+	- Porteus (formerly Slax Remix) is a portable operating system based on Slackware. It does not require installation and can be run from fixed and removable media, such as a USB flash drive or compact disc.
+	- Porteus Kiosk is a specialized edition of the Porteus operating system,[14] a minimalist Linux distribution for web-only terminals with Firefox (or Google Chrome, Chromium or Opera, set upon installation[15]) as the sole application.
+
+- [Tiny Core Linux - Wikipedia](https://en.wikipedia.org/wiki/Tiny_Core_Linux)
+	- providing a base system using BusyBox and FLTK.
+	- RaspberryPi supported
+	- :speech_balloon: [Tiny Core Linux | DistroWatch](https://distrowatch.com/table.php?distribution=tinycore)
+
+- [Austrumi Linux - Wikipedia](https://en.wikipedia.org/wiki/Austrumi_Linux)
+	- #Slackware base
+	- [DistroWatch.com: AUSTRUMI](https://distrowatch.com/table.php?distribution=austrumi)
+	- The entire operating system and all the applications run from RAM, making Austrumi faster than larger distributions that must read from a disk, and allowing the boot medium to be removed after the operating system has booted.
 
 - [Bodhi Linux](https://www.bodhilinux.com/)
 	- (See also at [[#Debian-based]])
@@ -157,10 +174,6 @@
 		- :tv: [I Compared All MX Linux Editions | Here’s The Best One! | YT](https://www.youtube.com/watch?v=_gp8xD-q-hw)
 			- 6:20 Fluxbox is the lightest
 
-- AV Linux
-	- :tv: [Hello AV Linux MX Moksha ! | YT](https://www.youtube.com/watch?v=TEeLLvAPRDY)
-		- AV Linux — дистрибутив Linux, рассчитанный на создателей мультимедийного контента. Доступен для архитектур i386 и x86-64, оптимизирован под максимальную производительность и производство аудио с малым временем отклика / [AV Linux — Википедия](https://ru.wikipedia.org/wiki/AV_Linux)
-
 - Q4OS
 	- :tv: [This Is the Best OS for Low End PCs! | Spec Tech | YT](https://www.youtube.com/watch?v=u-4Ki18Jxp0)
 		- LTS: 4 years support
@@ -170,6 +183,10 @@
 		- 7:00 Konqueror browser doesn't display pages well. Firefox needed.
 	- 256 mb, 300 MHz, 3 gb HDD - requirements for TrinityDE?
 	- :tv: [Обзор на самый дружелюбный Linux для слабого ПК | Клик Свайп | YT](https://www.youtube.com/watch?v=I4vRP7FuNS0)
+
+- Zenwalk
+	- [Zenwalk - Wikipedia](https://en.wikipedia.org/wiki/Zenwalk)
+	- https://www.zenwalk.org/
 
 - Loc-OS
 	- [DistroWatch.com: Loc-OS](https://distrowatch.com/table.php?distribution=locos)
@@ -199,6 +216,8 @@
 	- :tv: [I Used Alpine Linux For 30 Days, Here's How It Went | PenguinByte |  YT](https://www.youtube.com/watch?v=JjctvUcQkjA)
 		- Couldn't render video in video editor
 		- Network Manager loses connection
+	- [bubblewrap](https://github.com/containers/bubblewrap) by [containers](https://github.com/containers)
+		- _Low-level unprivileged sandboxing tool used by Flatpak and similar projects_
 
 
 - OpenWRT
@@ -208,28 +227,39 @@
 - Tails
 	- incognito-mode OS
 
-- [DistroWatch.com: EasyOS](https://distrowatch.com/table.php?distribution=easyos)
-	- :tv: [20 лет МАТЕРИНКЕ! Устанавливаю EasyOS LINUX! Не ожидал такого в 2024 году!!! | YT](https://www.youtube.com/watch?v=O-2sXOjP8Cs)
-	- The distribution features custom container technology called Easy Containers which can run applications or the entire desktop environment in a container.
-	- :beginner: [How and why EasyOS is different](https://easyos.org/about/how-and-why-easyos-is-different.html)
-		- Easy containers: Easy runs each non-root app as its own user. For example, by default Firefox runs as user 'firefox',
-	- Работа под Root, но приложения в контейнерах сбрасывают права ради безопасности.
-	- :speech_balloon: [DistroWatch.com: Put the fun back into computing. Use Linux, BSD.](https://distrowatch.com/dwres.php?resource=ratings&distro=easyos)
-		- The desktop is JWM, not quite as flexible as some, but very lightweight. I was unable to pin icons on the stock taskbar, so I added an app dock, deleted some desktop icons, and put some others in the new dock. None of that was difficult.
-	- [EasyOS: An Experimental Distro With Unique Qualities](https://news.itsfoss.com/easyos/)
-	- :tv: [Barry Kaulder's 'flagship' system, "EasyOS".... | YT](https://www.youtube.com/watch?v=SZgJy93ivjM)
-		- (Σ)  not very useful video, but shows some bugs
+### EasyOS
 
-- PuppyLinux
-	- [DistroWatch.com: Puppy Linux](https://distrowatch.com/table.php?distribution=puppy)
-	- as root напрягает, отбрось это. Система не должна быть умнее пользователя
-	- :tv: [AntiX Vs Puppy Linux - Which One Is Better? | YT](https://www.youtube.com/watch?v=IXJCt_jhDYs)
-		- 3:10 Puppy Linux runs as root by default.
-		  On shutdown asks to save session on folder
-	- :tv: [Bring An Ancient Computer Back To Life Install Puppy Linux in Minutes! | YT](https://www.youtube.com/watch?v=Fdrc-1WD4lw)
-	- :tv: [BionicPup | Linux for an Old Laptop | YT](https://www.youtube.com/watch?v=aJcWcQ8ew6Q)
-	- [How to setup Root with password? - Puppy Linux Discussion Forum](https://forum.puppylinux.com/viewtopic.php?t=4054)
-		- Unlike mainstream distros, Puppy is a single-user system, and runs as 'root' by default.
+- [DistroWatch.com: EasyOS](https://distrowatch.com/table.php?distribution=easyos)
+- :tv: [EasyOS Part8: Easy Containers | YT](https://www.youtube.com/watch?v=VQk8ftYQaeI&list=PLUgReYPhPVl4ZVFLLQXnDdCoPk18FVrmH&index=17)
+	- 4:00 OverlayFS
+	- 5:05 merging files explanation
+	- 10:10 Running container
+- [ ] :tv: [EasyOS Part13: Version Control | YT](https://www.youtube.com/watch?v=yAM_7gAJvw8&list=PLUgReYPhPVl4ZVFLLQXnDdCoPk18FVrmH&index=12)
+- [ ] :tv: [EasyOS Part17: Crippled root | YT](https://www.youtube.com/watch?v=Yju1w_Mjmbk&list=PLUgReYPhPVl4ZVFLLQXnDdCoPk18FVrmH&index=8)
+	- :zap: `ec-chroot excalibur easy`
+	- 3:20 removing specific Linux capabilities from container
+- :tv: [20 лет МАТЕРИНКЕ! Устанавливаю EasyOS LINUX! Не ожидал такого в 2024 году!!! | YT](https://www.youtube.com/watch?v=O-2sXOjP8Cs)
+- The distribution features custom container technology called Easy Containers which can run applications or the entire desktop environment in a container.
+- :beginner: [How and why EasyOS is different](https://easyos.org/about/how-and-why-easyos-is-different.html)
+	- Easy containers: Easy runs each non-root app as its own user. For example, by default Firefox runs as user 'firefox',
+- Работа под Root, но приложения в контейнерах сбрасывают права ради безопасности.
+- :speech_balloon: [DistroWatch.com: Put the fun back into computing. Use Linux, BSD.](https://distrowatch.com/dwres.php?resource=ratings&distro=easyos)
+	- The desktop is JWM, not quite as flexible as some, but very lightweight. I was unable to pin icons on the stock taskbar, so I added an app dock, deleted some desktop icons, and put some others in the new dock. None of that was difficult.
+- [EasyOS: An Experimental Distro With Unique Qualities](https://news.itsfoss.com/easyos/)
+- :tv: [Barry Kaulder's 'flagship' system, "EasyOS".... | YT](https://www.youtube.com/watch?v=SZgJy93ivjM)
+	- (Σ)  not very useful video, but shows some bugs
+
+### PuppyLinux
+
+- [DistroWatch.com: Puppy Linux](https://distrowatch.com/table.php?distribution=puppy)
+- as root напрягает, отбрось это. Система не должна быть умнее пользователя
+- :tv: [AntiX Vs Puppy Linux - Which One Is Better? | YT](https://www.youtube.com/watch?v=IXJCt_jhDYs)
+	- 3:10 Puppy Linux runs as root by default.
+	  On shutdown asks to save session on folder
+- :tv: [Bring An Ancient Computer Back To Life Install Puppy Linux in Minutes! | YT](https://www.youtube.com/watch?v=Fdrc-1WD4lw)
+- :tv: [BionicPup | Linux for an Old Laptop | YT](https://www.youtube.com/watch?v=aJcWcQ8ew6Q)
+- [How to setup Root with password? - Puppy Linux Discussion Forum](https://forum.puppylinux.com/viewtopic.php?t=4054)
+	- Unlike mainstream distros, Puppy is a single-user system, and runs as 'root' by default.
 
 ## Slackware
 
@@ -253,6 +283,12 @@
 - Slackbuild
 - [DistroWatch.com: Porteus](https://distrowatch.com/table.php?distribution=porteus)
 - :tv: [Gaming on Slackware with Conty, the Arch Linux container application | YT](https://www.youtube.com/watch?v=yugKXXzAdqY)
+
+- Slax
+
+- fu11m00n
+	- https://oreivd96v420wee4.umso.co/
+	- Based on: Slackware, Porteus
 
 ## Ubuntu-based
 
@@ -380,7 +416,11 @@ Vanilla OS uses ABRoot (https://github.com/Vanilla-OS/ABRoot) to provide its imm
 	- :tv: [Blend OS - The Perfect Blend Of Linux Distros, Android Apps & Web Apps | YT](https://www.youtube.com/watch?v=i4Zj86uDmN4)
 	- :tv: [Обзор BlendOS 2 Avial/ Самый лучший дистрибутив ?/ Поддержка Android | YT](https://www.youtube.com/watch?v=xUOTjpHCl9o)
 	- :tv: [BlendOS - Arch, Debian, Android in ONE DISTRO! | YT](https://www.youtube.com/watch?v=Sjd_aqLnxYo&t=1134s)
+
 - [ ] Alternative: EndeavourOS ("Manjaro done right")
+	- :speech_balloon: [Is there any stable/LTS distro based on Arch? | /r/DistroHopping](https://www.reddit.com/r/DistroHopping/comments/1kwvzjf/is_there_any_stablelts_distro_based_on_arch/)
+		- Man-in-Oslo: Try Endeavour OS with LTS kernels.
+
 - [Exodia OS](https://github.com/Exodia-OS)
 	- A highly customized arch-based distro For All Cybersecurity fields
 	- bspwm windows manager
@@ -438,19 +478,14 @@ Vanilla OS uses ABRoot (https://github.com/Vanilla-OS/ABRoot) to provide its imm
 	- :tv: [How to Install Exherbo Linux | YT](https://www.youtube.com/watch?v=gKJu_di_Zsw), 2026
 		- Fork of Gentoo
 
-## Independent / Unique
+## Independent / Unique / Experimental
 
-- [Clear Linux | DistroWatch](https://distrowatch.com/table.php?distribution=clear)
-	- Gnome only?
-	- :tv: [The History of Clear Linux | YT](https://www.youtube.com/watch?v=13CxUbumzPA)
-	- :tv: [Why Clear Linux OS? | YT](https://www.youtube.com/watch?v=VxA-vim715w)
-	- от Intel
-	- немного быстрее
-	- free security scanner
-	- lightweight delta updates
-	- :tv: [Clear Linux 35000 (GNOME 40.4) | YT](https://www.youtube.com/watch?v=Jv_p7MF4bP0)
+- [Bedrock Linux | DistroWatch](https://distrowatch.com/table.php?distribution=bedrock)
+	- BedrockLinux cured me of my distroholism.
 
-## Experimental
+- [CRUX | DistroWatch](https://distrowatch.com/table.php?distribution=crux)
+
+- [Home | Carbs Linux](https://carbslinux.org/)
 
 - [Redox - Your Next(Gen) OS - Redox - Your Next(Gen) OS](https://www.redox-os.org/)
 	- Rust
@@ -471,6 +506,18 @@ Vanilla OS uses ABRoot (https://github.com/Vanilla-OS/ABRoot) to provide its imm
 	- :fallen_leaf: outdated
 	- distro by `htop` creator friend
 	- [NixOS vs GoboLinux](https://gobolinux-users.gobolinux.narkive.com/GpgnY2Bc/nixos-vs-gobolinux)
+
+- [-] [Clear Linux | DistroWatch](https://distrowatch.com/table.php?distribution=clear)
+	- :fallen_leaf:
+	- Gnome only?
+	- :tv: [The History of Clear Linux | YT](https://www.youtube.com/watch?v=13CxUbumzPA)
+	- :tv: [Why Clear Linux OS? | YT](https://www.youtube.com/watch?v=VxA-vim715w)
+	- от Intel
+	- немного быстрее
+	- free security scanner
+	- lightweight delta updates
+	- :tv: [Clear Linux 35000 (GNOME 40.4) | YT](https://www.youtube.com/watch?v=Jv_p7MF4bP0)
+
 
 ## RedHat
 
@@ -513,13 +560,27 @@ Vanilla OS uses ABRoot (https://github.com/Vanilla-OS/ABRoot) to provide its imm
 - https://www.hyperbola.info/
 	- #Arch - based
 	- OpenRC вместо SystemD
-	- [Hyperbola GNU/Linux-libre | DistroWatch](https://distrowatch.com/table.php?distribution=hyperbola)
+	- :speech_balloon: [Hyperbola GNU/Linux-libre | DistroWatch](https://distrowatch.com/table.php?distribution=hyperbola)
 		- For desktop users, it provides a package called lumina-desktop. It uses xenocara as the default window system. It uses sndio instead of pulseaudio or pipewire.
 	- :tv: [Hyperbola GNU/Linux-libre/BSD | фанатичная преданность идеалам свободы | YT](https://www.youtube.com/watch?v=FOO4JsoZlxk), 2021
 		- 3:50 Философия защиты от глобальной слежки
 		- 6:30 Даже Libre-ядро Linux включает DRM. Хотят перейти на OpenBSD
 		- 7:20 Распространение Rust и cargo требуют изменения версии. Mozilla уже убивала свободные проекты на этой почве
 			- Upd: 2021 права были переданы Rust Fondation
+
+- Trisquel Mini
+	- :door: https://trisquel.info/en/wiki/trisquel-mini
+	- 128 mb RAM!
+	- образ 1.2 GB, есть NetInstall
+	- LXDE + Openbox
+	- :tv: [Trisquel linux лёгкий , свободный , безопасный | YT](https://www.youtube.com/watch?v=ReXd9KRjMic)
+	- Полностью свободный. Trisquel не содержит в себе закрытых участков исходного кода
+	- Abrowser - дебрендир. Firefox
+	- нет и не будет телеметрии
+	- NVidia видеокарта может не заработать
+	- :tv: [Дыра в Linux, Дистрибутивы Deepin 20.4, Nitrux 2, Свободный Trisquel | YT](https://www.youtube.com/watch?v=soKYVaTckYk), 2022
+		- 11:00 Появление поддержки ARM, но прекратили поддержку 32-bit
+
 
 ## Install package from different Linux distro
 
@@ -532,6 +593,8 @@ Vanilla OS uses ABRoot (https://github.com/Vanilla-OS/ABRoot) to provide its imm
 - [Is there a way to use AUR on ubuntu? : r/Ubuntu](https://www.reddit.com/r/Ubuntu/comments/9sogqg/is_there_a_way_to_use_aur_on_ubuntu/)
 
 - distrobox
+	- :tv: [Stop Distro Hopping! Use this AWESOME tool on Linux | YT](https://www.youtube.com/watch?v=Sj064D9ZUl8)
+	- [ ] :tv: [Distrobox Is Basically A Linux Subsystem For Linux | YT](https://www.youtube.com/watch?v=FhW-3PPldAg)
 	- :tv: [New to DistroBox? Start Here: Full Beginner's Tutorial! | Learn Linux TV | YT](https://www.youtube.com/watch?v=eiDt4O6UPRw)
 		- install distrobox
 		- [distrobox](https://github.com/89luca89/distrobox) by [89luca89](https://github.com/89luca89)
@@ -564,3 +627,52 @@ Vanilla OS uses ABRoot (https://github.com/Vanilla-OS/ABRoot) to provide its imm
 
 - [Run Live / Install | Computers4Christians](https://computers4christians.org/download/install-c4c-ubuntu/)
 - [Mauna Christian Edition - Mauna Linux](https://maunalinux.top/download/mauna-christian-edition/)
+
+## #gaming
+
+- [Batocera.linux | DistroWatch](https://distrowatch.com/table.php?distribution=batocera)
+	- :beginner: [pacman\_package\_manager \[Batocera.linux - Wiki\]](https://wiki.batocera.org/pacman_package_manager)
+		- It is important to note that although this is pacman, and Arch Linux uses pacman to install its packages, it does not mean that you can install packages designed for Arch Linux inside of Batocera.
+	- :speech_balloon: [adding packages to Batocera | /r/batocera](https://www.reddit.com/r/batocera/comments/17wwumb/adding_packages_to_batocera/)
+		- pacman in batocera is only used for it's custom freeware downloads in the es menu. It is not connected to Arch mirrors, and batocera is made on buildroot..it's "Just Enough Linux" for its own services and not designed for addons. IOW, it's more like firmware.
+		- Alternatively, you might want to try https://github.com/fsquillace/junest I haven't played with it, much but it does have pacman connected to Arch's mirrors.
+
+- :tv: [How To Add Desktop Mode To Batocera! | YT](https://www.youtube.com/watch?v=OGQNzdf1XUk)
+
+## #create #multiMedia
+
+- :scroll: [DistroFinder - Find your perfect Linux distribution](https://distro-finder.com/?category=Multimedia&sort=popularity.asc)
+
+- [KXStudio : Applications](https://kx.studio/Applications)
+	- [KXStudio : Applications : Catia](https://kx.studio/Applications:Catia)
+		- Catia is a JACK Patchbay, with some neat features like A2J bridge support and JACK Transport.
+
+- :tv: [EasyEffects An equalizer and Effects App for Linux | YT](https://www.youtube.com/watch?v=h1Z3WBUD1Aw)
+
+### Ubuntu Studio
+
+- :tv: [Ubuntu Studio 26.04 Review | Best Free Linux OS for Creators in 2026? | YT](https://www.youtube.com/watch?v=uaxS7pAg43Y)
+
+### AV Linux
+
+- https://www.bandshed.net/avlinux/
+- 🤖 GoogleAI: AV Linux transitioned its base from antiX/Debian to MX Linux (which itself shares underlying build tools and roots with antiX and Debian). The Change: AV Linux moved to being built upon MX Linux (starting majorly around the MX-21 / AVL-MXe releases), utilizing MX tools and Debian foundations
+	- :speech_balloon: [AV Linux moving to MX Linux - LinuxMusicians](https://linuxmusicians.com/viewtopic.php?t=21782), 2020
+		- The last AVL release (2020.5.10) was well received for the most part but there were still a few issues and users having difficulty with the 'Systemback' Installer and UEFI as well as problems installing to NVMe media. Over the years I've seen a few MX Linux Users who do Audio work using the AVL kernels and some folks have suggested that I use MX as a base.
+		- GMaq: MX is extremely well thought out and their own additional tools, supplemental packaging and large helpful community already confirm to me this is a good step forward.
+- [ ] Install nvidia drivers
+	- :tv: [MX Linux 25.2 "Infinity" How to Install NVIDIA Drivers on MX Linux based on Debian 13.5 Trixie | YT](https://www.youtube.com/watch?v=aAudVTLnD8c)
+- :beginner: [MX Moksha](https://www.bandshed.net/mx-moksha/)
+	- +video
+		- 2:00 Wi-Fi connection
+- :tv: [Hello AV Linux MX Moksha ! | YT](https://www.youtube.com/watch?v=TEeLLvAPRDY)
+	- AV Linux — дистрибутив Linux, рассчитанный на создателей мультимедийного контента. Доступен для архитектур i386 и x86-64, оптимизирован под максимальную производительность и производство аудио с малым временем отклика / [AV Linux — Википедия](https://ru.wikipedia.org/wiki/AV_Linux)
+- :tv: [AV Linux 23.2 - Pipewire Controls Audio Information and Wine Staging | YT](https://www.youtube.com/watch?v=iGaIlY2SZIw)
+- :tv: [WTF is AV Linux? | YT](https://www.youtube.com/watch?v=CIeKw_j3Jxk)
+
+### Modica
+
+- https://www.modiciaos.cloud/#school
+- :speech_balloon: [DistroWatch.com: MODICIA O.S.](https://distrowatch.com/table.php?distribution=modicia)
+	- No bluetooth or wifi for my pc. I suppose the lack of support for newer hardware cannot be fixed by any driver updates.
+- :tv: [28 Killer Graphic Tools to Max Out Linux Performance! | YT](https://www.youtube.com/watch?v=jLtVfyaeZYM)
