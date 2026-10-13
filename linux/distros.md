@@ -505,23 +505,37 @@ Vanilla OS uses ABRoot (https://github.com/Vanilla-OS/ABRoot) to provide its imm
 	- distro by `htop` creator friend
 	- [NixOS vs GoboLinux](https://gobolinux-users.gobolinux.narkive.com/GpgnY2Bc/nixos-vs-gobolinux)
 
+- KISS
+	- https://kisslinux.github.io/
+		- The distribution is "rolling release" (install once, update perpetually) with the compilation process taking place on the user's machine. Updates to the distribution merely contain instructions for how each package is built. This model gives the user control over the compilation process while also removing the need for the distribution to have the necessary infrastructure to churn out and distribute binaries on a daily basis.
+		- Large repositories rely on volunteer effort, become harder to maintain over time. Unless their growth is checked, will eventually become unsustainable. Kiss Linux's repositories are instead designed to be small and understandable. Instead of attempting to package the world they act as an extensible base which users can build upon to suit their needs. The distribution explicitly excludes desktop environments.
+
+
 ### Bedrock Linux
 
 - Позволяет запускать на одном ядре без виртуализации несколько дистрибутивов
 - :speech_balloon: [Bedrock Linux | DistroWatch](https://distrowatch.com/table.php?distribution=bedrock)
 	- BedrockLinux cured me of my distroholism.
-	- :tv: [Bedrock Linux: All the distros! / DenshiVideo / YT, 2020](https://youtube.com/watch?v=PX-Y3znIBEY)
-		- 0:30 Hijack existing Linux installation
-		- 2:45 Strata is a Linux distribution layer
-		- 4:10 Install packages from different Linux distros
-		- 5:40 `brl which apk` => tut-alpine
-		- 6:30 `brl which /` => tut-debian
-		- 9:05 Across file paths: `/bedrock/strata/$STRATUM`
-		- 9:50 `strat tut-alpine ls`
-		- 10:45 stratum for init system
-		- 11:20 `-r $STRATUM` to restrict seeing other stratum commands
-		- 12:30 Package Manager Manager: Update all package managers at once: configure `[pmm]` in `/bedrock/etc/bedrock.conf/`, then `brl apply`, `pmm --help`
-		- 17:40 Go through other tutorials: `brl tutorial --help`
+- :tv: [Bedrock Linux: All the distros! / DenshiVideo / YT, 2020](https://youtube.com/watch?v=PX-Y3znIBEY)
+	- 0:30 Hijack existing Linux installation
+	- 2:45 Strata is a Linux distribution layer
+	- 4:10 Install packages from different Linux distros
+	- 5:40 `brl which apk` => tut-alpine
+	- 6:30 `brl which /` => tut-debian
+	- 9:05 Across file paths: `/bedrock/strata/$STRATUM`
+	- 9:50 `strat tut-alpine ls`
+	- 10:45 stratum for init system
+	- 11:20 `-r $STRATUM` to restrict seeing other stratum commands
+	- 12:30 Package Manager Manager: Update all package managers at once: configure `[pmm]` in `/bedrock/etc/bedrock.conf/`, then `brl apply`, `pmm --help`
+	- 17:40 Go through other tutorials: `brl tutorial --help`
+
+- [ ] Nvidia proprietary drivers
+	- Most F/OSS Linux graphics drivers strive to make the two components forward and backward compatible such that their versions do not have to sync up perfectly. This allows a kernel from one `stratum` to work with an Xorg server from another `stratum`. However, the proprietary Nvidia drivers require these two components be in sync. Since the kernel module is shared across `strata`, this means every `stratum` that does anything with the graphics card requires the exact same version. Bedrock does not know how to enforce this itself. To work around this, one must manually install distro-agnostic portable proprietary Nvidia in all `strata`.
+
+- [Pinning executables to strata](https://bedrocklinux.org/0.7/workflows.html#pinning)
+	- :open_file_folder: `/bedrock/etc/bedrock.conf`
+		- `pin/bin/command = stratum:/local/path/to/command`
+
 
 ## RedHat
 
