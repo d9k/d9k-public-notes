@@ -10,7 +10,13 @@
 	- One Process. One Purpose: An init system should start processes, supervise them, and stop them. Not manage DNS, log daemons, network configuration, login sessions, time synchronization, and device events under a single monolithic binary with 1.4 million lines of code.
 	- Transparency is Not Optional: Service management should be auditable by any user with a text editor and basic shell skills. Shell scripts are documentation. Binary unit files compiled into journal logs are not. Your init should never require a PhD to debug.
 
-- :tv: [Init Systems / dacctal / YT](https://youtube.com/watch?v=LGCJefnJkG4), 2026
+## Init Systems / dacctal / YT, 2026
 
-	- SystemD is bloated
-	- 1:13 SystemV
+https://youtube.com/watch?v=LGCJefnJkG4
+
+- SystemD is bloated. Since 2010.
+- 1:13 SystemV / System 5 - classical since 1983. `perp` supervisor.
+- 2:06 OpenRC: used by an author: since 2007. Small, functional
+- 2:30 runit: since 2004. All services started in parallel. Re-implementation of daemontools
+- 2:45 Dinit - properly implemented systemd
+- 3:18 s6 - too complicated?
