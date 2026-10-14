@@ -33,6 +33,12 @@
 - [Enlightenment — Википедия](https://ru.wikipedia.org/wiki/Enlightenment)
 - #C
 
+ - 🤖 GoogleAI: Enlightenment distros
+	- Bodhi Linux: Built on an Ubuntu base, it uses Moksha, a custom continuation/fork of the Enlightenment E17 desktop designed to be fast, lightweight, and customizable.
+	- Elive: A Debian-based live CD and desktop system that builds its custom, eye-candy desktop environment directly around the Enlightenment window manager.
+	- MX Moksha: An official spin of MX Linux that uses the Moksha desktop environment paired with a systemd/Liquorix kernel setup for older or lower-latency hardware.
+	- AV Linux: A multimedia-focused distribution that recently added support for the upstream, original Enlightenment window manager (alongside its traditional Xfce and LXDE choices).
+
 ## IceWM
 
 - [IceWM — Википедия](https://ru.wikipedia.org/wiki/IceWM)
@@ -47,6 +53,8 @@
 	- `compton` - композитный менеджер, полупрозрачность окон
 	- `volumeicon`
 	- `parcellitte` - менеджер буфера обмена
+
+## Fluxbox
 
 ## Openbox
 

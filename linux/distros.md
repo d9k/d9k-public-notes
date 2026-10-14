@@ -8,9 +8,7 @@
 - dister
 	- [Jackson Novak / Rebos · GitLab](https://gitlab.com/Oglo12/rebos)
 	- reproducible system install, any system
-
-- :tv: [Сравнение скорости всех систем инициализации | YT](https://www.youtube.com/watch?v=XaNTJSpMBoE)
-	- dinit - best. sinit - инициализация без многого (напр., без инета)
+	- Rebos is a tool that aims at mimicking what NixOS does (repeatability), for any Linux distributio
 
 - :tv: [Linux Sucks 2024 | Bryan Lunduke | YT](https://www.youtube.com/watch?v=58mLZyShQjQ)
 
@@ -19,13 +17,6 @@
 - :tv: [Sometimes, I get tired of Linux | The Linux Experiment | YT](https://www.youtube.com/watch?v=a2YZ9GwSkxI)
 	- Linux desktop environments matured. Updates loosed wow-factor. Sure getting new socks on a birthday is fine but it's not
 
-## :scroll: #list
-
-- https://distrowatch.com/dwres.php?resource=popularity
-- [DistroWatch Project Ranking (>100 reviews)](https://distrowatch.com/dwres.php?resource=ranking)
-- :tv: [The Linux Tier List | Christ Titus Tech | YT](https://www.youtube.com/watch?v=KyADkmRVe0U&t=1220s)
-- [DistroWatch Project Ranking (>10 reviews)](https://distrowatch.com/dwres.php?resource=ranking&sort=average10)
-- :tv: [What Your Linux Distro Says About You in 2025 | The Linux Cast | YT](https://www.youtube.com/shorts/ImtoYNt8lFw)
 
 ## #theory
 
@@ -140,6 +131,7 @@
 	- Enlightenment desktop
 
 - [Porteus (operating system) - Wikipedia](https://en.wikipedia.org/wiki/Porteus_(operating_system))
+	- #Slackware -based
 	- [Porteus-v5.01 is released! - Porteus](https://forum.porteus.org/viewtopic.php?f=35&t=11004)
 		- [ftp.cc.uoc.gr - University of Crete / Computer Center](https://ftp.cc.uoc.gr/pub/linux/porteus/x86_64/Porteus-v5.01/)
 			- LXDE, Openbox
@@ -694,3 +686,76 @@ Vanilla OS uses ABRoot (https://github.com/Vanilla-OS/ABRoot) to provide its imm
 - :speech_balloon: [DistroWatch.com: MODICIA O.S.](https://distrowatch.com/table.php?distribution=modicia)
 	- No bluetooth or wifi for my pc. I suppose the lack of support for newer hardware cannot be fixed by any driver updates.
 - :tv: [28 Killer Graphic Tools to Max Out Linux Performance! | YT](https://www.youtube.com/watch?v=jLtVfyaeZYM)
+
+
+## :scroll: #list
+
+- https://distrowatch.com/dwres.php?resource=popularity
+- [DistroWatch Project Ranking (>100 reviews)](https://distrowatch.com/dwres.php?resource=ranking)
+- :tv: [The Linux Tier List | Christ Titus Tech | YT](https://www.youtube.com/watch?v=KyADkmRVe0U&t=1220s)
+- [DistroWatch Project Ranking (>10 reviews)](https://distrowatch.com/dwres.php?resource=ranking&sort=average10)
+- :tv: [What Your Linux Distro Says About You in 2025 | The Linux Cast | YT](https://www.youtube.com/shorts/ImtoYNt8lFw)
+
+### Types of Linux Distro Users (PART 3) / rootsh / YT, 2026
+
+https://youtube.com/watch?v=Lv9pkkgaL1k
+
+1:40 OS which steam gamers run: CachyOS more popular. CachyOS more popular then SteamOS
+2:00 Bazzite made Microsoft Edit default editor instead of vim
+2:20 Nobara made by ProtonGE creator.
+2:50 Nobara calls X11 dead. Wayland only.
+3:50 Nyarch Linux. AI girl terminal.
+4:00 distrochooser.de
+4:20 RyokuOS - Omarchy fork "Copied the millionaire's homework then rewrote all of it"
+4:50 EndeavorOS - friendly OS with installer and a forum where nobody yells at you.
+5:30 AlmaLinux. Alma - soul. Another CentOS replacement.
+6:30 Tuxedo Linux: triede to sell a laptops but cancel because under Linux the battery didn't last and there was no way to update the BIOS.
+7:20 runit instead of systemd
+8:30 Linux from Scratch - compiles everything. Installation takes days.
+9:55 Wubuntu: Kubuntu + Windows skin
+10:10 Bedrock Linux
+
+### Types of Linux Distro Users (PART 4) / rootsh / YT, 2026
+
+https://youtube.com/watch?v=T7eTpftxteU
+
+Q4OS
+1:05 KDE Neon - gives you the newest KDE on top of Ubuntu the moment it's released.
+1:15 KDE Linux project Banana
+1:40 LMDE
+2:15 Linux "lite"
+2:40 Pika OS - gaming distro
+3:25 Nebi OS
+4:00 Deepin - "security nightmare"
+5:05 OpenMandriva, Mageia - forks from Mandrake Linux
+6:25 Salix - Slackware made easy
+7:00 WMLive - NextOS UI
+7:34 GNU Guix. NixOS config in LISP. 66% uses use Nonguix repo for drivers.
+7:55 Added experimental support for GNU Hurd core.
+8:20 Devuan - Debian without SystemD since 2014.
+9:00 Neko Void, Bundles PikaOS gamin daemon Falcond. "Wanted Void but with cat ears"
+9:40 Chimera Linux - from Void family. FreeBSD tools and no systemd
+10:10 AerynOS
+11:15 github.com/n3rdopolis/rebeccablackos
+11:45 PearOS
+11:59 Kali Undercover - skin which makes Kali look as Windows 10
+13:40 OpenBSD
+
+## Cursed Linux Distro Users / rootsh / YT, 2026
+
+https://youtube.com/watch?v=1fZSOIeNpwU
+
+1:05 AthenaOS - based on BlackArch
+3:45 Crux - Arch predecessor?
+4:30 Artix - "Art of Linux" - Arch without Systemd. "Search the web for Systemd CVE"
+5:10 Obarun - "OpenBox Arch RUNit". RUNit swapped for s6, OpenBox for jwm. web.obarun.org; joborun.neocities.org
+6:00 ArchCraft - runs good under 800 RAM, ARM, but no 32bit.
+6:45 NST - Network Security Toolkit.
+7:20 Exherbo - source-based distro
+8:00 Calculate Linux - russian, based on Gentoo, binary packages
+8:45 GLF OS - gaming linux French distro based on NixOS
+9:00 Ultramarine - Fedora with extra desktops. Weird update bugs
+10:00 Kylin - 2006 99.45% FreeBSD 5.3 clone, 2010 - moved to Linux. Neo Kylin - looked like WinXp. Ubuntu Kylin. "AI inside"
+10:50 AntiX - Debian for old computers, Systemd free. Debian-based. "Keeps Pentium III on life support"
+11:45 Haiku - free remake of BeOS.
+12:20 Minix - small educational Linux by Tannenbaum. Since 2015 in Intel PCs.
