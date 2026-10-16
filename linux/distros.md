@@ -79,6 +79,7 @@
 - [Bodhi Linux](https://www.bodhilinux.com/)
 	- :beginner: [Upgrade | Keeping Bodhi Linux Up-to-Date - Bodhi Linux](https://www.bodhilinux.com/w/keeping-bodhi-linux-up-to-date/)
 	- :speech_balloon: [Bodhi Forum](https://www.linuxquestions.org/questions/bodhi-92/)
+	- #Mint -based
 	- [Download - Bodhi Linux](https://www.bodhilinux.com/download/)
 	- [Selecting the Correct ISO Image - Bodhi Linux](https://www.bodhilinux.com/w/selecting-the-correct-iso-image/#AppPack)
 	- Moksha Desktop
@@ -104,11 +105,13 @@
 	- :tv: [AntiX Vs Puppy Linux - Which One Is Better? | YT](https://www.youtube.com/watch?v=IXJCt_jhDYs)
 		- 3:30 IceWM, JWM, Fluxbox
 
-- [DistroWatch.com: Devuan GNU+Linux](https://distrowatch.com/table.php?distribution=devuan)
-	- [Welcome to devuan.org | Devuan GNU+Linux Free Operating System](https://www.devuan.org/)
-	- _Runit and openrc are quarter-implemented on this distro, whereas Artix and Void and even antiX have accomplished more_
-	- [Peppermint OS - Wikipedia](https://en.wikipedia.org/wiki/Peppermint_OS)
-		- based on Devuan
+- Devuan
+	- [DistroWatch.com: Devuan GNU+Linux](https://distrowatch.com/table.php?distribution=devuan)
+		- [Welcome to devuan.org | Devuan GNU+Linux Free Operating System](https://www.devuan.org/)
+		- _Runit and openrc are quarter-implemented on this distro, whereas Artix and Void and even antiX have accomplished more_
+
+- [Peppermint OS - Wikipedia](https://en.wikipedia.org/wiki/Peppermint_OS)
+	- based on Devuan
 
 - [DistroWatch.com: Parrot](https://distrowatch.com/table.php?distribution=parrot)
 	- security-oriented distribution featuring a collection of utilities designed for penetration testing, computer forensics, reverse engineering, hacking, privacy, anonymity and cryptography
@@ -138,7 +141,11 @@
 	- :speech_balloon: [DistroWatch.com: Porteus](https://distrowatch.com/table.php?distribution=porteus)
 		- Some configuration annoyances in the openbox version I use. Setting time zone did nothing so had to manually force it at startup.
 	- Porteus (formerly Slax Remix) is a portable operating system based on Slackware. It does not require installation and can be run from fixed and removable media, such as a USB flash drive or compact disc.
-	- Porteus Kiosk is a specialized edition of the Porteus operating system,[14] a minimalist Linux distribution for web-only terminals with Firefox (or Google Chrome, Chromium or Opera, set upon installation[15]) as the sole application.
+	- Porteus Kiosk is a specialized edition of the Porteus operating system, a minimalist Linux distribution for web-only terminals with Firefox (or Google Chrome, Chromium or Opera, set upon installation) as the sole application.
+
+- [DistroWatch.com: SliTaz GNU/Linux](https://distrowatch.com/table.php?distribution=slitaz)
+	- live CD designed to run speedily on hardware with 256 MB of RAM. SliTaz uses BusyBox, a recent Linux kernel and GNU software.
+	- More than 200 Linux commands, the lighttpd web server, SQLite database, rescue tools, IRC client, SSH client and server powered by Dropbear, X window system, JWM (Joe's Window Manager), gFTP, Geany IDE, Mozilla Firefox, AlsaPlayer, GParted, a sound file editor and more.
 
 - [Tiny Core Linux - Wikipedia](https://en.wikipedia.org/wiki/Tiny_Core_Linux)
 	- providing a base system using BusyBox and FLTK.
@@ -157,14 +164,7 @@
 			 - Go over every single systemd service that starts or is installed. Make a decision as to whether you need it or not? If it is unneeded remove it, maybe even uninstall whatever installed it but if not at least make sure it does not start at boot.
 			 - If your system still boots and works after doing the above go over all the modules that are loaded in Moksha. Unload the ones not 100% needed by you. The Places module and the Clipboard module are 2 that you could certainly unload.
 			 - The Big one: compile your own kernel and make it as minimal as you can and still support your hardware with the features you need.
-			- git clone EFL and moksha switch to a tty and uninstall both. Now compile and install EFL after going over all the compile options carefully and make sure it is as minimal of an install as possible. You may even want to consider using an older version of EFL that what is current. Look over EFL branches to find one that works with moksha.
-
-- MX Linux
-	- :tv: [Why MX Linux Beats Ubuntu & Fedora | YT](https://www.youtube.com/watch?v=A9Qnd6Obbgg)
-		- 3:30 MXLinux LiveUSB: enable advanced option to persist
-		- :tv: [MX Linux with Moksha Desktop: MX Moksha Overview | YT](https://www.youtube.com/watch?v=cvoSlNGuIu4)
-		- :tv: [I Compared All MX Linux Editions | Here’s The Best One! | YT](https://www.youtube.com/watch?v=_gp8xD-q-hw)
-			- 6:20 Fluxbox is the lightest
+			- git clone EFL and moksha switch to a tty and uninstall both. Now compile and install EFL after going over all the compile options carefully and make sure it is as minimal of an install as possible. You may even want to consider using an older version of EFL that what is current. Look over EFL branches to find one that works ith moksha.
 
 - Q4OS
 	- :tv: [This Is the Best OS for Low End PCs! | Spec Tech | YT](https://www.youtube.com/watch?v=u-4Ki18Jxp0)
@@ -188,36 +188,58 @@
 - KNOPPIX
 	- [DistroWatch.com: KNOPPIX](https://distrowatch.com/table.php?distribution=knoppix)
 
-- Alpine
-	- :tv: [Alpine Linux - Simple, Small, and Secure | Titus Tech Talk | YT](https://www.youtube.com/watch?v=UmXNI9PcxDI)
-		- _The less crap you have on a system the smaller attack surface you have_
-	- OpenRC instead of SystemD
-	- `man` doesn't work out of the box
-	- `apk` package manager - alpine package keeper
-		- very fast
-	- :tv: [How to Install and Configure Alpine Linux (2027 Edition) | YT](https://www.youtube.com/watch?v=NKggFBdee94&t=72s)
-		- 18:00 RAM usage
-	- :tv: [Okay fine, I'll try Alpine Linux.. | YT](https://www.youtube.com/watch?v=CGoFQY1yhFA)
-		- 1:40 So much targets! Works on RPi
-		- 350 mb
-		- 6:50 doas instead of sudo
-		- 7:30 setup-desktop
-		- 8:15 sound setup
-		- 8:55 musl, not glib
-		- 12:50 Steam, MineCraft Prism launcher: flatpak were required
-	- :tv: [I Used Alpine Linux For 30 Days, Here's How It Went | PenguinByte |  YT](https://www.youtube.com/watch?v=JjctvUcQkjA)
-		- Couldn't render video in video editor
-		- Network Manager loses connection
-	- [bubblewrap](https://github.com/containers/bubblewrap) by [containers](https://github.com/containers)
-		- _Low-level unprivileged sandboxing tool used by Flatpak and similar projects_
-
-
 - OpenWRT
 	- [Unable to install xorg-server - Installing and Using OpenWrt - OpenWrt Forum](https://forum.openwrt.org/t/unable-to-install-xorg-server/158114/2)
 		- You cannot install a graphics server on OpenWrt. The fundamental dependenceis are not available for OpenWrt and would likely take years to develop (and nobody is interested in doing this).
 
 - Tails
 	- incognito-mode OS
+
+### Nura / postmarketOS
+
+- [DistroWatch.com: Nura](https://distrowatch.com/table.php?distribution=nura)
+
+### Alpine
+
+- :tv: [Alpine Linux - Simple, Small, and Secure | Titus Tech Talk | YT](https://www.youtube.com/watch?v=UmXNI9PcxDI)
+	- _The less crap you have on a system the smaller attack surface you have_
+- OpenRC instead of SystemD
+- `man` doesn't work out of the box
+- `apk` package manager - alpine package keeper
+	- very fast
+- MUSL instead of GLIB (Steam wouldn't run)
+- :tv: [How to Install and Configure Alpine Linux (2027 Edition) | YT](https://www.youtube.com/watch?v=NKggFBdee94&t=72s)
+	- 18:00 RAM usage
+- :tv: [Okay fine, I'll try Alpine Linux.. | YT](https://www.youtube.com/watch?v=CGoFQY1yhFA)
+	- 1:40 So much targets! Works on RPi
+	- 350 mb
+	- 6:50 doas instead of sudo
+	- 7:30 setup-desktop
+	- 8:15 sound setup
+	- 8:55 :warning: musl, not glibc
+	- 12:50 Steam, MineCraft Prism launcher: flatpak were required
+- :tv: [I Used Alpine Linux For 30 Days, Here's How It Went | PenguinByte |  YT](https://www.youtube.com/watch?v=JjctvUcQkjA)
+	- Couldn't render video in video editor
+	- Network Manager loses connection
+- [bubblewrap](https://github.com/containers/bubblewrap) by [containers](https://github.com/containers)
+	- _Low-level unprivileged sandboxing tool used by Flatpak and similar projects_
+
+### Adelie
+
+- [DistroWatch.com: Adélie Linux](https://distrowatch.com/table.php?distribution=adelie)
+- Alpine with gLibc
+
+### MX Linux
+
+- :tv: [Why MX Linux Beats Ubuntu & Fedora | YT](https://www.youtube.com/watch?v=A9Qnd6Obbgg)
+	- 3:30 MXLinux LiveUSB: enable advanced option to persist
+- :tv: [MX Linux with Moksha Desktop: MX Moksha Overview | YT](https://www.youtube.com/watch?v=cvoSlNGuIu4)
+- :tv: [I Compared All MX Linux Editions | Here’s The Best One! | YT](https://www.youtube.com/watch?v=_gp8xD-q-hw)
+	- 6:20 Fluxbox is the lightest
+- **Выбор при загрузке (Dual-Init):** Начиная с версии MX 25.1, в единый образ ISO встроена технология `init-diversity` (от разработчиков antiX), которая позволяет выбирать между SysVinit и systemd прямо в меню загрузки **GRUB** (в разделе _Advanced options_).
+- :tv: [Every Linux Distro Explained in 17 Minutes / explainerguy01 / YT](https://youtube.com/watch?v=DB5mk6bQt9A), 2026
+	- 14:50 MX Linux
+	- 15:20 Mx tools
 
 ### EasyOS
 
@@ -255,7 +277,7 @@
 
 ## Slackware
 
-- принцип KISS. Если что-то напрягает, отбрось это. Система не должна быть умнее пользователя
+- Принцип KISS. Если что-то напрягает, отбрось это. Система не должна быть умнее пользователя
 - Oldest active distrubution
 
 - :tv: [Installing Slackware 15 | YT](https://www.youtube.com/watch?v=gHfo6U9MhIw)
@@ -275,6 +297,15 @@
 - Slackbuild
 - [DistroWatch.com: Porteus](https://distrowatch.com/table.php?distribution=porteus)
 - :tv: [Gaming on Slackware with Conty, the Arch Linux container application | YT](https://www.youtube.com/watch?v=yugKXXzAdqY)
+
+- Slackel
+	- [DistroWatch.com: Slackel](https://distrowatch.com/table.php?distribution=slackel)
+
+- Salix
+	- 🤖 DeepSeek: Salix OS — дистрибутив на базе Slackware, созданный в 2009 году Джорджем Влахосом (George Vlahavas) и командой энтузиастов. Цель была простая: взять Slackware и добавить к нему то, чего ему не хватает для повседневного использования — нормальный установщик, разрешение зависимостей, графические утилиты управления, готовые DE «из коробки».
+		- В Slackware installpkg ставит ровно то, что ты дал, `slapt-get` в Salix тянет зависимости автоматически, работает с репозиториями как apt, умеет upgrade, dist-upgrade, search, show.
+		- **Свои утилиты**: **`salix-codecs-installer`** — установка мультимедиа-кодеков (то, что в Slackware делается руками). **`salix-live-installer`** — установщик для Live-версии. **`salix-system`**, **`salix-update-notifier`** — утилиты управления системой. **`spkg`** — сборка пакетов из SlackBuilds, упрощённая.
+		- Slackware славится своим установщиком, который пугает новичков (ncurses, ручная разметка, ручной выбор пакетов). В Salix установщик графический, на базе GTK, с разумными дефолтами.
 
 - Slax
 
@@ -491,6 +522,10 @@ Vanilla OS uses ABRoot (https://github.com/Vanilla-OS/ABRoot) to provide its imm
 		- создано разрабом из NetBSD
 		- musl несовместим с Wine/Steam/проприетарными бинарника
 
+- ChimeraOS
+	- [DistroWatch.com: Chimera Linux](https://distrowatch.com/table.php?distribution=chimera)
+	- https://chimera-linux.org/
+
 - Gobolinux
 	- https://gobolinux.org/
 	- :fallen_leaf: outdated
@@ -569,6 +604,7 @@ Vanilla OS uses ABRoot (https://github.com/Vanilla-OS/ABRoot) to provide its imm
 
 - https://www.hyperbola.info/
 	- #Arch - based
+	- LTS: Long-time support
 	- OpenRC вместо SystemD
 	- :speech_balloon: [Hyperbola GNU/Linux-libre | DistroWatch](https://distrowatch.com/table.php?distribution=hyperbola)
 		- For desktop users, it provides a package called lumina-desktop. It uses xenocara as the default window system. It uses sndio instead of pulseaudio or pipewire.
@@ -658,6 +694,11 @@ Vanilla OS uses ABRoot (https://github.com/Vanilla-OS/ABRoot) to provide its imm
 		- Catia is a JACK Patchbay, with some neat features like A2J bridge support and JACK Transport.
 
 - :tv: [EasyEffects An equalizer and Effects App for Linux | YT](https://www.youtube.com/watch?v=h1Z3WBUD1Aw)
+
+### extrox
+
+- audio filter (developed in-house) for enhanced sound quality in music playback and streaming
+	- [DistroWatch.com: extrox](https://distrowatch.com/table.php?distribution=extrox)
 
 ### Ubuntu Studio
 

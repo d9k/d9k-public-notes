@@ -5,7 +5,6 @@
 	- 1:55 Отличия среды рабочего стола от оконного менеджера?
 	- 2:30 Rox-IceWM
 
-
 ## RAM usage
 
 - :tv: [I Tested ALL 10 CachyOS Desktops | Here’s The Best One For YOU (2026) | YT](https://www.youtube.com/watch?v=3JdUBpakX5A)
@@ -56,6 +55,13 @@
 
 ## Fluxbox
 
+- :speech_balloon: [[SOLVED]Fluxbox or Openbox ? / Applications & Desktop Environments / Arch Linux Forums](https://bbs.archlinux.org/viewtopic.php?id=39112)
+	- **xd-0**:
+		- Does some initial configuring of your conf files so you have your programs in the meny etc.
+		- Configuring is easy with prgms but somewhat shattered.
+		- Comes with a panel thats easy to configure. The fluxbox themes also automatically theme the panel, making it fit in nicely.
+		- Resizing windows are'nt as natural as I would like (only bottom handle change size)
+
 ## Openbox
 
 - [Openbox - Wikipedia](https://en.wikipedia.org/wiki/Openbox)
@@ -64,6 +70,13 @@
 
 - :tv: [Обзор на Openbox - самый обычный оконный менеджер | YT](https://www.youtube.com/watch?v=ecHCwwF6gXU)
 	- :microbe: XML-конфиги
+
+- :speech_balloon: [[SOLVED]Fluxbox or Openbox ? / Applications & Desktop Environments / Arch Linux Forums](https://bbs.archlinux.org/viewtopic.php?id=39112)
+	- **xd-0**:
+		- Comes with almost blank configure files. Copy the defaults to your home directory to modify them. 3 files: menu, autostart and rc. And they are easy to understand.
+		- Install obconf and openbox is easely configured.
+		- Doesn't have a panel so you need to install one, and theme it to fit your desktop.
+		- Natural interface, feels more slim and natural.
 
 ## FLWM
 
