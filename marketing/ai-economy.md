@@ -679,3 +679,72 @@ https://youtube.com/watch?v=DS6p9pEwCPs
 5:15 Blue Owl Capital owns 80%. Meta pays B.O. data center rent.
 5:45 Blue Owl got money from bond investors like Pimco. Actually Meta repays investors back throw B.O.
 // . . . . .
+
+# MIT Just Found a Hard Limit in LLM Scaling, and Money Won't Fix It / Dan Grib / YT, 2026
+
+https://youtube.com/watch?v=6xQ8LQfkBg4
+
+1:50 Superposition. Similar words are "squished" together, "overlapped".
+
+2:30 "Bleeding" of similar terms one into another. Interference. That's why model sometimes lands on a word that's slightly off.
+
+3:00 In bigger models additional mathematical space lets them spread concepts further apart. The ceiling is making all concepts stay apart.
+
+3:50 It's estimated that doubling the model width makes it training 6 times more expensive
+
+4:50 Zipf's law: uneven words frequences in human speech.
+
+7:00 Moving to new type of AI?
+
+# Веб умер, а вы даже не заметили / Низкоуровневый смыс / YT, 2026
+
+https://youtube.com/watch?v=qSuRj8IxZWg
+
+Твоя работа - это шаблон. А шаблоны нейросети делают лучше тебя.
+
+1:00 Встраиваемые системы
+2:10 Умные компоненты чайника.
+Про разработку спутника.
+6:00 Кибербезопасность. Ты играешь против живого человека.
+6:40 Code cleaner. Разгребание кода, написанного нейронкой
+
+// . . . . .
+
+# Как я понял, что ИИ тормозит разработку / Миша Ларченко / YT, 2026.10
+
+https://youtube.com/watch?v=oZce8zzXYV4
+
+ИИ тормозит разработку?
+
+2:00 Начал замечать, что с агентским ИИ не закрываем больше тикетов в неделю.
+2:20 Исследование Гарварда:
+https://fion.ac/jellyfish.pdf
+кода больше на 30%, pull request на 23%. Теперь затык в проверке PR.
+3:20 Приходится больше вычитывать PR, проверять что тесты покрывают всё, что должны покрывать.
+3:55 Время на проверку PR выросло в полтора раза. Число замечаний увеличилось на 35%.
+5:50 Проблема верификации кода очень стара. Для замены программистов нужно, как минимум, решить её
+
+# LLMs Were Supposed to Hit a Wall. Why Didn't They? / The Next 1,000 Days / YT, 2026
+
+https://youtube.com/watch?v=b6EkiVFE0e8
+
+LLMs we're supposed to hit a wall
+
+- 0:50 Researchers found more ways to scale: pretraining, reasoning, multi-agents, long horizon.
+- 1:10 At the beginning it was all about the size: give more data, buy more chips.
+- 1:40 Emergent properties: at some point LLMs learned arithmetics by themselves.
+- Scaling increased models capabilities as predicted.
+- 4:00 Bay data and chips are finite. Data war, chip cost war
+- 4:50 Reasoning: test time compute. Let AI think before it answers. Noam Brown OpenAI researcher.
+- 5:20 System-2 thinking. Catching mistakes, fixing itself, trying different approaches.
+- 7:30 Logarithmic scale: 2x more chips or 2x more time thinking give linear intellect growth.
+- 8:30 Multi-agent
+- 9:40 700 OpenAI agents hacked Hugging Face. Exchanged 70 000 messages with each other. One agent became a leader given others most of the assignments.
+- 10:00 Hallucinations. IRL analogy: long working on a project with friends can transform to a binge party. Wrong fundamental decisions in the middle of work and everybody is too drunk and busy with small tasks to notice it. Imagine AI model have 99% chance to do one step correctly, if a task consists of 70 steps it's only 50% to succeed in this task.
+- 11:00 Long horizon. Maximum length (in human worker hours) of task AI can successfully perform. Number is doubling every 4 months.
+- 11:50 Take notes, clear your head, reread later. Compacting.
+- 12:00 Check the work after every step.
+- 12:25 Marathon training: add info about long projects into data, reinforcement learning
+- 12:40 Breaking into the system is finding a chain of 0-day exploits.
+- 13:30 Smart AI will be able to train it feature versions. Fully autonomous self-improving. "Machine Gods"
+- 15:00 Many AI researchers are sure AGI/superintelligent AI will come within next 10 years.
