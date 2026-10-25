@@ -291,9 +291,6 @@
 	- `slapt-get` - framework for dependency resolution
 	- NetBSD's pkgsrc
 
-- [DistroWatch.com: Slax](https://distrowatch.com/table.php?distribution=slax)
-	- small collection of applications, including the Chromium web browser, a text editor and a calculator
-
 - Slackbuild
 - [DistroWatch.com: Porteus](https://distrowatch.com/table.php?distribution=porteus)
 - :tv: [Gaming on Slackware with Conty, the Arch Linux container application | YT](https://www.youtube.com/watch?v=yugKXXzAdqY)
@@ -308,12 +305,16 @@
 		- Slackware славится своим установщиком, который пугает новичков (ncurses, ручная разметка, ручной выбор пакетов). В Salix установщик графический, на базе GTK, с разумными дефолтами.
 
 - Slax
+	- :speech_balloon: [DistroWatch.com: Slax](https://distrowatch.com/table.php?distribution=slax)
+	- small collection of applications, including the Chromium web browser, a text editor and a calculator
 
 - fu11m00n
 	- https://oreivd96v420wee4.umso.co/
 	- Based on: Slackware, Porteus
 
 ## Ubuntu-based
+
+- :speech_balloon: [What Debian version are the different Ubuntu versions based on? | Ask Ubuntu](https://askubuntu.com/questions/445487/what-debian-version-are-the-different-ubuntu-versions-based-on/445496#445496)
 
 - [Why are PPAs on Debian/Ubuntu disliked by many? : r/linux](https://www.reddit.com/r/linux/comments/m0xymi/why_are_ppas_on_debianubuntu_disliked_by_many/)
 	- _When you add a PPA you are effectively giving root permission to any and all PPA authors. Sandboxed solutions like Flatpak and Snap are much safer and more stable in that they only relate to the specific app you actually want and they won’t make additional changes to the environment outside of themselves_
@@ -511,16 +512,8 @@ Vanilla OS uses ABRoot (https://github.com/Vanilla-OS/ABRoot) to provide its imm
 - [Redox - Your Next(Gen) OS - Redox - Your Next(Gen) OS](https://www.redox-os.org/)
 	- Rust
 
-- Void linux
-	- :tv: [Void Linux and why it is home | Jake@Linux | YT](https://www.youtube.com/watch?v=rpiThzdDLXQ)
-		- runit - fast boot
-		- better then Arch community
-	- :tv: [🗿 Честный Обзор на Void Linux | YT](https://www.youtube.com/watch?v=GtcF7Mj0GC0)
-		- xbps package manager
-		- runIt init
-		- musl libc - alt. glibc
-		- создано разрабом из NetBSD
-		- musl несовместим с Wine/Steam/проприетарными бинарника
+- OpenIndiana - OpenSolaris successor
+	- :tv: [OpenIndiana 25.06 | A GhostBSD Users perspective 👀 / RoboNuggie / YT](https://youtube.com/watch?v=5q0PgivuYV4), 2025
 
 - ChimeraOS
 	- [DistroWatch.com: Chimera Linux](https://distrowatch.com/table.php?distribution=chimera)
@@ -537,6 +530,17 @@ Vanilla OS uses ABRoot (https://github.com/Vanilla-OS/ABRoot) to provide its imm
 		- The distribution is "rolling release" (install once, update perpetually) with the compilation process taking place on the user's machine. Updates to the distribution merely contain instructions for how each package is built. This model gives the user control over the compilation process while also removing the need for the distribution to have the necessary infrastructure to churn out and distribute binaries on a daily basis.
 		- Large repositories rely on volunteer effort, become harder to maintain over time. Unless their growth is checked, will eventually become unsustainable. Kiss Linux's repositories are instead designed to be small and understandable. Instead of attempting to package the world they act as an extensible base which users can build upon to suit their needs. The distribution explicitly excludes desktop environments.
 
+### Void linux
+
+- :tv: [Void Linux and why it is home | Jake@Linux | YT](https://www.youtube.com/watch?v=rpiThzdDLXQ)
+	- runit - fast boot
+	- better then Arch community
+- :tv: [🗿 Честный Обзор на Void Linux | YT](https://www.youtube.com/watch?v=GtcF7Mj0GC0)
+	- xbps package manager
+	- runIt init
+	- musl libc - alt. glibc
+	- создано разрабом из NetBSD
+	- musl несовместим с Wine/Steam/проприетарными бинарника
 
 ### Bedrock Linux
 
