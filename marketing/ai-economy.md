@@ -748,3 +748,31 @@ LLMs we're supposed to hit a wall
 - 12:40 Breaking into the system is finding a chain of 0-day exploits.
 - 13:30 Smart AI will be able to train it feature versions. Fully autonomous self-improving. "Machine Gods"
 - 15:00 Many AI researchers are sure AGI/superintelligent AI will come within next 10 years.
+
+# AI должен был спасти IT. Почему всё наоборот? / Code Value / YT, 2026.10
+
+https://youtube.com/watch?v=6DEfYCyEFKo
+
+AI дал увеличение производительности - почему нет роста успешных стартапов?
+
+- 1:20 Когда Ford запустил конвейер, авто подешевели в разы.
+- 1:40 Не хватает одного: денег, которые купят результат.
+- Новый продукт - это всегда ставка. Оплатить 2 года разработки и ждать результат.
+- Богачи сейчас не вкладывают деньги, они их прячут. Посмотрите цены на золото.
+- 2:20 Богатые ожидают, что с них будут трясти деньги на войны.
+- 3:00 Рука дяди Сэма дотягивается и до оффшоров.
+- 3:40 Кредитные ставки подорожали.
+- 4:10 Сейчас хорошие идеи могут проваливаться, потому что они вышли в плохое время.
+
+# Китайский ИИ пузырь лопается прямо сейчас, и это страшно! / Роман Сакутин / YT, 2026.10
+
+https://youtube.com/watch?v=7UKheKkODB4
+
+- 5:15 2025 - использовали только 37% доступного времени вычислительных ускорителей.
+- 10:00 Alibaba зарабатывет на сдаче в аренду серверов, но теряет ещё больше на обучении моделей.
+
+# The AI Jobs Apocalypse Is Here (Just Not Where You Think) / Econ Nerds / YT, 2026
+
+https://youtube.com/watch?v=2eXfqovkim4
+
+- 3:00 One consulting company analysis: growth in AI-exposed, no growth in AI exposed. Most growth from 1-person businesses (freelancer etc)
