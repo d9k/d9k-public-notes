@@ -776,3 +776,26 @@ https://youtube.com/watch?v=7UKheKkODB4
 https://youtube.com/watch?v=2eXfqovkim4
 
 - 3:00 One consulting company analysis: growth in AI-exposed, no growth in AI exposed. Most growth from 1-person businesses (freelancer etc)
+
+# The AI Bubble Will Burst. Here’s What Happens Next / Not Unprecedented / YT, 2026
+
+https://youtube.com/watch?v=sD0RcD9rq_c
+
+- 0:45 The Gartners's Hype cycle.
+- 1:20 The companies building data center with borrowed money have stock prices drop down: Oracle: -33%, CoreWeave: -44%
+- 2:00 OpenAI lost $1.63 for every $1 of revenue this year
+- 2:20 Neocloud, datacenters build company, runs almost entirely on borrowed money.
+- 2:50 Every layer depends on layer above it continuing to pay.
+- 3:20 Bubble bursts when the next buyer stops believing the story.
+- 4:00 AGI - when? Why are we overpaying for very good autocomplete?
+- 4:30 Rising interests rates.
+- 5:15 AI investments: up to 1/3 USA economy growth.
+- 5:35 AI will become more expensive for customers. Today investors quietely pay part of the bill.
+- 6:00 Crash destroys money not machines.
+- 6:15 Same AI performance getting cheaper up to 13 times a year.
+- 6:50 New AI hardware/models owner will buy everything for a fraction of a price and doesn't need to earn back original price.
+- 7:20 Example: automating delivery system with AI.
+- 8:10 Constant checking of orders will suddenly become much cheaper and economically feasible. Jevons paradox.
+- 11:15 1873 US railways bubble pop => recession for 5 years.
+- 11:45 Bubble investors lost heavily. 2000 dotcom bubble pop: Nasdaq lost 78%, took 15 years to recover.
+- 12:00 Amazon lost 94% of it's value but survived and grew.
