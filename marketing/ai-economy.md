@@ -830,3 +830,27 @@ OpenAI уверяет, что смогла доказать, работу про
 - 12:30 Пока что в экспериментальных физике, химии, биологии нужен опыт и лаборатории.
 - 13:10 Бизнес может лишить людей работы, но кто через 20 лет проверит машины?
 
+# No. Capitalism 2.0 Is Coming. / David Shapiro / YT, 2026
+
+https://youtube.com/watch?v=EagFtaET0vE
+
+- 1:20 Carl Marx: will the system of value fall apart with labor end?
+- 1:50 If machines take the jobs who'll buy everything machines make?
+- 2:10 Market exists to ration things that are scarce. A replicator will end capitalism. "Star Trek future"
+- 3:00 AI monopoly. Yanis Varoufakis "Techno-feudalism". Markets are gonna be replaced with platforms.
+- 5:40 Friedrich Hayek, 1945: The prices are mechanism for communicating information. Message about scarcity and demand.
+- 6:20 Marx labor theory of value.
+- 6:55 2 houses built with same labor: on a beach and on marsh. On the beach would have greater value.
+- 7:40 Most money created by banks when they make loans.
+- 3 jobs of money: medium of exchange, unit of account, store of value.
+- 9:00 Fungible token: 1$ is good as any other.
+- 9:15 Some goods and services will become so cheap that the price will become irrelevant.
+- 9:30 Still managing scarcity:
+  - time: everyone have only 24h.
+  - attention
+  - location: beautiful landscapes, ecology, historical value
+  - preference: many people want the same thing. When everything becomes  cheap the things that stay scarce becomes the only things worth to compete over.
+- 11:00 Money lets you express intensity of how you want something.
+- 11:40 Customers don't need paychecks. They need some form of income.
+- 12:00 Capitalism 2.0: income comes from owning rather than from working.
+- 12:30 Hardship may go away.
